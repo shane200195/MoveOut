@@ -39,18 +39,18 @@ class Dashboard extends Component {
       body: JSON.stringify({
         hello: "ahnznznzn"
       })
-    }).then(response => response.json()).then(data => {
-      this.setState({
-        User: {
-          name: data.name,
-        }
-      })
     })
+      .then(response => response.json())
+      .then(data => {
+        this.setState({
+          User: {
+            name: data.name
+          }
+        });
+      });
 
-    console.log(this.state.User)
+    console.log(this.state.User);
   }
-
-
 
   render() {
     return (
@@ -75,7 +75,11 @@ class Dashboard extends Component {
             <div class="collapse navbar-collapse" id="navbarResponsive">
               <ul class="navbar-nav text-uppercase ml-auto">
                 <li class="nav-item">
-                  <a class="nav-link js-scroll-trigger" href="#about" id="about">
+                  <a
+                    class="nav-link js-scroll-trigger"
+                    href="#about"
+                    id="about"
+                  >
                     About
                   </a>
                 </li>
