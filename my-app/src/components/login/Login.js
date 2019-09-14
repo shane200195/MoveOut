@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "../../css/Agency.css";
 import { makeStyles } from "@material-ui/core/styles";
-import Avatar from "@material-ui/core/Avatar";
 
 import clsx from "clsx";
 import IconButton from "@material-ui/core/IconButton";
@@ -11,50 +10,69 @@ import MenuItem from "@material-ui/core/MenuItem";
 import Visibility from "@material-ui/icons/Visibility";
 import VisibilityOff from "@material-ui/icons/VisibilityOff";
 
-const useStyles = makeStyles({
-  avatar: {
-    margin: 10,
-    width: 100,
-    height: 100
+const useStyles = makeStyles(theme => ({
+  root: {
+    display: "flex",
+    flexWrap: "wrap"
+  },
+  margin: {
+    margin: theme.spacing(1)
+  },
+  textField: {
+    flexBasis: 200
   }
-});
-
-const AvatarStyles = () => {
-  const classes = useStyles();
-  return (
-    <div>
-      <Avatar alt="UserAvatar" src={tempAvatar} className={classes.avatar} />
-    </div>
-  );
-};
-
-const [values, setValues] = React.useState({
-  amount: "",
-  password: "",
-  weight: "",
-  weightRange: "",
-  showPassword: false
-});
+}));
 
 class Dashboard extends Component {
-  render() {
-    const handleClickShowPassword = () => {
-      setValues({ ...values, showPassword: !values.showPassword });
+  constructor(props) {
+    super(props);
+    this.state = {
+      password: "",
+      showPassword: false
     };
+    this.handleChange = this.handleMouseDownPassword.bind(this);
+    this.handleClickShowPassword = this.handleClickShowPassword.bind(this);
+    this.handleMouseDownPassword = this.handleMouseDownPassword.bind(this);
+  }
 
-    const handleMouseDownPassword = event => {
-      event.preventDefault();
-    };
+  handleChange = variable => event => {
+    this.state.setValues({ [variable]: event.target.value });
+  };
+
+  handleClickShowPassword = () => {
+    this.state.setValues({ ...values, showPassword: !this.state.showPassword });
+  };
+
+  handleMouseDownPassword = event => {
+    event.preventDefault();
+  };
+
+  render() {
     return (
       <div className="Dashboard">
-        <IconButton
-          edge="end"
-          aria-label="toggle password visibility"
-          onClick={handleClickShowPassword}
-          onMouseDown={handleMouseDownPassword}
-        >
-          {values.showPassword ? <VisibilityOff /> : <Visibility />}
-        </IconButton>
+        <TextField
+          id="outlined-adornment-password"
+          className={clsx(classes.margin, classes.textField)}
+          variant="outlined"
+          type={values.showPassword ? "text" : "password"}
+          label="Password"
+          value={values.password}
+          onChange={handleChange("password")}
+          InputProps={{
+            endAdornment: (
+              <InputAdornment position="end">
+                <IconButton
+                  edge="end"
+                  aria-label="toggle password visibility"
+                  onClick={handleClickShowPassword}
+                  onMouseDown={handleMouseDownPassword}
+                >
+                  {values.showPassword ? <VisibilityOff /> : <Visibility />}
+                </IconButton>
+              </InputAdornment>
+            )
+          }}
+        />
       </div>
     );
   }
