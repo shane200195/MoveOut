@@ -27,8 +27,10 @@ def response():
     headers = { 'Authorization': key })
     response_data = response.json()['result']
 
+    #setting the properties
     name = response_data['givenName'] + " " + response_data['surname']
-    return jsonify({'name': name})
+    age = response_data['age']
+    return jsonify({'name': name, 'age': age})
 
 #10.32.110.93
 if __name__ == "__main__":
