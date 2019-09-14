@@ -1,0 +1,1001 @@
+id,age,relationshipStatus,habitationStatus,municipality,addresses/principalResidence/latitude,addresses/principalResidence/longitude,workActivity,totalIncome
+18af5d0f-29d4-45e1-948e-f6dd1d2b18de,18,Single,With Parent,East York,43.69596263,-79.3174775,unemployed,0
+b42a5ca2-7229-4549-95ae-fbd411b1205f,50,Married,With Spouse,North York,43.7777644,-79.42338066,fulltime,35064.7
+e5558748-6216-4947-897c-e11f4c48fb9f,54,Married,With Spouse,Scarborough,43.73530542,-79.21998529,parttime,17561.65
+457b301c-394b-4b63-a327-22f92c0e9908,21,Single,With Parent,North York,43.74536199,-79.41598392,fulltime,25039.08
+ddd723ce-e828-43bb-a0cf-ced9245505d0,17,Single,With Parent,Scarborough,43.79016007,-79.18518845,unemployed,0
+fcfecb5e-a562-4372-a040-f148c8614830,56,Married,With Spouse,Toronto,43.67280991,-79.3889462,fulltime,60004.7
+d78de38e-f54c-40e1-bb79-5b4ce54762c8,55,Married,With Spouse,North York,43.76005039,-79.40746723,fulltime,43407.9
+46e92819-8db4-426b-9749-9eca91e4b54e,23,Single,With Parent,Toronto,43.66355866,-79.38204618,parttime,2550.24
+12fb817f-5ca5-4c62-b86a-cb4182fc9fc0,52,Married,With Spouse,Toronto,43.69632086,-79.3941236,fulltime,57118.2
+8d322c9b-9199-4b46-87b0-db6ebe873a1d,14,Single,With Parent,Toronto,43.69839519,-79.39492383,unemployed,0
+a651b0bb-dc1a-4fa7-84e1-006213abfc1d,40,Married,With Spouse,North York,43.78697383,-79.35194067,fulltime,21061
+980f1915-d21b-4397-af48-f03b6420c086,22,Single,With Parent,Toronto,43.64295721,-79.42761162,parttime,11439.12
+a1507967-0661-4039-aab2-ba22530a75ab,38,Married,With Spouse,North York,43.70944389,-79.49073608,fulltime,30945
+402b86b4-8a41-4299-8a7a-17eb0ba3ebfc,44,Married,With Spouse,Toronto,43.68408158,-79.29646629,fulltime,76869.1
+73bc2ec8-b74b-41d2-a02d-7564fc92feb4,22,Single,With Parent,East York,43.68607269,-79.33180952,parttime,6747.84
+0a6ca135-b2d6-4f06-983a-79cba90d6b60,39,Married,With Spouse,Scarborough,43.81210592,-79.23295247,fulltime,28907
+058a168c-9df4-4415-947a-9d2239285415,40,Married,With Spouse,Toronto,43.71786697,-79.40233486,fulltime,42955
+08f9fb76-d1f1-49b6-b530-8be13294bee1,38,Married,With Spouse,Etobicoke,43.74816794,-79.57711832,unemployed,0
+0588945f-d2e5-4294-b522-398bc4b4c058,49,Married,With Spouse,Scarborough,43.73375511,-79.30579366,parttime,31994.6
+08551d58-b611-43cc-94c6-b32712df550d,40,Married,With Spouse,Toronto,43.68321011,-79.34043933,fulltime,25782
+831406ff-a92b-4b6b-b23f-0c90592ed586,51,Married,With Spouse,North York,43.71525391,-79.45464386,parttime,29563.05
+25e31427-5d94-4699-9577-075345be972b,48,Married,With Spouse,Toronto,43.68321011,-79.34043933,parttime,33682
+16e7e140-5be5-4f8b-ba13-cbc286cb7e9d,21,Single,With Parent,East York,43.69505507,-79.29178476,unemployed,0
+66e4bece-555f-4c0f-ae04-5debee6a257f,22,Single,With Parent,Toronto,43.64233636,-79.41608435,parttime,11903.43
+ad2c58cc-c0d6-40cb-b6cc-e46dcb2363d5,48,Married,With Spouse,Toronto,43.64358231,-79.42776688,fulltime,43798.7
+29ca8124-fad6-4b9d-9ca5-8b7209ca0fa0,40,Married,With Spouse,Toronto,43.63911007,-79.47258856,fulltime,36190
+dbb5983e-55fa-448d-a260-9854365f2f85,54,Married,With Spouse,Etobicoke,43.65107332,-79.49591129,fulltime,110483.95
+dcc91c41-6599-4bf4-bf50-641130c35130,20,Single,With Parent,York,43.67976751,-79.50269779,unemployed,0
+70528a91-eec1-4539-b00f-3e7dabe794c0,41,Married,With Spouse,North York,43.72372153,-79.32537319,fulltime,42949
+b68f5d3d-7f4d-4427-81fa-cca6fb639486,56,Married,With Spouse,Scarborough,43.81692041,-79.28574417,parttime,31853.85
+185b20e4-5225-4caa-a11e-74a80ba53a55,53,Married,With Spouse,Etobicoke,43.61159559,-79.53851188,parttime,31615.8
+5b874367-3b3e-4ea3-a3f6-103ccee20912,21,Single,With Parent,North York,43.72860876,-79.32617491,parttime,7593.3
+c43d4742-7aca-4e38-9c5d-b314d2cfecc0,52,Married,With Spouse,Toronto,43.70084495,-79.42154048,fulltime,74755.75
+8f24b31c-abe1-4f0a-b7ab-40b06c3f3c9f,41,Married,With Spouse,Toronto,43.6709692,-79.39640836,fulltime,56150
+76d916dc-920c-4c1c-98ca-b89b12571003,55,Married,With Spouse,East York,43.69627452,-79.29275855,parttime,23788.9
+70b5a886-4aa4-48d1-9748-7c64b7b0042e,45,Married,With Spouse,Toronto,43.67765364,-79.39167893,fulltime,62079.6
+deb077a8-9131-4e4e-9fc3-e19c58e907d9,44,Married,With Spouse,Etobicoke,43.74816794,-79.57711832,fulltime,70200.9
+46b35fe5-098f-45b0-84c6-1e3a2dd87e3e,54,Married,With Spouse,Toronto,43.69757356,-79.38598058,fulltime,74385.45
+e6c3ab67-f629-4658-93b0-f3d3e6db7f4e,52,Married,With Spouse,North York,43.73628856,-79.41495106,fulltime,60714.25
+a41c308e-4e2a-45df-a8a4-2ba92e159e6e,54,Married,With Spouse,Toronto,43.67401845,-79.3778038,fulltime,158527.5
+78132cd5-8117-4ba4-9ce3-1de760b45dd6,54,Married,With Spouse,North York,43.69854608,-79.4921192,parttime,26976.7
+b61b1de6-b518-4b26-9d3e-8a260ea51a96,53,Married,With Spouse,North York,43.71259173,-79.49869071,parttime,26037.15
+29d34c81-3713-4eff-9c5d-93866338995d,51,Married,With Spouse,Toronto,43.71105585,-79.38070828,parttime,28842
+a9b971f9-e5f2-4f6d-a13d-d0b1cf61c0a3,29,Single,With Parent,Toronto,43.64989308,-79.39643131,parttime,8187.96
+2a312cca-1cbc-4233-bed1-3a201fa0af69,18,Single,With Parent,Toronto,43.70544805,-79.42763398,unemployed,0
+a017b6b1-f76f-4fa6-a249-1150c2677914,21,Single,With Parent,Toronto,43.64180667,-79.47706937,parttime,15777.3
+421225e1-ad41-42c8-a0a3-84595eca245b,51,Married,With Spouse,East York,43.69642279,-79.36811057,fulltime,119585.05
+7beb63a3-ec8b-4d62-a762-aff812835db4,39,Married,With Spouse,Etobicoke,43.64058912,-79.56241285,fulltime,37549
+957dda0d-8961-4dd1-bf37-3f2418f990da,37,Married,With Spouse,Toronto,43.65577749,-79.37250629,fulltime,51500
+490d35fb-2d4c-4fec-99c4-9b04e9c22dab,53,Married,With Spouse,Toronto,43.63883336,-79.39883876,parttime,25822.1
+f4dbfd0e-2e19-4ca6-9242-23fbf25f489e,14,Single,With Parent,Toronto,43.65040499,-79.39216843,unemployed,0
+e34fe6c6-27b7-4963-a2f2-326294318cac,18,Single,With Parent,Toronto,43.66439694,-79.32065058,unemployed,0
+46874011-3eee-48b6-a63e-3347910894f3,52,Married,With Spouse,Toronto,43.6791497,-79.32109772,fulltime,55356.4
+5fd3472a-4292-4927-b00d-a8de1d71f165,16,Single,With Parent,Toronto,43.67765364,-79.39167893,unemployed,0
+2eabba21-1cec-4973-be61-c4d6d8094b06,38,Married,With Spouse,North York,43.74231682,-79.34902907,fulltime,38768
+9fc4baae-cf42-4f6a-a25a-58f492cd87eb,44,Married,With Spouse,North York,43.7667291,-79.32513742,fulltime,40822.1
+0c1a086e-c72e-47e1-9178-2450b805d235,36,Married,With Spouse,North York,43.75130978,-79.31629117,unemployed,0
+7cea034a-3141-4a60-b68d-e7376a3b3cac,23,Single,With Parent,Toronto,43.68321011,-79.34043933,parttime,10081.17
+cd988a88-96e0-4d28-802a-477fb2004c9c,46,Married,With Spouse,Scarborough,43.72963106,-79.2767124,fulltime,40728.6
+586bafbb-105b-4981-b216-3cd0f0493139,41,Married,With Spouse,Etobicoke,43.68366075,-79.54917731,fulltime,66184
+fd55d40e-2070-424b-88b2-c05934b94236,53,Married,With Spouse,Etobicoke,43.67224055,-79.51814699,fulltime,73922
+45cbf9c3-62fe-4a72-9590-701913d61415,55,Married,With Spouse,North York,43.71834487,-79.37520916,fulltime,211396.45
+a9ce1a6d-e57c-48fd-b766-9dd68941f52a,43,Married,With Spouse,Etobicoke,43.6059395,-79.49500877,fulltime,49830
+8788f8c2-5af8-40d9-81ad-d238a1b4157e,47,Married,With Spouse,Scarborough,43.81545601,-79.19899346,parttime,23903
+d980ef34-c764-4c8b-b353-4386d493318e,50,Married,With Spouse,Toronto,43.67280991,-79.3889462,fulltime,58403.4
+dc7aea08-a82a-4a2c-a59d-46adfc61b40d,19,Single,With Parent,Etobicoke,43.67012119,-79.52289142,unemployed,0
+7df0ad9d-3c86-4ce5-ada2-ac22cf3cf18e,51,Married,With Spouse,North York,43.76082819,-79.41102633,fulltime,45051.25
+810413a6-c160-4524-950e-4963d784bfe6,39,Married,With Spouse,Toronto,43.64017749,-79.47511742,fulltime,55280
+2b830fb2-6f72-4bfc-a6ee-b50099a2351a,16,Single,With Parent,Etobicoke,43.59032165,-79.54647606,unemployed,0
+97979e67-31bc-4d34-8b89-a5ed599c7600,27,Single,With Parent,North York,43.78425674,-79.44993775,parttime,6286.5
+36705d97-3e6d-4271-a066-60dd6796a8d3,46,Married,With Spouse,Scarborough,43.78435987,-79.17967131,fulltime,72218.3
+407ae5d9-359f-4bcb-95cd-d5ca8a3846c1,63,Married,With Spouse,Toronto,43.67784786,-79.45015487,unemployed,0
+017da2d5-8bda-4041-a0a4-b4df2c10af2b,40,Married,With Spouse,East York,43.70266863,-79.30139531,fulltime,28253
+dfed70a9-b9bf-4bd9-a1ed-ea0c6d76a428,53,Married,With Spouse,North York,43.71525391,-79.45464386,parttime,25603.6
+08b142ac-0fa5-4626-a28f-589352289807,37,Married,With Spouse,North York,43.73836121,-79.38209718,fulltime,124868
+1ec37ec4-c4fd-4361-af69-ef7955ce4031,56,Married,With Spouse,Etobicoke,43.73150807,-79.59628501,parttime,33356.9
+73e9de3a-d48e-4616-8adb-3212f11c345c,29,Single,With Parent,North York,43.7584754,-79.4124186,parttime,16346.88
+0e3e38f1-7240-4452-8eaf-5c999c253d32,34,Married,With Spouse,Scarborough,43.68457602,-79.28190425,fulltime,54149
+5edd909e-51de-419c-8b23-26c11aa70e54,15,Single,With Parent,Scarborough,43.81545601,-79.19899346,unemployed,0
+096ef16f-85e9-4cda-b87f-ccb98fe21c89,42,Married,With Spouse,North York,43.79755831,-79.41889316,fulltime,51498.7
+91fae5ae-ebac-4096-8508-a7cde9f9ba22,49,Married,With Spouse,Toronto,43.66639396,-79.42368658,fulltime,54440.1
+281f8b53-3405-4253-85fb-ef38721a8bac,50,Married,With Spouse,North York,43.78059394,-79.32954282,fulltime,44572
+9c4fe228-3af0-4779-9fc7-80e18bef904e,33,Separated,With Parent,Toronto,43.65537057,-79.46250686,fulltime,23619
+15b64a89-4273-4466-9a5e-d2829d0d6a24,51,Married,With Spouse,Toronto,43.66507904,-79.41741162,unemployed,0
+99179f3b-cd36-4388-b34d-82e7d1ced464,35,Married,With Spouse,Toronto,43.65481686,-79.40148005,unemployed,0
+160db4bb-0f67-44c3-91c1-47a567a559da,45,Married,With Spouse,Scarborough,43.70108222,-79.27260191,fulltime,35508
+d319b369-e70f-4b86-aca6-a826b2eaf64c,51,Married,With Spouse,East York,43.69371645,-79.30728651,fulltime,39374.85
+d12102ba-666a-4df7-b7b7-12d5c252394e,50,Married,With Spouse,Etobicoke,43.74816794,-79.57711832,parttime,19099.3
+bb917dad-d911-4530-b254-b7927a0023c9,35,Married,With Spouse,Toronto,43.64263656,-79.4230275,fulltime,37140
+a993168a-dc1b-422b-ba18-dba27db2bcff,25,Single,With Parent,Scarborough,43.79223398,-79.3165886,parttime,7062
+73f1dbeb-df70-4015-a256-a2893d45c908,20,Single,With Parent,Toronto,43.67280991,-79.3889462,unemployed,0
+eb18d680-176a-4d1b-aedf-9d04c442af07,47,Married,With Spouse,Toronto,43.64820845,-79.43780871,parttime,29735.2
+0650c762-62f5-4f97-aea4-4d324a7bd612,32,Single,With Parent,Toronto,43.65566722,-79.34131569,fulltime,23014
+c211a39c-84d3-461d-a934-63f193f31d37,44,Married,With Spouse,Scarborough,43.76854101,-79.2548799,fulltime,50560.4
+0c5ec454-be37-45d5-9af5-a88aaaa9f3dd,49,Married,With Spouse,Toronto,43.70882105,-79.38946915,fulltime,74609.7
+3a1d4207-10c4-4668-8e97-9dbb0ffe2ce2,46,Married,With Spouse,Toronto,43.64843846,-79.40564197,fulltime,104172.2
+02e61cda-a791-4539-b53c-b9596b4d2135,20,Single,With Parent,Scarborough,43.82006699,-79.27653641,unemployed,0
+457515b2-a4c7-422b-a25d-f7a8e5c870ec,27,Single,With Parent,North York,43.77390553,-79.4168485,parttime,9299.4
+60bf1206-a688-4edc-a966-2c8589fb6609,43,Married,With Spouse,Toronto,43.66875802,-79.44504419,parttime,31180.6
+41828b5b-1ad2-431e-974c-9310eda2fc17,14,Single,With Parent,Toronto,43.65612816,-79.44719792,unemployed,0
+e2ea3c70-4379-4ea8-a78b-ef36c4a3ebc6,52,Married,With Spouse,Etobicoke,43.68314321,-79.56347693,fulltime,38262.8
+bd72a209-84ef-4801-abe7-c00dc0d78eb2,21,Single,With Parent,Scarborough,43.80418201,-79.31249131,parttime,7197.63
+e0ae05dd-6aca-42cb-9b46-dc86050e1c25,49,Married,With Spouse,Toronto,43.66507904,-79.41741162,fulltime,147061.2
+bca73b1d-6dc7-4f95-b5db-f4fbbcf3fe8d,52,Married,With Spouse,Toronto,43.70632997,-79.4026986,fulltime,65882.35
+59ea44ff-ada2-4aa1-932c-d94299b0c1b5,55,Married,With Spouse,Etobicoke,43.61159559,-79.53851188,fulltime,35498.2
+782dbd65-62f8-4d71-bd21-6b6955e402ef,21,Single,With Parent,North York,43.7558382,-79.41161107,parttime,11191.29
+e4efab8f-6906-47af-8a1a-895608dd3b14,40,Single,With Parent,Scarborough,43.73888729,-79.25565386,fulltime,28446
+9362f3da-0839-4bf8-ab5d-ad25f2c2ae0a,60,Married,With Spouse,North York,43.70375662,-79.48907295,parttime,27443.6
+3bff2dd0-6689-49b9-bd48-82d95b47b380,55,Married,With Spouse,Toronto,43.68963967,-79.30219973,parttime,22040.9
+ef156546-9e30-41b1-986f-ac62cb7b6790,40,Married,With Spouse,North York,43.77026451,-79.37772885,fulltime,39326
+8730e7a9-be5f-4c47-9d20-1390ebe7f58b,50,Married,With Spouse,Toronto,43.67132863,-79.40598867,fulltime,58952.3
+677833f6-9b54-4baf-b5d7-e9c4589a936a,51,Married,With Spouse,Etobicoke,43.72222015,-79.54551003,parttime,32940.6
+9fc6d92f-6d09-4a91-b941-adaf26b261e6,17,Single,With Parent,Scarborough,43.82006699,-79.27653641,unemployed,0
+d1c2bb78-6991-46a6-a9a1-ecc89dd7656f,53,Married,With Spouse,Toronto,43.70451174,-79.42472303,fulltime,54453.65
+34f0b69f-505c-4b5c-953a-b608f8c06688,51,Married,With Spouse,Scarborough,43.73526114,-79.21070781,fulltime,50034.2
+14fce7a9-4015-43a3-88d6-f50d9a5f4304,39,Married,With Spouse,North York,43.76162212,-79.51601773,fulltime,25004
+146f50f8-e49e-4cb3-8c9d-20c2074b6236,51,Married,With Spouse,Toronto,43.65621109,-79.40110974,parttime,18271.2
+243c8455-c8ec-4c17-a33a-e8b8d25b0fab,55,Married,With Spouse,Toronto,43.70544805,-79.42763398,fulltime,95958.3
+6702ea77-45b9-40bf-88cb-776ac43f4e0d,17,Single,With Parent,North York,43.7653441,-79.41261507,unemployed,0
+956884d7-55aa-4923-ae93-b484a67a5a6f,51,Married,With Spouse,North York,43.7558382,-79.41161107,parttime,33059.05
+a2c892a0-8c4e-4e4c-b3b9-c5b87f235249,49,Married,With Spouse,Toronto,43.6605928,-79.37834504,fulltime,62419.5
+d7784766-8452-4ede-8c30-d250d966012e,51,Married,With Spouse,Scarborough,43.77466707,-79.30086122,fulltime,44863.8
+8531af1e-7bc4-44fd-a06b-cfa336634cb8,53,Married,With Spouse,Scarborough,43.7748609,-79.29342268,parttime,21867.25
+4ee3905f-e716-4600-9294-616bb66f184f,56,Married,With Spouse,Toronto,43.63994376,-79.47358752,fulltime,47013.15
+0aa3b680-fc47-4bc3-9883-930af0237287,44,Married,With Spouse,North York,43.7279966,-79.30680209,parttime,33774.4
+8043a208-f4d6-4fe9-85ff-b141d9ea49b7,76,Married,With Spouse,North York,43.74294062,-79.50096109,unemployed,25187.4
+0458773b-e406-4325-8e7b-0f95c165e2bc,49,Married,With Spouse,Toronto,43.6791497,-79.32109772,fulltime,52162
+39653af1-7571-47fa-8c11-3dfb320d5b37,53,Married,With Spouse,North York,43.78059394,-79.32954282,fulltime,48259.75
+0dafa6ca-ec74-4080-95f7-cdb0ac7873cb,35,Married,With Spouse,Toronto,43.68408158,-79.29646629,fulltime,59531
+bd9dd6e8-d0ea-4b24-81bc-f785ade76e76,37,Married,With Spouse,North York,43.71598678,-79.48275974,fulltime,33664
+bef29718-2dcc-41e5-a964-f8c751fe3ce8,22,Single,With Parent,North York,43.78685643,-79.36813335,parttime,9921.45
+9bcd6fd1-188b-4692-9519-0988451651a8,54,Married,With Spouse,Toronto,43.68159968,-79.30146143,parttime,24658.3
+9640e184-b4e6-4fe2-a316-3ebb3a479de5,58,Married,With Spouse,Scarborough,43.79223398,-79.3165886,parttime,23031.05
+173427ed-f75b-44b6-88ef-2a0030a5c83c,52,Married,With Spouse,Scarborough,43.79223398,-79.3165886,parttime,25527.7
+b703e1e1-1f6f-42fb-993c-9c53829466eb,22,Single,With Parent,North York,43.71525391,-79.45464386,parttime,7100.94
+fc1082c8-a530-4e7f-8ebf-f014b45da5b6,67,Married,With Spouse,Toronto,43.65040499,-79.39216843,fulltime,41715.45
+42ea7674-67b8-4d2f-9ff3-539d9dc8eca5,31,Single,With Parent,Toronto,43.70084495,-79.42154048,parttime,16681.83
+ba5a3eea-d629-461f-805e-5dcdce9df53f,54,Married,With Spouse,North York,43.7875668,-79.34660692,fulltime,41785.25
+9733c91f-44ea-4c8e-a8de-bc58c81fae26,54,Married,With Spouse,Toronto,43.66956979,-79.37520856,parttime,13904.65
+ded8bc1c-0cef-43f1-9c2a-25e57cb75ccb,24,Single,With Parent,Toronto,43.6921805,-79.41662347,parttime,11705.1
+8852715b-911d-4c79-91b4-3056d887feda,32,Married,With Spouse,North York,43.71809955,-79.43200115,parttime,17899.2
+3f487858-2cde-45e0-8a14-66c7015e6abe,52,Married,With Spouse,York,43.66143065,-79.48652479,fulltime,76913.15
+592d8d84-4a79-4990-8b08-e19899544eb6,50,Married,With Spouse,Toronto,43.68177612,-79.45914682,unemployed,0
+23fdd2b1-abbc-46b8-8093-6c619de70b6d,36,Married,With Spouse,North York,43.78717444,-79.3492696,fulltime,22905
+57da1593-b48c-46e0-aa4e-4c84b1a6ad7b,64,Married,With Spouse,Toronto,43.70451174,-79.42472303,fulltime,36508.5
+37c5dd73-380a-496f-827c-f998a16cfe2b,15,Single,With Parent,Etobicoke,43.66275645,-79.51789197,unemployed,0
+e2b67ca3-17f3-4715-b23f-a2378a5effd1,55,Married,With Spouse,York,43.69037596,-79.44901625,fulltime,38420.35
+ae3bc0a9-c8c7-4b4a-b6b7-691d1bf90146,35,Married,With Spouse,Scarborough,43.75747546,-79.30515027,fulltime,44582
+27897740-2521-49a3-a9b5-3c9790c6f1ba,55,Married,With Spouse,North York,43.7558382,-79.41161107,fulltime,39374.85
+e41a189e-a8cf-4551-868f-9c0c59aa8273,46,Married,With Spouse,North York,43.80873507,-79.36135533,parttime,28890.4
+472f391d-ed02-491b-940c-c05fe6fa232e,40,Married,With Spouse,Toronto,43.68237563,-79.31477641,fulltime,60485
+8cd9d9fe-625d-4314-8d4f-fe0f22cb8e69,55,Married,With Spouse,North York,43.75617759,-79.44872438,fulltime,40076.35
+02538787-4318-46ea-9cef-312d23b5705a,65,Married,With Spouse,Scarborough,43.70534242,-79.25423112,fulltime,43169.9
+a7e29ca7-1044-4976-b650-be5007832d89,27,Single,With Parent,Toronto,43.65972468,-79.33729923,parttime,9255.84
+ef72347a-b117-4033-b813-7c07caee90be,34,Married,With Spouse,Etobicoke,43.68400132,-79.52933297,fulltime,51782
+96d59f2a-7c28-418d-a457-9400ef0eb7ae,46,Married,With Spouse,North York,43.79872536,-79.39825791,fulltime,37734.4
+49b2c572-14c0-4487-a4ea-72c3faa0baf8,53,Married,With Spouse,Toronto,43.66316617,-79.41339451,fulltime,66986.35
+3a04b386-6436-4396-a248-39ce1dc160ac,53,Married,With Spouse,Toronto,43.65664362,-79.35479174,fulltime,53446.25
+7ec6cfd6-963a-4adb-9bd7-526f04c8151f,26,Single,With Parent,Etobicoke,43.67012119,-79.52289142,parttime,13384.14
+e4d2f8fd-aaed-4d4b-97f4-52749cbd6d72,50,Married,With Spouse,North York,43.77838832,-79.42748486,unemployed,0
+5131a11a-159e-426c-a0bf-a9d795b95c4f,34,Married,With Spouse,Toronto,43.65847748,-79.46975774,fulltime,54703
+b95d803a-c976-497c-8e93-bb93b9bf0ede,17,Single,With Parent,North York,43.77026451,-79.37772885,unemployed,0
+b8a1c90d-21fa-409f-8d7d-9b88524f6a22,55,Married,With Spouse,Toronto,43.6785174,-79.35632741,fulltime,62882
+6f2a3fcd-2130-4c0e-9050-baa597d94e55,38,Married,With Spouse,Toronto,43.73325801,-79.40399976,fulltime,74172
+65ec85bd-da84-4fea-8581-f83fc0952330,53,Married,With Spouse,Etobicoke,43.60738258,-79.53403318,fulltime,38313.4
+8b88c8b5-8614-4ae4-9de7-9ac817da9f90,24,Single,With Parent,Etobicoke,43.61046276,-79.54498309,parttime,8899.77
+dd15f64b-6c62-425f-9078-7a58dd6c6cc7,55,Married,With Spouse,Toronto,43.66743469,-79.31731829,parttime,32593.3
+78f53ae5-ccd3-4ab3-a567-dd874e71c139,39,Married,With Spouse,Etobicoke,43.72629266,-79.56296811,fulltime,30228
+be7e8147-4016-42a4-b5bc-83a810c98396,51,Married,With Spouse,Scarborough,43.73061699,-79.27172723,parttime,26309.8
+4527e8f6-8f05-4de9-8641-57761856da2c,49,Married,With Spouse,York,43.69997844,-79.44107733,parttime,27203
+aa431094-c60c-46ec-8d0f-ef8e3b7ba759,56,Married,With Spouse,Toronto,43.6785174,-79.35632741,fulltime,56067.1
+5635d09d-4a34-49ad-910f-516c50f0cf0a,19,Single,With Parent,North York,43.75617759,-79.44872438,unemployed,0
+96d53da5-74b0-44b9-b71d-2bbd9b7e2123,36,Married,With Spouse,Toronto,43.68185366,-79.29112857,fulltime,58791
+e8b399ae-5ce3-4a47-adeb-6ae40cbc6257,38,Married,With Spouse,Etobicoke,43.68366075,-79.54917731,fulltime,72331
+20413cb4-5bc3-4acd-af66-a69a1caf12ec,40,Married,With Spouse,East York,43.70726849,-79.36257869,unemployed,0
+341bc8e8-7767-448e-9ed6-920b8692d641,74,Married,With Spouse,Toronto,43.66740764,-79.41648487,unemployed,35644.7
+e15dd721-dd97-4dbd-909d-ecaef6acf79e,27,Single,With Parent,Etobicoke,43.74816794,-79.57711832,parttime,5457.21
+b1c1f7cf-1505-4cc9-931d-37d9635c6f8b,39,Married,With Spouse,York,43.68180199,-79.4666407,fulltime,64388
+5c2b661d-99fb-4da5-9633-74c71ff08e49,61,Married,With Spouse,Scarborough,43.77287169,-79.14542244,unemployed,0
+2170fe6d-02d6-4f47-96c8-c8aeec149883,29,Single,With Parent,North York,43.70375662,-79.48907295,parttime,7762.59
+13489ed8-1ab7-41ab-8592-76dce49479c8,46,Married,With Spouse,Scarborough,43.840321,-79.23354111,fulltime,35888.6
+df9d19cc-40bb-4ca7-b0c1-30a2fd6e5890,39,Married,With Spouse,Toronto,43.65099751,-79.4165558,fulltime,22091
+e8bf2c1e-d11d-44f6-83d1-e14447ff103b,22,Single,With Parent,East York,43.69371645,-79.30728651,parttime,10675.83
+254b09df-c442-42d1-bde1-d3f0e6b37d28,55,Married,With Spouse,Scarborough,43.78928765,-79.21939154,parttime,15451.4
+f7e15eae-27c2-49d2-bd3d-f48674f51f21,49,Married,With Spouse,Toronto,43.662202,-79.38416649,fulltime,37460.5
+ee893489-d891-4ef0-b61b-4a0d91ca318b,54,Married,With Spouse,North York,43.69854608,-79.4921192,parttime,31259.3
+1b3bd39e-e675-4a59-99b1-ce1d1f3556d6,42,Married,With Spouse,North York,43.77026451,-79.37772885,fulltime,42465.5
+aac8193b-c209-4f51-98d1-1aa1920ecf47,46,Married,With Spouse,Toronto,43.68180217,-79.31732796,fulltime,45801.8
+40985ade-5b9c-4ba5-b939-b315b4ec3129,47,Married,With Spouse,Scarborough,43.77967252,-79.13512082,fulltime,39088.5
+15caef43-fa61-4082-a382-dd250dd9e68a,40,Married,With Spouse,Scarborough,43.81040723,-79.25698143,fulltime,30725
+a5c8e49a-c5f2-4808-82e3-f4f4e1d39d81,51,Married,With Spouse,Toronto,43.64989308,-79.39643131,parttime,32050.5
+7d247aae-1c4a-4777-bae0-ba3d280836a5,57,Married,With Spouse,Scarborough,43.82203469,-79.21129144,fulltime,47209.8
+b4e80879-059b-43d3-8d78-d8c757f91ee6,19,Single,With Parent,Scarborough,43.80877418,-79.20683237,unemployed,0
+ec6076b4-10df-4fec-ba98-e7d8baedea9a,56,Married,With Spouse,Toronto,43.63451734,-79.4288825,unemployed,0
+79237615-7a6f-45fe-8414-ef998e9de2fc,53,Married,With Spouse,Toronto,43.67880506,-79.3358716,fulltime,52858.6
+f25bc3eb-3855-4a37-b7e5-f3ea6d56e4c8,54,Married,With Spouse,Etobicoke,43.6506764,-79.52155395,fulltime,103388.45
+becad307-acaf-484a-9a74-b22eb1bdfffc,36,Single,With Parent,Scarborough,43.81976183,-79.27594671,parttime,12905
+fa682113-d1e2-4258-9de5-2d8e659280d7,55,Married,With Spouse,North York,43.74294062,-79.50096109,fulltime,46426.65
+3b617599-f065-4fac-b87a-8467f5801936,54,Married,With Spouse,Etobicoke,43.62690651,-79.47837504,fulltime,36622.9
+00cb2b44-2777-45b0-bf5a-68e9e91d9102,18,Single,With Parent,Toronto,43.6605928,-79.37834504,unemployed,0
+57914cce-7c72-443e-9ee3-1457a5639e4f,55,Married,With Spouse,Etobicoke,43.67224055,-79.51814699,fulltime,63532.9
+911093ea-1881-43b9-bd81-1a3752e3fb2f,52,Married,With Spouse,North York,43.78685643,-79.36813335,parttime,32923.35
+bb35e15a-4fb5-4dde-9211-0c755357380f,17,Single,With Parent,North York,43.75654049,-79.48978751,unemployed,0
+5d61704e-4a4f-4bb1-83b5-630bb398a1a4,17,Single,With Parent,Toronto,43.67617788,-79.43902679,unemployed,0
+e4961585-6ace-43dc-a959-3ca8168b1d57,31,Single,With Parent,Scarborough,43.78928765,-79.21939154,parttime,4526.61
+9674f9a3-d22e-4ae3-b2a4-d8e00cf5bd65,54,Married,With Spouse,Toronto,43.66956979,-79.37520856,parttime,16648.55
+d3144db6-9c2c-4802-8804-2712a1e9386d,53,Married,With Spouse,Scarborough,43.73216966,-79.29903538,fulltime,38884.95
+2ae99498-baae-4751-a173-e0e035a35449,46,Married,With Spouse,York,43.69009404,-79.47220995,parttime,23398.1
+88972363-e1d5-4b9a-b7eb-e9dd8d3d9200,40,Married,With Spouse,East York,43.68826024,-79.31287249,fulltime,42951
+6c7aea82-f5ff-44a0-8ad0-a9b9a883b2cc,50,Married,With Spouse,Scarborough,43.78811622,-79.26187533,fulltime,40073
+13bf829f-4810-42b5-97b8-fa9b225af3de,56,Married,With Spouse,Etobicoke,43.68815911,-79.51442006,fulltime,56953.75
+51fca1b9-60d7-4609-8f45-772cde89bf77,53,Married,With Spouse,Toronto,43.64193305,-79.39147191,fulltime,64332.15
+8006390f-9d3b-42bb-a666-511a4d2aa26c,39,Married,With Spouse,Scarborough,43.76676947,-79.22642856,fulltime,45469
+9795a3ed-7700-4188-8d31-5df6926afd0a,37,Married,With Spouse,North York,43.7653441,-79.41261507,fulltime,37170
+5d52a757-b25f-43e8-ae54-f062d5319536,17,Single,With Parent,North York,43.7558382,-79.41161107,unemployed,0
+2fb9479e-2c97-4851-a21c-69660c6a264e,54,Married,With Spouse,Toronto,43.68351926,-79.31306029,parttime,30719.95
+7be9e113-e450-430b-8619-a0fea0ea9186,37,Married,With Spouse,Scarborough,43.77805019,-79.29435294,fulltime,30517
+2e294457-3255-4f5d-b157-a0f2bd1df860,35,Married,With Spouse,Toronto,43.65046594,-79.39227779,fulltime,35677
+972f0f74-d766-40ba-8c73-2a8bc1852cfd,40,Married,With Spouse,Etobicoke,43.61573664,-79.48788214,parttime,18228
+1ac08562-2c5c-4da2-af7a-f86a4f2653e1,51,Married,With Spouse,North York,43.71834944,-79.48281785,fulltime,50348.15
+470852d8-bb4d-4de2-b6e2-38ecf28da5ce,53,Married,With Spouse,Etobicoke,43.65107332,-79.49591129,fulltime,82532.05
+a38efd1d-0be3-42d4-8397-06163519c464,53,Married,With Spouse,Toronto,43.69691738,-79.40676016,fulltime,123192.6
+aa8c0a76-6a51-488f-af41-b3bab4f197e5,54,Married,With Spouse,Toronto,43.66740764,-79.41648487,fulltime,67147.35
+e92950d9-8a7b-4dd3-b724-423b40727cc5,54,Married,With Spouse,Etobicoke,43.59032165,-79.54647606,fulltime,36193.95
+21bb67de-3ea3-4ca3-93d5-fa5e1d3e04df,35,Married,With Spouse,North York,43.75654049,-79.48978751,fulltime,31061
+50141834-cb76-4409-b781-7d656290fa34,52,Married,With Spouse,Etobicoke,43.68570194,-79.5218399,fulltime,35111.8
+e13c5e0e-bd75-49c7-a20b-1bbe8ac29029,17,Single,With Parent,Toronto,43.65481686,-79.40148005,unemployed,0
+6f2bdefb-16fa-40c2-8811-b0956c388712,59,Married,With Spouse,Toronto,43.6921805,-79.41662347,fulltime,49260.25
+8f082230-52cd-4377-b47d-c835ba5996e5,53,Married,With Spouse,North York,43.7584754,-79.4124186,fulltime,42723.65
+3d26ea43-fd04-4531-b4b8-f9dc11f111da,39,Married,With Spouse,Toronto,43.64941226,-79.37087997,fulltime,47631
+03e28f1d-531c-40a2-a8a0-87bd0dbbb17b,41,Married,With Spouse,Scarborough,43.77858062,-79.28117176,fulltime,37637
+90242cc4-4743-46b1-8473-84cc7063817b,46,Married,With Spouse,Toronto,43.66743469,-79.31731829,parttime,29496.5
+3cc828c2-6174-4e50-a182-4eb6c6d9648f,21,Single,With Parent,North York,43.77838832,-79.42748486,parttime,5843.31
+63ac52a6-f039-4149-9415-7fc448dbc6af,41,Married,With Spouse,Scarborough,43.73075189,-79.27121417,fulltime,26991
+d68fd153-c96e-4873-b649-a88cf9b29562,57,Married,With Spouse,North York,43.77759902,-79.42322577,parttime,30295.6
+5869bd47-c427-4fd4-ab68-8f284583e772,34,Married,With Spouse,Scarborough,43.69359458,-79.26284992,fulltime,55187
+ac568bee-f22d-4b51-ab1a-d6025adebec4,38,Married,With Spouse,Toronto,43.64263656,-79.4230275,fulltime,36476
+dc1abd2c-9f29-4e87-bb46-aac9b93ed94c,34,Married,With Spouse,Toronto,43.64784548,-79.40585328,fulltime,43123
+66daf67f-4158-44dc-a7c5-e1c3be590210,23,Single,With Parent,Toronto,43.68351926,-79.31306029,parttime,12138.06
+07d8dd33-a486-4194-8e58-e7d44c3b178d,17,Single,With Parent,Scarborough,43.78951131,-79.16512229,unemployed,0
+175adf11-0508-46d2-94c4-1d104ea47f1b,40,Married,With Spouse,Toronto,43.71620863,-79.39752642,fulltime,55886
+234cadbf-d8c8-4345-9e14-9ff2772245b3,16,Single,With Parent,Etobicoke,43.66532594,-79.54410598,unemployed,0
+d4dad485-dab9-4827-ae32-16e77ac234c6,50,Married,With Spouse,Toronto,43.65815014,-79.46761911,fulltime,40073
+59cfef17-5cf2-4f58-98b9-a9ec2994ca1d,53,Married,With Spouse,Toronto,43.70084495,-79.42154048,fulltime,54929.75
+179605fa-d698-4172-86de-817c8166919e,62,Married,With Spouse,York,43.68599798,-79.47357579,parttime,19561.45
+ce67067b-864b-4f4c-b160-933ac960f2d7,51,Married,With Spouse,Toronto,43.68177612,-79.45914682,fulltime,86541.4
+73cd6929-b6ba-4ec4-bc14-ee573b5bf73f,25,Single,With Parent,Toronto,43.65972468,-79.33729923,parttime,8502.45
+36681430-342a-42d1-8c50-574c6ddc8994,19,Single,With Parent,Scarborough,43.7748609,-79.29342268,unemployed,0
+2168ba7d-f979-4587-bf97-26969e16e90d,55,Married,With Spouse,East York,43.6979764,-79.29935233,fulltime,41283.85
+080b0c6a-0e50-476a-be60-7e7acdda29ee,22,Single,With Parent,Toronto,43.66397688,-79.41231344,parttime,6984.12
+edbd0eaa-1fc0-42cc-b677-32c2c0207662,37,Married,With Spouse,Scarborough,43.78040572,-79.29507027,fulltime,30944
+ac32e591-49c0-45ee-bcad-b2c8677fb6b4,37,Married,With Spouse,North York,43.74519919,-79.36223919,fulltime,78591
+09a0b0aa-8e3c-45d2-a492-81308b8ff641,55,Married,With Spouse,North York,43.74420167,-79.34921721,fulltime,44873
+f476dc50-3d3e-4507-96d3-74b1c3ddbb38,25,Single,With Parent,North York,43.76097495,-79.51997989,unemployed,0
+02cdcd27-fb77-4b34-909a-59a13ae3f20f,55,Married,With Spouse,Toronto,43.6921805,-79.41662347,fulltime,40246.55
+bb9eb597-d4ed-40ee-99f1-f67f70ce71c8,34,Married,With Spouse,Toronto,43.65481686,-79.40148005,fulltime,57497
+c57a9430-50d9-488e-aba7-6d4b4ccbfb27,37,Married,With Spouse,East York,43.69505507,-79.29178476,fulltime,26194
+6ca689db-3456-454e-8c8a-0b350b7a199a,39,Married,With Spouse,Toronto,43.64136658,-79.39976534,fulltime,52816
+0fee6b33-d653-4bf6-a1e9-3057db119b94,56,Married,With Spouse,North York,43.78084814,-79.35998743,fulltime,54809
+5a926f87-38dc-4179-8f94-29a0d858ac81,36,Married,With Spouse,Scarborough,43.75747546,-79.30515027,fulltime,51377
+703d28b8-86fd-4967-b450-fe79332ab771,30,Married,With Spouse,Etobicoke,43.67601371,-79.56987177,parttime,10519.41
+f4f8b789-bd1a-48ba-b00c-a096ef9a603f,49,Married,With Spouse,North York,43.71887089,-79.43000421,parttime,25975.4
+92a3e6d2-7f45-43e4-b432-32883b6bf4c4,38,Married,With Spouse,Scarborough,43.80418201,-79.31249131,parttime,16549
+3bfb176f-f67d-4645-840a-38519a44087e,54,Married,With Spouse,York,43.69037596,-79.44901625,fulltime,49630.55
+6e0a89c5-57c5-4f64-83b5-28be74409833,40,Married,With Spouse,York,43.69850904,-79.44403146,fulltime,28086
+254cfa83-2325-46a6-ab4b-4dc57018bee0,32,Married,With Spouse,Scarborough,43.72200853,-79.2270408,fulltime,101136
+74530f30-2cd1-4e70-9083-b47fd2c525af,55,Married,With Spouse,Toronto,43.70807197,-79.41839652,parttime,23748.65
+5ca717cb-07ac-4d99-a8a4-fe4c7b05c234,47,Married,With Spouse,North York,43.73802899,-79.5013005,fulltime,46087.8
+8a25f1c8-93a3-46a5-91c5-1a4a2b3570f0,19,Single,With Parent,Scarborough,43.78811622,-79.26187533,unemployed,0
+b5a7b50f-2471-4feb-9721-06757f9da267,57,Married,With Spouse,Toronto,43.70807197,-79.41839652,parttime,19324.6
+0a1301f5-623b-4653-8b31-136a68784b72,26,Single,With Parent,East York,43.69596263,-79.3174775,parttime,9817.83
+3669a5f9-8f41-4053-bf6c-59602956decd,46,Married,With Spouse,Scarborough,43.69359458,-79.26284992,fulltime,58988.6
+8359834b-fd07-4ff1-8c5f-9baf19539b6e,37,Married,With Spouse,Toronto,43.70882105,-79.38946915,fulltime,40011
+7516fd74-6a7b-4540-a8d5-c7e59abf6f1d,20,Single,With Parent,Toronto,43.64820845,-79.43780871,parttime,8521.92
+25a16219-1fc6-42e6-8ff2-0df2590a8186,15,Single,With Parent,Toronto,43.63994376,-79.47358752,unemployed,0
+123deea1-e5fe-4458-b3ba-af8d14b2119c,45,Married,With Spouse,North York,43.72190452,-79.44888923,fulltime,65430.2
+dfcd911c-bab2-4e52-a7fd-4d8b30a5b922,19,Single,With Parent,Toronto,43.67387851,-79.29917627,unemployed,0
+f944bc69-37fb-466a-aaab-28bb34e7d690,50,Married,With Spouse,North York,43.7822313,-79.33555377,fulltime,55092.4
+c6da1320-6749-4d0f-b650-b919fa611f82,50,Married,With Spouse,North York,43.7822313,-79.33555377,fulltime,44363
+5922921a-e398-4ac4-bd55-7b1e226975f0,66,Married,With Spouse,North York,43.7342924,-79.42110931,fulltime,46029.4
+03cf2702-12ac-409b-87c4-f65b79bca11f,14,Single,With Parent,North York,43.75130978,-79.31629117,unemployed,0
+bc405dfd-4c7f-48c7-b867-942b9baaf5d0,19,Single,With Parent,Scarborough,43.78811622,-79.26187533,unemployed,0
+8798d075-7b32-4b75-8995-270421951dd0,53,Married,With Spouse,North York,43.7402303,-79.42255459,fulltime,72993.95
+bc77e998-d62d-4324-b976-e181ad7d9c50,19,Single,With Parent,Scarborough,43.78040572,-79.29507027,unemployed,0
+e7314a79-b7d6-4b8e-bbf6-ccb7767faa5a,47,Married,With Spouse,Etobicoke,43.68570194,-79.5218399,fulltime,39796.9
+a7c12e8e-7d1f-4534-b271-45d69d2bb947,52,Married,With Spouse,Etobicoke,43.66532594,-79.54410598,fulltime,127972
+40315e2f-543c-4b55-888f-9b207dfe2ced,23,Single,With Parent,Toronto,43.67785539,-79.38860795,parttime,18300.48
+aa3f809b-9785-4346-98f9-94522c1f9e5f,34,Married,With Spouse,East York,43.70575935,-79.37086346,fulltime,45129
+ecb5a391-dd18-4a82-9cc5-cf25c46a15e8,33,Married,With Spouse,Toronto,43.69839519,-79.39492383,fulltime,34329
+cfd42ef8-7ecb-4137-8bce-d9879160cf64,19,Single,With Parent,North York,43.7558382,-79.41161107,unemployed,0
+64fd3e30-1358-4244-bc5e-e8c87a7aeb9e,32,Married,With Spouse,Toronto,43.68069879,-79.44380218,fulltime,46800
+4b5b4232-2a15-482a-8ad5-a6c6e7b3285c,43,Married,With Spouse,North York,43.75815496,-79.40506803,fulltime,39215
+6b305032-d438-4ebe-81c1-5f8efebe59d3,19,Single,With Parent,North York,43.74519919,-79.36223919,unemployed,0
+fec69a0b-7ebf-4954-bff9-6b2632eca5c1,37,Married,With Spouse,Toronto,43.68679966,-79.30492634,fulltime,49321
+d188a684-235d-4c25-be6d-c16a3103fe69,55,Married,With Spouse,Scarborough,43.73888729,-79.25565386,unemployed,0
+cce04439-6a60-4fd6-b9da-baa0908e2bfd,34,Married,With Spouse,North York,43.70944389,-79.49073608,fulltime,31376
+c3b902dc-d3c3-4d6f-9000-de59d6433076,36,Married,With Spouse,Toronto,43.6861807,-79.32367519,fulltime,51982
+8a2075b5-7016-41e4-8fbf-a7a9afd96550,55,Married,With Spouse,Toronto,43.68449051,-79.3333927,fulltime,36774.7
+5a35d15d-ab81-486e-983f-7187458dc61a,36,Married,With Spouse,Etobicoke,43.60139533,-79.5014788,fulltime,36058
+854f518a-2056-47ee-a90a-b7afd7c641dc,14,Single,With Parent,Scarborough,43.81692041,-79.28574417,unemployed,0
+c46fd745-2c21-4676-a623-c8222c487640,41,Married,With Spouse,North York,43.77857338,-79.32796944,fulltime,25898
+32cc1d24-6bac-42e9-9c92-733707d1c249,46,Married,With Spouse,Toronto,43.63883336,-79.39883876,parttime,31391.8
+7bc47d23-8147-4074-b9a3-4ab9deae8f1b,41,Married,With Spouse,North York,43.75815496,-79.40506803,fulltime,41067
+1dd47094-dcef-4578-ae7b-b51acb795275,44,Married,With Spouse,Toronto,43.64843846,-79.40564197,unemployed,0
+232c3c29-88bf-4e6d-9319-6ad4373aae37,17,Single,With Parent,Toronto,43.66670385,-79.40933471,unemployed,0
+b93a2a38-11bc-421b-96a6-9bcbd5cab9b3,50,Married,With Spouse,Toronto,43.66397688,-79.41231344,parttime,23042.8
+19f9a291-938b-4a74-8484-7698c502259d,34,Married,With Spouse,North York,43.77145261,-79.44198878,unemployed,0
+20aa36d3-80a1-4f0c-90f0-e325797c37d1,34,Married,With Spouse,Etobicoke,43.72629266,-79.56296811,fulltime,30467
+9f6e582a-1105-46bf-bcd7-342de793871b,57,Married,With Spouse,East York,43.69596263,-79.3174775,parttime,32094.2
+4ca5ba09-cc66-4947-b830-d11681b68258,41,Married,With Spouse,Scarborough,43.81172945,-79.28442335,fulltime,29181
+8de70796-ddb1-4ec4-9d5f-f3315f965a56,46,Married,With Spouse,Scarborough,43.77967252,-79.13512082,parttime,28396.5
+d7e9d732-217c-47f9-bf59-e7b503aba705,48,Married,With Spouse,Toronto,43.66116268,-79.45295061,fulltime,119872.5
+2bbb1e74-df27-41c2-b74f-b7fa4d44ecc0,24,Single,With Parent,Toronto,43.71105585,-79.38070828,parttime,7628.28
+48623e43-4646-4615-88a1-04c83a6225a2,23,Single,With Parent,Scarborough,43.78928765,-79.21939154,parttime,4415.07
+ec0e5303-daff-49f6-b5a3-f7b09a21ed0b,35,Married,With Spouse,Toronto,43.65046594,-79.39227779,fulltime,37997
+e8a83feb-c89b-4b0a-8f2b-d8bf59ca12a9,48,Married,With Spouse,Toronto,43.66957122,-79.3834736,parttime,11513.7
+5072e92a-81f7-4454-bf6d-8ca1d5345b3f,39,Married,With Spouse,North York,43.75993581,-79.42331518,unemployed,0
+c9491ed7-4904-4b7d-a058-0fd4e57aa731,46,Married,With Spouse,Etobicoke,43.67012119,-79.52289142,fulltime,47734.5
+155d656e-fbf0-4977-abad-a850ab974243,54,Married,With Spouse,Toronto,43.66649193,-79.42679281,parttime,31733.1
+32563b6a-1c0e-4fb6-b354-4a15fd1ace4e,38,Married,With Spouse,Scarborough,43.81172945,-79.28442335,fulltime,23833
+3270609c-ae13-45fa-b5ee-8e304442b03b,20,Single,With Parent,Toronto,43.64820845,-79.43780871,unemployed,0
+43c27b26-3a80-41bf-9b1a-d736e19cd949,51,Married,With Spouse,Scarborough,43.7748609,-79.29342268,parttime,22730.9
+b58fa042-0910-4e66-b059-7529891c8ebd,40,Married,With Spouse,Toronto,43.66670385,-79.40933471,fulltime,53778
+c3a39639-3113-4ce6-931d-fc0dec2c1f02,21,Single,With Parent,Toronto,43.65099751,-79.4165558,parttime,8282.67
+72baa140-b9bc-480f-86dd-5a61e0a6c735,50,Married,With Spouse,North York,43.77838832,-79.42748486,parttime,19043.2
+c82c8dfb-7279-4f8e-885d-35249979b819,54,Married,With Spouse,North York,43.70375662,-79.48907295,parttime,20624.1
+bd244eb3-0783-415a-8484-4062a045c8af,53,Married,With Spouse,North York,43.71259173,-79.49869071,parttime,24366.2
+d3f098fd-57f3-4b0f-b0b0-35c6acc3456f,60,Married,With Spouse,Scarborough,43.83115595,-79.25493224,fulltime,40283.35
+cd40b5ea-6b6c-48f4-9e9b-2bdefdd4e1bf,39,Married,With Spouse,Toronto,43.64233636,-79.41608435,fulltime,30618
+e1d7e6a0-8f82-4b12-8910-2856d13681bb,62,Married,With Spouse,Toronto,43.67785539,-79.38860795,fulltime,116347.45
+9eb765a5-b6dd-4b6f-aa75-aa41e1c93f36,53,Married,With Spouse,Toronto,43.66355866,-79.38204618,parttime,8572.1
+cd5f6d63-e806-4a8f-8b9d-70808c94c68d,53,Married,With Spouse,North York,43.77958438,-79.45030999,parttime,25947.45
+330f5e5a-d2a9-41ea-8fa1-985f99774eeb,51,Married,With Spouse,North York,43.78402619,-79.39106934,fulltime,145085.6
+962ed9db-4a3c-4313-b19b-ec7284363f02,60,Married,With Spouse,Toronto,43.65566722,-79.34131569,parttime,27283.75
+197a27bb-ef1c-4402-be96-d590ea0974c9,53,Married,With Spouse,York,43.68874485,-79.43300963,fulltime,50603.45
+9d598afa-16cd-41f4-91d8-94a68b50340d,50,Married,With Spouse,Scarborough,43.73526114,-79.21070781,fulltime,50341.5
+b376a4ce-f570-49a2-bf76-916480313819,25,Single,With Parent,North York,43.77857338,-79.32796944,parttime,9665.7
+15586ec3-ba5e-4bc0-8f54-7dddc8741ae4,25,Single,With Parent,Etobicoke,43.61055878,-79.49681326,parttime,7957.95
+cb7f5823-81bc-4263-9c57-e9443546d898,49,Married,With Spouse,Toronto,43.66957122,-79.3834736,parttime,12163.8
+cee5d9d2-b22a-4954-9e2f-6c0ca38c07b6,51,Married,With Spouse,East York,43.69642279,-79.36811057,fulltime,125396.7
+c1036e7f-d87a-493a-8683-39a1e0018150,53,Married,With Spouse,Toronto,43.6536513,-79.45734234,fulltime,62657.75
+bf5e3061-98fb-4483-9216-02fe3d4f4aec,15,Single,With Parent,Etobicoke,43.68291751,-79.51663592,unemployed,0
+f7e653a3-4b9f-4a3f-9b79-16680dbe1834,36,Married,With Spouse,Etobicoke,43.68291751,-79.51663592,fulltime,48103
+98e1d1a1-3c5d-4a5e-9188-bc25a63fe565,17,Single,With Parent,Toronto,43.66670385,-79.40933471,unemployed,0
+faa670ff-8f0b-4347-a5c2-c46a50f66718,53,Married,With Spouse,East York,43.69596263,-79.3174775,fulltime,38562.95
+468787ce-610d-4a51-a3c0-da0cc6e42573,49,Married,With Spouse,North York,43.78685643,-79.36813335,parttime,25525.5
+45ad0fdc-4291-4465-9c6b-ae6040f53480,37,Married,With Spouse,Etobicoke,43.64058912,-79.56241285,fulltime,32051
+341da1bf-e91c-4b2f-bf3a-c56f369ca6c8,23,Single,With Parent,Toronto,43.66397688,-79.41231344,parttime,6915.81
+49315e1c-1873-4f37-9077-f29a52e4169c,14,Single,With Parent,Scarborough,43.83115595,-79.25493224,unemployed,0
+97fbbeb4-cdc5-43b1-bc22-5f3a7d359248,68,Married,With Spouse,York,43.69997844,-79.44107733,parttime,27165.25
+f20e480b-21ab-474e-aee1-4c7a488e6a8e,33,Married,With Spouse,Scarborough,43.77287169,-79.14542244,fulltime,62282
+df9034dc-657c-4a7a-831c-a37e67e66a51,54,Married,With Spouse,Scarborough,43.79826164,-79.17717622,fulltime,47276.5
+095d77a6-e021-407c-a252-b54761eee851,56,Married,With Spouse,York,43.70104283,-79.51734033,fulltime,54880.3
+c576b3d2-18e7-4f29-b2f5-02dc749f3662,34,Married,With Spouse,Etobicoke,43.61672444,-79.48870634,unemployed,0
+9bd6cc8d-54ea-4fe0-8cb0-a11a51a01242,50,Married,With Spouse,Toronto,43.64820845,-79.43780871,parttime,28196.3
+a525d10e-31b9-423f-959c-1e5573a03b4b,58,Married,With Spouse,Toronto,43.66355866,-79.38204618,parttime,9059.7
+5eae90a6-641b-4fc1-a46b-2d4fc2836ecc,52,Married,With Spouse,North York,43.76097495,-79.51997989,fulltime,40890.55
+12b937c7-b446-4fa2-9492-c101d3b48a3e,53,Married,With Spouse,Toronto,43.65612816,-79.44719792,unemployed,0
+86ba4625-c459-4dbf-b08e-8ff212ebd887,41,Married,With Spouse,North York,43.77857338,-79.32796944,fulltime,26497
+a33db4b4-a794-4755-aecc-daf09c94d02f,52,Married,With Spouse,Toronto,43.65815014,-79.46761911,fulltime,40446.65
+4fea3590-ba37-464f-bf38-2add82c5bd54,56,Married,With Spouse,Etobicoke,43.73388278,-79.59710057,fulltime,87045.8
+7428832c-cd17-465e-ace4-ac528212f405,41,Married,With Spouse,Scarborough,43.78416595,-79.18267739,fulltime,44844.8
+2c617ae9-4eb5-44f4-90da-2c046591595c,18,Single,With Parent,Scarborough,43.77287169,-79.14542244,unemployed,0
+57524a52-ed0c-40c4-b957-45eed56f9746,28,Divorced,With Parent,Scarborough,43.7748609,-79.29342268,parttime,6750.81
+6d831f68-4777-4047-acd8-943f52a6e193,70,Married,With Spouse,Toronto,43.70518661,-79.42511153,parttime,18975.3
+be0b655e-5541-4652-bf45-0a15f6695975,44,Married,With Spouse,East York,43.6941687,-79.32519698,fulltime,124450.7
+ab9cbe15-9400-48be-a530-7f1dba4cca61,50,Married,With Spouse,Toronto,43.66639396,-79.42368658,fulltime,58388
+c30eed5a-bc1b-4b26-89fe-942688be95ee,39,Married,With Spouse,North York,43.72372153,-79.32537319,fulltime,41761
+68085e46-9689-4ad1-90cb-10287be63e75,50,Married,With Spouse,North York,43.73802899,-79.5013005,fulltime,37008.4
+2cb7e72a-925f-4c5b-b04d-4cc35c96f53d,19,Single,With Parent,East York,43.71419376,-79.30418956,unemployed,0
+e250d512-2a79-46ab-83d7-7254519646bb,38,Married,With Spouse,Toronto,43.64180667,-79.47706937,fulltime,46314
+95a11f80-d416-4020-aaf8-94cde60cda32,40,Married,With Spouse,Scarborough,43.70108222,-79.27260191,fulltime,31717
+136a7868-0596-44d0-9521-9799f08f4539,36,Married,With Spouse,York,43.68352078,-79.43483642,fulltime,94490
+d09c08de-8fdb-45a3-a805-4ea9e32590f8,49,Married,With Spouse,North York,43.75654049,-79.48978751,fulltime,37039.2
+6b6e1cd6-a468-4895-9971-a3dab0c4bdf4,20,Single,With Parent,Etobicoke,43.62847469,-79.57963997,parttime,10862.61
+02317d5f-3c5a-4048-9c2b-f2f1aa41bdc5,61,Married,With Spouse,Toronto,43.66649193,-79.42679281,parttime,26141.15
+e277e242-6d27-4d48-a319-7e688012ac3a,53,Married,With Spouse,Etobicoke,43.6506764,-79.52155395,fulltime,111899.6
+358ad493-f54c-421e-a561-c9c4ee2b17bc,36,Married,With Spouse,North York,43.75130978,-79.31629117,fulltime,63460
+e6d69f91-3af7-48e3-bca1-6a30c268d521,19,Single,With Parent,Toronto,43.64180667,-79.47706937,unemployed,0
+5e3a3175-557f-4c1b-b944-eb2aa5194246,36,Married,With Spouse,Scarborough,43.76854101,-79.2548799,fulltime,41666
+d1cdd0e8-a22c-4c60-bf6f-c64514352622,18,Single,With Parent,North York,43.71525391,-79.45464386,unemployed,0
+edf1c816-68cd-46dd-9ad3-862c639065e5,39,Married,With Spouse,North York,43.74767197,-79.4436308,fulltime,37118
+e8a4239d-8d97-4aed-99ee-c84f5be0287c,41,Married,With Spouse,East York,43.70726849,-79.36257869,fulltime,43605.1
+526c7b7f-7d16-4db6-956f-e398b69467bb,39,Married,With Spouse,Toronto,43.67765364,-79.39167893,fulltime,74752
+66fc8bcb-a766-4ff1-ae56-5acea504547c,35,Married,With Spouse,Toronto,43.64657328,-79.48269809,fulltime,56456
+0a773620-4c97-446d-a558-e64e2feb1b96,63,Married,With Spouse,Scarborough,43.81530263,-79.26478461,unemployed,0
+6c4c5784-ab75-4fa7-b9b4-319410451a98,35,Married,With Spouse,Scarborough,43.72200853,-79.2270408,unemployed,0
+62467bd5-9b38-4c1a-8d89-8d2995c7f219,45,Married,With Spouse,Toronto,43.70045978,-79.38219847,fulltime,149561.5
+b9f1abb5-fa14-4e29-917b-2b87fe645b61,51,Married,With Spouse,Toronto,43.68449051,-79.3333927,fulltime,35591.35
+6db318cf-cf2a-491b-9aec-611df6630990,35,Married,With Spouse,Toronto,43.68263508,-79.30138475,fulltime,54842
+e1f126bc-b74a-46d3-8ce2-bdce3b7f6de0,22,Single,With Parent,Toronto,43.68159968,-79.30146143,parttime,7077.84
+f7d111a8-c192-402c-8ec3-d048e467aa7c,37,Married,With Spouse,Scarborough,43.82006699,-79.27653641,fulltime,28420
+8df6d612-3c26-424f-9033-0ebd883e97dc,39,Married,With Spouse,North York,43.74231682,-79.34902907,fulltime,49270
+58a83425-343b-47b7-833c-c8144656ba2c,19,Single,With Parent,North York,43.77026451,-79.37772885,unemployed,0
+d2b40720-8d4e-4584-992d-050b8bb5dee3,31,Single,With Parent,Toronto,43.66355866,-79.38204618,parttime,2673.99
+481b15dd-4ca9-4802-b669-1c42f27b1dc1,55,Married,With Spouse,Scarborough,43.78928765,-79.21939154,parttime,18394.25
+ac471b97-c861-49ce-9cbc-46b86ba5a300,20,Single,With Parent,York,43.69009404,-79.47220995,unemployed,0
+56f84985-9b10-4c06-8d34-daf8f632e5bc,46,Married,With Spouse,Toronto,43.66670385,-79.40933471,fulltime,57884.2
+db62cc6a-1819-4f6d-8d2f-c12a866429ba,49,Married,With Spouse,York,43.67070395,-79.50231873,fulltime,36664.1
+b5cfdb2b-559d-407a-9178-861f30372068,15,Single,With Parent,Scarborough,43.76676947,-79.22642856,unemployed,0
+40add3cb-d941-4a43-b8b8-9731a12e7486,44,Married,With Spouse,North York,43.70053948,-79.49759259,fulltime,38842.1
+b24da4dd-9db4-4b02-9e1e-a27196f26a6a,37,Married,With Spouse,Scarborough,43.74926452,-79.24960004,fulltime,41965
+691b8685-a8d0-4b96-b337-12788f4415ef,26,Single,With Parent,Toronto,43.65566722,-79.34131569,parttime,9681.54
+c0e63cd7-3b40-4439-95bb-6e507fbe0cda,43,Married,With Spouse,Etobicoke,43.6211556,-79.52154475,fulltime,74236.8
+eb7cdf8e-8f36-42d1-b995-62c39d3969a2,39,Married,With Spouse,North York,43.7424518,-79.48740604,fulltime,27224
+5f32c9a8-cc51-4aa2-a7dc-f1cebb668551,56,Married,With Spouse,Etobicoke,43.60738258,-79.53403318,fulltime,47289.15
+364f2bb5-9ba0-418b-880f-e156377994fb,34,Married,With Spouse,Etobicoke,43.68400132,-79.52933297,fulltime,51559
+b8e1f2fc-8c7e-44f1-acad-e73fec731184,33,Separated,With Parent,Toronto,43.70807197,-79.41839652,fulltime,20550
+81d83f05-0f6f-4b1a-8a05-7f4ab41b8f11,40,Married,With Spouse,Etobicoke,43.66078302,-79.5870888,fulltime,48995
+6ff5c805-1c35-4d70-b244-ee38b7134868,33,Single,With Parent,Scarborough,43.73530542,-79.21998529,parttime,17426
+1fbb1193-e395-4ab6-9a6b-0b6a94abc0b8,20,Single,With Parent,North York,43.77838832,-79.42748486,parttime,5465.79
+6e12ba5e-938d-4d82-9489-37ca81b8733c,38,Married,With Spouse,Etobicoke,43.62242598,-79.49802722,fulltime,39820
+94373e49-b5da-496d-b3be-1c098539d6fc,56,Married,With Spouse,Toronto,43.67854556,-79.35394759,fulltime,55352.95
+b98c7839-56f5-4f4c-b2c7-abb5f84286f1,50,Married,With Spouse,Scarborough,43.82203469,-79.21129144,fulltime,50933.3
+f7ce1b8d-577b-4255-8b26-f6e88576e167,25,Single,With Parent,Toronto,43.66957122,-79.3834736,parttime,4227.63
+006fdc60-04f7-4bb1-9a83-d5bd0c9b0060,30,Single,With Parent,Scarborough,43.73530542,-79.21998529,parttime,4435.86
+bfcba14a-35aa-48e6-8ca5-94b4535b1ae5,49,Married,With Spouse,North York,43.80131679,-79.39228963,fulltime,57490.4
+a36633b3-d9dd-4ba1-8e73-53c28cf1464a,78,Married,With Spouse,Toronto,43.6671622,-79.32449482,unemployed,33336.1
+e303cdff-2e5f-44e8-b0bf-15947b5dc721,56,Married,With Spouse,York,43.66143065,-79.48652479,fulltime,67861.5
+6f6afc6a-2d12-42e8-a277-18269c7e9e38,37,Married,With Spouse,North York,43.71809955,-79.43200115,fulltime,56157
+f85ffd3e-f005-4dfa-a13e-53580263bd70,22,Single,With Parent,North York,43.77015379,-79.41264819,parttime,4715.7
+a3694e8a-b3b1-48bc-a7c4-1914922ce10b,46,Married,With Spouse,Etobicoke,43.6395186,-79.50396457,fulltime,75466.6
+fbcba0f2-0730-46d0-bd22-6a12941db548,43,Married,With Spouse,Scarborough,43.78951131,-79.16512229,fulltime,51997
+9038f17f-b979-4595-b3d4-1df80605e7c0,36,Single,With Parent,Scarborough,43.81976183,-79.27594671,parttime,15546
+c576e891-d19c-4cba-8a95-716d36b4ca41,32,Single,With Parent,Toronto,43.65621109,-79.40110974,parttime,18047
+241f6522-6390-4db1-8224-709b130b941a,44,Married,With Spouse,Toronto,43.6605928,-79.37834504,fulltime,60779.4
+da187411-a56a-4b12-b620-6d22f53682f8,45,Married,With Spouse,Toronto,43.70882105,-79.38946915,fulltime,58972.1
+35f9f868-969e-427a-8e21-5ea950b9077b,38,Married,With Spouse,Toronto,43.64136658,-79.39976534,fulltime,51985
+37984bf3-a0d2-466b-a178-d5dc0b00e38c,60,Married,With Spouse,Scarborough,43.81976183,-79.27594671,parttime,15170.8
+83b9fbeb-a745-4069-ac79-9e9f4d5044ce,34,Married,With Spouse,Toronto,43.66439694,-79.32065058,fulltime,46515
+2aeb3322-8a22-4213-a077-246bcd8e6335,46,Married,With Spouse,North York,43.78425674,-79.44993775,parttime,21191.5
+64d27521-9722-485d-8177-4b5bb6cc5d25,17,Single,With Parent,Toronto,43.68397072,-79.32996028,unemployed,0
+f649bf6e-7777-4ae2-a5a6-0b6cb4315664,18,Single,With Parent,Toronto,43.68397072,-79.32996028,unemployed,0
+9248d408-7a2a-4d7d-9389-6c84c5272e7a,45,Married,With Spouse,Etobicoke,43.71413446,-79.56295112,fulltime,36711.4
+451d07de-bb03-4a04-949c-4d7591165ff2,23,Single,With Parent,Toronto,43.67785539,-79.38860795,parttime,15705.36
+ac9d6b7a-08fd-4654-9f76-d7ba88343ec8,65,Married,With Spouse,North York,43.72784499,-79.31216542,parttime,32708.5
+5cd9cee5-98ba-45f1-9a05-7ad7e90dd463,46,Married,With Spouse,Toronto,43.71786697,-79.40233486,fulltime,45056
+ac468270-6e66-48a1-84e7-c48c6a8bc24a,20,Single,With Parent,Toronto,43.67765364,-79.39167893,unemployed,0
+cf4e3506-7c48-49c3-81d8-f30f364b1eb5,16,Single,With Parent,Scarborough,43.78416595,-79.18267739,unemployed,0
+19429c7b-5b6c-43b9-9f1e-1d4699e61587,38,Married,With Spouse,North York,43.7653441,-79.41261507,fulltime,37495
+02de60e4-a6ea-477c-b919-782fe22c7185,55,Married,With Spouse,Toronto,43.6671622,-79.32449482,fulltime,66547.05
+880067e1-dbda-4d1c-b5f5-654da1a30220,55,Married,With Spouse,Toronto,43.70518661,-79.42511153,parttime,23227.7
+471f3597-437e-423e-a41b-45caf43d16dd,17,Single,With Parent,Toronto,43.63911007,-79.47258856,unemployed,0
+14ba605d-bbbb-4f52-8d3a-e65a389f1312,18,Single,With Parent,Toronto,43.71786697,-79.40233486,unemployed,0
+dd1372a3-68f4-4ca6-a09b-8edb45016d21,64,Married,With Spouse,Toronto,43.72529452,-79.39379766,fulltime,112620.6
+7631daf0-aaa8-45a1-a73d-dca1b64161a6,51,Married,With Spouse,North York,43.71834944,-79.48281785,parttime,34699.5
+6469bb81-d05a-4884-a0bb-79fdfa15e17b,38,Married,With Spouse,North York,43.80218119,-79.37417184,fulltime,48232
+7b7a4e2c-5220-4394-a205-5c3ee8649838,49,Married,With Spouse,Toronto,43.68180217,-79.31732796,fulltime,47215.3
+b0869bfc-5380-4784-9d63-67c664358108,38,Married,With Spouse,Toronto,43.64344974,-79.3986184,fulltime,61360
+81ac6d61-0545-4fce-90ee-96064085fe9d,29,Single,With Parent,Scarborough,43.7748609,-79.29342268,parttime,6134.7
+357af47a-ebaa-4751-b93e-d9a3045662f1,55,Married,With Spouse,North York,43.77390553,-79.4168485,parttime,30251.9
+27329706-6ef3-4694-b1d8-a5470fc313a9,51,Married,With Spouse,North York,43.73413529,-79.46073697,fulltime,47352.4
+a02cad9f-f12d-4772-93ef-6900af779dc9,50,Married,With Spouse,Toronto,43.66116268,-79.45295061,unemployed,0
+7cdd090c-ad13-4a22-9ed2-9115013c31ec,40,Single,With Parent,Toronto,43.63994376,-79.47358752,fulltime,39923
+920da9c6-6b37-435a-9683-0b1f9a36c248,24,Separated,With Parent,York,43.69997844,-79.44107733,parttime,9817.5
+d1dba725-b553-456f-9fda-9512afae7dd5,51,Married,With Spouse,Scarborough,43.79066874,-79.27519583,fulltime,65283.9
+248fa2bd-3d74-4242-9545-be9b9dbdeaa9,20,Single,With Parent,Toronto,43.65481686,-79.40148005,unemployed,0
+7bbef14f-047b-41a7-b4b9-7531056032e3,38,Married,With Spouse,Scarborough,43.73930135,-79.25521002,fulltime,26810
+f7165b5f-9ef2-4d51-93ee-4a74ad87680b,28,Single,With Parent,North York,43.71887089,-79.43000421,parttime,6166.71
+ec9b76a6-4a38-4260-a815-096512ea5245,35,Married,With Spouse,East York,43.68607269,-79.33180952,fulltime,23726
+b2f88617-9726-4706-ae3e-d59ecd8c47f0,53,Married,With Spouse,Scarborough,43.79826164,-79.17717622,fulltime,53757.9
+00dfe8e6-e02c-40af-99db-4f1a080c4b9b,34,Married,With Spouse,Toronto,43.67617788,-79.43902679,fulltime,49531
+4b66279d-5368-48dc-ad5e-93fb8bcaab04,39,Married,With Spouse,Scarborough,43.81210592,-79.23295247,fulltime,31495
+53430324-eeb5-4ba1-9e0e-b7e118a5a42b,36,Single,With Parent,East York,43.71419376,-79.30418956,fulltime,41866
+4c3dbe5f-7d43-4454-87c7-8465bcbc6251,54,Married,With Spouse,Etobicoke,43.62690651,-79.47837504,fulltime,38144.35
+2b7ce0e8-3409-4aa0-bd58-909685bad66f,51,Married,With Spouse,North York,43.77390553,-79.4168485,parttime,23439.9
+1c749f9a-28e7-45ba-979f-b1c27cd95cce,50,Married,With Spouse,Toronto,43.65537057,-79.46250686,parttime,23555.4
+d845be3f-2b80-4e7b-9a63-646ec57baa86,47,Married,With Spouse,Scarborough,43.77466707,-79.30086122,fulltime,40637.3
+03450e4e-1b0e-4ee8-b61a-0e4a48cc0d04,52,Married,With Spouse,Toronto,43.65621109,-79.40110974,parttime,21724.65
+cc911dae-f90a-44af-9540-c841f1e56259,54,Married,With Spouse,Etobicoke,43.62792737,-79.47816224,fulltime,42056.65
+4a7ebe61-ff8b-4307-869e-df152a7a022b,49,Married,With Spouse,North York,43.72860876,-79.32617491,parttime,25246.1
+ceb35a6a-bc51-4cbc-9bb3-d37812ba94ff,54,Married,With Spouse,North York,43.76005039,-79.40746723,fulltime,37051.85
+573be5a2-ec6f-4d14-a0ee-aa2c42d911c7,55,Married,With Spouse,Toronto,43.67401845,-79.3778038,fulltime,153257.05
+5edb670f-caf3-4107-9878-74a6c59afb8f,56,Married,With Spouse,Toronto,43.70632997,-79.4026986,fulltime,61250.15
+a332b36f-79e2-4dbc-84d7-a8f08ed1974a,19,Single,With Parent,Toronto,43.70084495,-79.42154048,unemployed,0
+0b5007d6-93d5-4156-b114-01eb795ca172,25,Divorced,With Parent,Toronto,43.63883336,-79.39883876,parttime,8403.12
+8a99d5d3-102d-4b99-bf2b-2affc151b3f0,39,Married,With Spouse,North York,43.75993581,-79.42331518,fulltime,155081
+704918a6-31e1-4de3-9f5f-b8fd38addab9,50,Married,With Spouse,North York,43.71887089,-79.43000421,parttime,21135.4
+c0e94779-9c64-4d6c-9ba4-28911fd8b1eb,52,Married,With Spouse,Toronto,43.65972468,-79.33729923,parttime,31231.7
+9e43877d-8e23-4ea6-aaa1-a08ab9637870,53,Married,With Spouse,Toronto,43.66607729,-79.40145482,parttime,30960.3
+99da6807-e704-43a7-9156-ac97dbac5776,18,Single,With Parent,Scarborough,43.79016007,-79.18518845,unemployed,0
+e2347639-7220-41bd-81d9-83e9d8d6caea,44,Married,With Spouse,Toronto,43.71620863,-79.39752642,fulltime,54523.7
+98e7bce6-dab6-40cb-a798-f135478c69f1,49,Married,With Spouse,Toronto,43.69757356,-79.38598058,fulltime,85952.9
+760ff7bf-d205-49ca-b3a6-63f9eb7cd7f6,55,Married,With Spouse,North York,43.77759902,-79.42322577,parttime,26819.15
+cd66b21d-6bb3-4cd6-b91b-ad6b2b4df6c9,37,Married,With Spouse,Etobicoke,43.62242598,-79.49802722,fulltime,32166
+10e03ef2-5486-410a-8fa4-5316b5709ffa,54,Married,With Spouse,Toronto,43.68263084,-79.30523683,fulltime,81981.2
+99d5f426-74c6-4b53-be44-cf24dd666b61,51,Married,With Spouse,Toronto,43.65612816,-79.44719792,fulltime,81712.4
+c7968ed6-a6f7-4a68-ae0b-3a8bfdf2e68b,55,Married,With Spouse,Toronto,43.67387851,-79.29917627,fulltime,71204.55
+8423aaeb-6bd2-414a-be84-9af05442ebf8,63,Married,With Spouse,Scarborough,43.79352349,-79.31793977,parttime,32022.6
+0ee93594-1852-4af3-b60e-b69f5c7c5174,40,Married,With Spouse,North York,43.7279966,-79.30680209,fulltime,34224
+7056e0c6-a27f-489b-ae10-9b33cce91d60,53,Married,With Spouse,Toronto,43.65972468,-79.33729923,unemployed,0
+34d09600-659b-4461-bca4-69aa74ccfe45,45,Married,With Spouse,Toronto,43.63911007,-79.47258856,fulltime,38607.8
+5119e7af-f2d8-4650-b493-608be07caf80,49,Married,With Spouse,Toronto,43.66607729,-79.40145482,parttime,24757.7
+e46046c8-583e-4c5e-a5c4-1ba80540f5e0,52,Married,With Spouse,Toronto,43.68200266,-79.30161387,fulltime,55557.65
+e85f6dae-e9fc-434f-8d1d-5a35afb077c9,60,Married,With Spouse,North York,43.73413529,-79.46073697,fulltime,39096.55
+6c3ea83a-19b6-4b47-9725-963f8770d79c,24,Single,With Parent,York,43.68599798,-79.47357579,parttime,5573.04
+087e85e1-6d88-439c-a663-0741d3c490ba,63,Married,With Spouse,Scarborough,43.78842139,-79.21247564,fulltime,45634.2
+183b9805-f0ea-4aa9-bf55-c1fc8805436a,54,Married,With Spouse,Toronto,43.72529452,-79.39379766,fulltime,128521.7
+bd811615-2be4-4e76-b485-e634c8c42158,16,Single,With Parent,Etobicoke,43.62563109,-79.49164806,unemployed,0
+1545e322-5b96-484c-8b97-b0a37f0d69a0,53,Married,With Spouse,York,43.68874485,-79.43300963,fulltime,51264.7
+73d5ba49-5943-41d5-8648-3272458de7b1,21,Single,With Parent,Etobicoke,43.66099619,-79.58318016,parttime,12771.33
+edb0b750-5de8-4dcb-bb5f-c48a8840b6f3,45,Married,With Spouse,Toronto,43.6536513,-79.45734234,fulltime,60311.9
+3fd3d95f-8e12-4942-9a23-909e229aa185,39,Married,With Spouse,Etobicoke,43.66275645,-79.51789197,fulltime,43053
+75d5915e-9423-46f8-af93-455483535724,41,Married,With Spouse,Scarborough,43.82006699,-79.27653641,fulltime,34227
+bb378522-cad8-420d-bead-444034e1be27,54,Married,With Spouse,Toronto,43.68200266,-79.30161387,fulltime,70228.2
+6dc961dd-e42c-41e8-9e12-886c268af1dc,60,Married,With Spouse,Toronto,43.63994376,-79.47358752,fulltime,36024.9
+ef928b6b-0d70-429f-bd57-7a68091f0841,39,Married,With Spouse,Toronto,43.67040561,-79.33583691,unemployed,0
+7dca401c-7291-4aee-bc86-1ca470628869,22,Single,With Parent,York,43.67070395,-79.50231873,unemployed,0
+c190b9fd-fd72-4f3f-abb0-2127b638b735,53,Married,With Spouse,Toronto,43.67854556,-79.35394759,fulltime,50748.35
+1fd0f5b4-efae-437a-9f6d-e19b2848e263,56,Married,With Spouse,Toronto,43.67750603,-79.33890389,fulltime,36588.4
+df35c58b-9416-49e4-b47e-826832e43aad,50,Married,With Spouse,North York,43.76097495,-79.51997989,unemployed,0
+222e00cb-6371-4e2c-ab8c-8f444ebbe8c3,35,Married,With Spouse,Scarborough,43.77287169,-79.14542244,fulltime,61850
+78a2f5ca-d53a-435e-8633-67a48941db25,40,Married,With Spouse,Toronto,43.65099751,-79.4165558,fulltime,23857
+9a1be965-388c-4159-beba-f05a032842b8,54,Married,With Spouse,Toronto,43.662202,-79.38416649,fulltime,50532.15
+c66aa943-b1ae-419e-a348-96bb3d43f77c,40,Married,With Spouse,York,43.69789924,-79.43860579,fulltime,77333
+5669439c-ac13-48ad-abc3-2663b8b1da6b,32,Single,With Parent,Scarborough,43.81692041,-79.28574417,unemployed,0
+c50df3ad-f1a1-4373-acc7-d450fc940789,37,Married,With Spouse,Scarborough,43.7162789,-79.23915681,fulltime,58640
+383143b7-4f9c-4d75-9b7c-696a35fb49f7,34,Married,With Spouse,East York,43.70575935,-79.37086346,unemployed,0
+5167608f-bdaf-4b10-bf55-07fc520d0fb4,47,Married,With Spouse,Etobicoke,43.71413446,-79.56295112,fulltime,44413.6
+e5c0e13e-2e1b-421b-915a-ae7a6fb18560,26,Single,With Parent,Toronto,43.71105585,-79.38070828,parttime,8321.61
+e9230859-7c8b-4737-ab15-955d781c69a1,33,Married,With Spouse,Toronto,43.6861807,-79.32367519,fulltime,45848
+39a70de1-2522-4386-b028-d433a32bcd42,23,Single,With Parent,Scarborough,43.78416595,-79.18267739,parttime,12586.53
+7329a1c6-2381-47af-aaee-02776206efa5,38,Married,With Spouse,Toronto,43.67617788,-79.43902679,fulltime,60324
+86fff4f1-0b81-407f-aa65-5e3d4158ebe1,61,Married,With Spouse,Etobicoke,43.68815911,-79.51442006,fulltime,58039.35
+c6b7e744-479e-4689-b79b-99db5594922b,27,Single,With Parent,Toronto,43.66875802,-79.44504419,parttime,7779.09
+d05071f0-da0e-4033-abd0-c8418fc690dd,22,Single,With Parent,Toronto,43.63911007,-79.47258856,parttime,10427.34
+2ab5ef06-b4cb-493c-bb77-3e2c9f5ee531,49,Married,With Spouse,Etobicoke,43.74816794,-79.57711832,parttime,16608.9
+3c2f6b03-c0d1-4fec-b8f7-da099e63343b,61,Married,With Spouse,East York,43.6979764,-79.29935233,fulltime,47282.25
+5cb4afce-8578-49db-935a-fa7c1d93fbc7,47,Married,With Spouse,Toronto,43.71105585,-79.38070828,parttime,23987.7
+778b6a35-61c1-46f4-aaad-def335d80b37,35,Married,With Spouse,North York,43.78873339,-79.39795889,fulltime,41056
+8faf3f16-8d28-4376-ae90-fb12ee8714bb,38,Married,With Spouse,Etobicoke,43.65586364,-79.57060392,unemployed,0
+60c6c80d-edf9-45d6-b329-aa728d3d0d0d,23,Single,With Parent,North York,43.71834487,-79.37520916,unemployed,0
+daa7f0b0-c7fb-434b-b57f-1b36ef517d37,35,Married,With Spouse,Toronto,43.65902759,-79.4856982,fulltime,54116
+4d5810a6-4d4e-4983-8b8f-bc73fa9ea25d,35,Married,With Spouse,Etobicoke,43.66275645,-79.51789197,fulltime,51599
+db4b7e8a-cb80-4ba6-be28-8d17d4245be5,39,Married,With Spouse,North York,43.7424518,-79.48740604,fulltime,35310
+b83c87f2-2c44-48a2-9107-52af3bad18e7,38,Married,With Spouse,North York,43.74826649,-79.44759001,fulltime,43993
+b7cdbc02-6d7e-45de-b180-c249e4378845,35,Married,With Spouse,York,43.68352078,-79.43483642,unemployed,0
+748812f8-4895-4f7f-88b5-a79d3a3d86b0,39,Married,With Spouse,North York,43.78717444,-79.3492696,parttime,19161
+f3947792-b6b3-4fec-8f1e-b5dbb3a12d20,33,Single,With Parent,North York,43.77015379,-79.41264819,parttime,15365
+324fe31f-d939-4a72-aa80-dd98b27de619,40,Married,With Spouse,North York,43.76162212,-79.51601773,fulltime,22155
+4800f666-3c4d-4697-a1cd-8f8300745e11,50,Married,With Spouse,North York,43.76082819,-79.41102633,fulltime,52349
+8037c9d0-34aa-4cf4-b8c0-58ac77b8b706,35,Married,With Spouse,North York,43.74519919,-79.36223919,fulltime,58913
+82cfd612-3429-4eff-8635-06a9818530b7,48,Married,With Spouse,North York,43.71598678,-79.48275974,fulltime,40651.6
+08b509ab-dc3c-4909-a379-ba38b98e6f24,28,Married,With Spouse,Toronto,43.64657328,-79.48269809,parttime,19788.12
+c3f93770-4235-4260-b128-49ca6a45ac09,41,Married,With Spouse,North York,43.78873339,-79.39795889,fulltime,51978.3
+d999447a-a418-41bd-99d7-6232f50c3e15,58,Married,With Spouse,East York,43.71419376,-79.30418956,unemployed,0
+04a5a851-125b-4b1f-b462-29911588d367,23,Single,With Parent,Etobicoke,43.59032165,-79.54647606,parttime,10423.05
+92539851-2038-4a57-96d7-1e79797c1438,57,Married,With Spouse,Toronto,43.67093796,-79.28913226,fulltime,57391.9
+9a33d331-365e-48c1-953c-898bbe91b1b9,28,Single,With Parent,North York,43.79872536,-79.39825791,parttime,9498.06
+af9358c9-cbb9-4389-8b83-4b9d6436523f,50,Married,With Spouse,Scarborough,43.840321,-79.23354111,parttime,32258.6
+9a9bef34-a907-4d17-a1f6-e70d6ac9f1a5,38,Married,With Spouse,North York,43.74536199,-79.41598392,unemployed,0
+518b7b1c-6ed8-4857-8ba9-54d3ca4f79f7,31,Single,With Parent,Etobicoke,43.69578505,-79.55315475,parttime,6463.71
+24022beb-e271-4d63-a2fb-7ea83f3c5d27,40,Married,With Spouse,Scarborough,43.80418201,-79.31249131,fulltime,20898
+42d1f3c9-5371-4e01-a701-066d1179496d,29,Single,With Parent,Toronto,43.67280991,-79.3889462,parttime,14938.77
+a3c8e553-288a-4d0e-8f23-d26eb644bff2,53,Married,With Spouse,Toronto,43.673863,-79.40249726,fulltime,102123.45
+f961ce7b-9d60-49e8-899a-59f4bde11180,14,Single,With Parent,Etobicoke,43.68570194,-79.5218399,unemployed,0
+5637817b-8e5e-4f1a-bdd3-a5355da70e68,17,Single,With Parent,Scarborough,43.73930135,-79.25521002,unemployed,0
+037551cb-64f3-4c73-a153-35fb39a7240a,35,Married,With Spouse,Etobicoke,43.6059395,-79.49500877,fulltime,39455
+05b418ec-0089-4b98-b4ef-7e25cee753e9,60,Married,With Spouse,Scarborough,43.73061699,-79.27172723,parttime,26715.65
+b2d1040a-036c-4334-bbd6-0ade52abcfdd,53,Married,With Spouse,Etobicoke,43.62792737,-79.47816224,fulltime,55172.4
+83ae9441-304c-4446-b51d-3de685d92e4a,41,Married,With Spouse,Etobicoke,43.61007221,-79.48729834,parttime,14523
+a20cb6e7-d34b-458f-b32f-4759f8d02dbb,50,Married,With Spouse,North York,43.72253043,-79.53571143,fulltime,54077.1
+8d6b14c9-a04b-4ff2-a1f7-7a79be4d8562,19,Single,With Parent,Toronto,43.67280991,-79.3889462,unemployed,0
+d2927b93-de87-46b5-bee0-15828464fff6,46,Married,With Spouse,Etobicoke,43.69578505,-79.55315475,parttime,23465.2
+a6f9b8c4-e058-41e3-a0e2-1541b30ff768,40,Married,With Spouse,Toronto,43.68237563,-79.31477641,fulltime,50032
+1878b338-f951-4fd7-a283-a31defa35888,37,Married,With Spouse,Etobicoke,43.61573664,-79.48788214,parttime,16455
+f48edf76-32f3-4e53-837e-6eabe15044fa,28,Single,With Parent,Scarborough,43.81545601,-79.19899346,parttime,7160.67
+ef9df4db-9190-4295-8258-23f1ef5f582a,54,Married,With Spouse,Scarborough,43.80764017,-79.2120181,fulltime,36639
+5d526a98-93c7-4b96-83f1-4957baa2adfe,36,Married,With Spouse,Toronto,43.64784548,-79.40585328,fulltime,38101
+696e3ef1-b72b-4fe7-8394-1498084d5566,47,Married,With Spouse,Toronto,43.67019194,-79.3324218,fulltime,47144.9
+29404ed2-5520-4099-80a6-f63b7e6c4aa5,38,Married,With Spouse,Scarborough,43.72010875,-79.25534542,fulltime,41369
+2454f26c-b265-4a9c-b344-abb15cc15ec1,27,Married,With Spouse,Toronto,43.65902759,-79.4856982,fulltime,20223.06
+db3420b6-a4c6-4eec-838b-bb48bad31506,54,Married,With Spouse,Etobicoke,43.61046276,-79.54498309,parttime,33767.45
+4cc2bad2-c672-4723-b47b-a98c7a42798c,33,Married,With Spouse,North York,43.71477167,-79.42837311,unemployed,0
+7bb8f919-662c-4534-bcf7-cfc8a31fcafb,69,Married,With Spouse,North York,43.78084814,-79.35998743,fulltime,57097.85
+c7a625af-9857-497a-9a7a-9f1571916dc9,35,Married,With Spouse,North York,43.73836121,-79.38209718,fulltime,133670
+3d3ee498-792a-42f5-9a54-3c4d8043a1f2,26,Single,With Parent,Etobicoke,43.67012119,-79.52289142,parttime,14129.61
+85796647-0e4e-4cd2-a121-95beb0104100,46,Married,With Spouse,Toronto,43.71258871,-79.39697262,parttime,32311.4
+f6f5f26c-024d-471e-8f7c-2bbc377b31aa,26,Single,With Parent,Toronto,43.65537057,-79.46250686,parttime,6680.19
+c85b9170-aea5-4761-a592-6b0e23081e33,39,Married,With Spouse,Scarborough,43.73930135,-79.25521002,fulltime,27943
+77afac5b-05b6-46e7-ba48-7b212f972b1e,57,Married,With Spouse,York,43.68511992,-79.44842159,parttime,29004.15
+f9556f74-bfe8-486e-a67e-b7dc6cb5a515,50,Married,With Spouse,Toronto,43.68064827,-79.41806192,unemployed,0
+25b0adca-2813-427a-8e74-b6939990e257,60,Married,With Spouse,Toronto,43.65664362,-79.35479174,fulltime,62906.15
+423fa900-5995-40a6-8d58-aaec0996a22c,55,Married,With Spouse,Toronto,43.65566722,-79.34131569,parttime,32855.5
+fc87823c-cbc8-43d3-8f30-33b67138d374,47,Married,With Spouse,Toronto,43.67019194,-79.3324218,fulltime,46593.8
+86d77428-bf53-4081-8e76-fcbfe941f6e7,45,Married,With Spouse,Scarborough,43.78188042,-79.24639103,parttime,33039.6
+d5caf659-61dc-4347-a5c6-d82fe2e7d2c0,53,Married,With Spouse,Toronto,43.66316617,-79.41339451,fulltime,59110
+733765fe-a6fa-423d-a085-1b0fc2ba80c6,50,Married,With Spouse,North York,43.75617759,-79.44872438,unemployed,0
+02deab9c-ec27-4d53-8e5c-3219f34a2b9f,42,Married,With Spouse,Toronto,43.64233636,-79.41608435,fulltime,40426.1
+91062c1a-89bc-45ca-aeb0-d5fdc4bc5cdd,23,Single,With Parent,Toronto,43.70794269,-79.39786072,parttime,10625.67
+902a3017-7e1c-4869-ae92-f9080a6121d2,55,Married,With Spouse,North York,43.75682003,-79.35948489,fulltime,61543.4
+8758325a-0bf2-4946-8c05-73e49be2c635,33,Single,With Parent,Scarborough,43.81530263,-79.26478461,fulltime,28178
+332e5564-4830-4cfe-aad4-4d6c06b8ce7d,35,Married,With Spouse,Scarborough,43.74497913,-79.21747781,fulltime,28924
+15995477-043d-4a03-baf1-43f08af5a3df,34,Married,With Spouse,Toronto,43.68069879,-79.44380218,fulltime,43655
+59cdfa6f-217d-475d-9daa-e54785ac9f95,19,Single,With Parent,East York,43.70266863,-79.30139531,unemployed,0
+935b331a-64e1-4c5a-8af4-02ee82e04a01,44,Married,With Spouse,Scarborough,43.76676947,-79.22642856,fulltime,35699.4
+b5e9c2e1-4b23-428d-9a21-a863f54cb4b6,55,Married,With Spouse,East York,43.71419376,-79.30418956,fulltime,36926.5
+309c5dfd-78e1-4295-965b-275f86a8c828,51,Married,With Spouse,Scarborough,43.81545601,-79.19899346,parttime,24033.85
+4891240d-d856-4450-a857-b9ff787c8b80,58,Married,With Spouse,Toronto,43.69691738,-79.40676016,fulltime,126820.85
+16d44f0d-3c22-460e-a05f-9a89d34b2841,53,Married,With Spouse,Toronto,43.67750603,-79.33890389,parttime,30146.1
+6e70d947-af4f-4609-9783-924219d116fe,32,Married,With Spouse,Scarborough,43.74497913,-79.21747781,fulltime,29846
+5ff9e82a-20bc-4141-a645-8065b2f6aa97,30,Single,With Parent,Scarborough,43.81545601,-79.19899346,parttime,7010.85
+dbb3e891-84af-4f16-8f26-eccfda5b01f6,34,Married,With Spouse,Toronto,43.69839519,-79.39492383,fulltime,35461
+a38332bb-0a22-47c1-b8f9-f95286d43a97,36,Married,With Spouse,Toronto,43.67040561,-79.33583691,fulltime,82743
+b116c544-8fd0-44eb-9691-99d812e05806,54,Married,With Spouse,Scarborough,43.78842139,-79.21247564,fulltime,42909.95
+fab00fac-532c-4451-8cbd-596a6278b814,41,Married,With Spouse,North York,43.73453871,-79.46502935,fulltime,37083
+094b0cde-a9aa-48ee-9d0c-d8c2126847a6,40,Married,With Spouse,North York,43.70053948,-79.49759259,fulltime,29994
+970d4958-bf32-4c74-8f5a-48c40f635774,40,Married,With Spouse,Toronto,43.70035624,-79.39735013,fulltime,64290
+7d71f23e-fd93-40d6-9124-b0a4062360fc,53,Married,With Spouse,North York,43.7402303,-79.42255459,fulltime,80919.75
+e6ac129a-d004-4568-899d-f50762bba21d,47,Married,With Spouse,Scarborough,43.79066874,-79.27519583,unemployed,0
+d96df83a-da75-4d89-8008-332240b45dec,38,Divorced,With Parent,Toronto,43.70518661,-79.42511153,parttime,18147
+89700432-42e8-4ddb-b991-d01f9ec78253,55,Married,With Spouse,Toronto,43.67880506,-79.3358716,fulltime,53709.6
+75df23c8-4afc-4a72-8975-fd85d8a8387d,25,Single,With Parent,Toronto,43.68963967,-79.30219973,unemployed,0
+e8da5d67-7bf5-4980-b40e-2723bae3a2c4,52,Married,With Spouse,North York,43.77958438,-79.45030999,parttime,28484.35
+96556652-580a-4912-943c-513c7133d15d,14,Single,With Parent,Toronto,43.67387851,-79.29917627,unemployed,0
+d662faf2-f184-43ad-addf-86a27c10eb74,19,Single,With Parent,North York,43.77958438,-79.45030999,unemployed,0
+e4b69cef-6c95-41a1-93ad-e4eb707a40c4,44,Married,With Spouse,Scarborough,43.73075189,-79.27121417,parttime,24912.8
+3fec3cdf-61fc-4c3e-8d39-fb01548cfc1c,48,Married,With Spouse,Etobicoke,43.62847469,-79.57963997,fulltime,41643.8
+5cb3e9d1-a505-4738-86e2-56b83a5e86b2,16,Single,With Parent,North York,43.77838832,-79.42748486,unemployed,0
+e3addf9c-2e64-48af-9e6c-8dab36bacb0c,52,Married,With Spouse,Scarborough,43.79016007,-79.18518845,fulltime,75236.45
+b7f76e5a-c55f-4abc-829a-9a1f760fb091,51,Married,With Spouse,Toronto,43.66956979,-79.37520856,parttime,19079.65
+b82f3877-0233-43e2-bcff-9eca0199f8e4,16,Single,With Parent,North York,43.75682003,-79.35948489,unemployed,0
+9d313ea2-5e95-4b89-91ce-f8cd87db84f8,38,Married,With Spouse,Scarborough,43.77805019,-79.29435294,fulltime,30346
+72855d3d-4a7c-41fc-bc80-b123ed43c419,52,Married,With Spouse,Toronto,43.65537057,-79.46250686,parttime,25832.45
+574a48d3-fd79-41bd-8273-5ada60aaed87,55,Married,With Spouse,Scarborough,43.77015045,-79.31199197,fulltime,48072.3
+d7d0e7b4-faae-4aad-94d5-e5ee92f70d80,41,Married,With Spouse,North York,43.73453871,-79.46502935,fulltime,33578.6
+f5d42f25-30f9-4b2f-ac4a-bae4e86e081d,51,Married,With Spouse,Etobicoke,43.59032165,-79.54647606,fulltime,37730.35
+1b0737fd-55e2-4bad-9fc9-1a8ddf4e7a11,34,Married,With Spouse,North York,43.74826649,-79.44759001,fulltime,48499
+b701f04a-fa56-40b0-b697-071f7980132d,50,Married,With Spouse,York,43.67976751,-79.50269779,fulltime,39744.1
+efa543ee-3e0f-4a2c-822f-b0c00029e7b3,52,Married,With Spouse,Scarborough,43.7748609,-79.29342268,parttime,23936.1
+e764d27a-c7de-419e-b046-1ac29fece053,37,Married,With Spouse,North York,43.74319333,-79.40615058,fulltime,307750
+8399e0ea-2456-44b4-89d9-e35ee3b2a136,22,Single,With Parent,Scarborough,43.7748609,-79.29342268,parttime,6009.63
+dbdc873c-d1a5-4339-92f4-bc9c45145630,50,Married,With Spouse,Etobicoke,43.62847469,-79.57963997,fulltime,36840.1
+6488f0f9-b1c8-4944-bf51-fbfe064553ad,52,Married,With Spouse,Scarborough,43.78188042,-79.24639103,fulltime,37454.35
+51166345-6c2e-483e-beb3-46660596d7b6,28,Single,With Parent,Toronto,43.70807197,-79.41839652,parttime,6283.53
+03bfc00b-913a-4936-99bd-a23a2b025c7c,49,Married,With Spouse,Toronto,43.67132863,-79.40598867,fulltime,50227.1
+13d78276-8f22-42a1-89c0-ee65288ab3e1,34,Married,With Spouse,Toronto,43.70035624,-79.39735013,fulltime,64542
+bdbe88d7-ed99-46c8-8b54-1787b8d18336,35,Married,With Spouse,Scarborough,43.68457602,-79.28190425,fulltime,54395
+c996afb0-900c-4c36-aee8-3174f8e48924,53,Married,With Spouse,Toronto,43.70882105,-79.38946915,fulltime,70454.75
+4ba2cab7-18cf-4dc9-a80a-d412df79c4c6,16,Single,With Parent,Etobicoke,43.62563109,-79.49164806,unemployed,0
+9664ef97-7471-4ebf-a893-0d11692a22b4,35,Married,With Spouse,Scarborough,43.74926452,-79.24960004,fulltime,42375
+b5d1a70d-a64a-47d7-a2db-8129f88ef4cf,14,Single,With Parent,North York,43.71598678,-79.48275974,unemployed,0
+6d9e79a2-16c8-42d4-bf66-36af62d9dabd,37,Married,With Spouse,Scarborough,43.7162789,-79.23915681,fulltime,78459
+89cff58f-5270-46d1-bd14-eb65552826f7,52,Married,With Spouse,Etobicoke,43.62122924,-79.48332016,fulltime,59411.3
+29e650c3-0815-41c2-b886-65b88f279d43,38,Married,With Spouse,Toronto,43.64295721,-79.42761162,fulltime,31041
+2ef00543-fd1b-4f65-be95-e241062726fd,38,Married,With Spouse,Toronto,43.71258871,-79.39697262,fulltime,34441
+1440ebf4-c9a7-4061-8d1a-da42d911acd1,58,Married,With Spouse,East York,43.69627452,-79.29275855,parttime,25254
+e147cc51-df94-4823-9b76-e1b98142a355,19,Single,With Parent,North York,43.73802899,-79.5013005,unemployed,0
+d8cfab3e-0f24-4e43-9566-34db9d9eef65,22,Single,With Parent,Toronto,43.66649193,-79.42679281,parttime,9423.81
+b11d4ee2-0d76-4273-80c4-3e731d861178,22,Single,With Parent,Scarborough,43.78928765,-79.21939154,parttime,4346.76
+d684349d-1102-4f95-9d53-82eee05fd87b,50,Married,With Spouse,Scarborough,43.7748609,-79.29342268,unemployed,0
+aec977c4-8af4-44e1-bc58-3f70a58dc5e8,39,Married,With Spouse,Toronto,43.68679966,-79.30492634,fulltime,53573
+52938f2c-cfc8-4410-8141-36cde2e36d68,65,Married,With Spouse,Scarborough,43.78811622,-79.26187533,parttime,25647.15
+4e29a4c8-7e95-45b4-82a0-8eb60d39e218,40,Married,With Spouse,East York,43.68607269,-79.33180952,parttime,19619
+e2304da5-9e7d-4ac9-9767-ffa4b3d2299d,49,Married,With Spouse,Scarborough,43.79352349,-79.31793977,fulltime,35520.1
+aefe2dac-a018-49dd-bac1-a67bdc944b6a,40,Married,With Spouse,North York,43.76510374,-79.49089839,unemployed,0
+a963f2ab-d577-468c-bd92-4968eb896fbc,48,Married,With Spouse,Etobicoke,43.60139533,-79.5014788,fulltime,42790
+a4edd6a6-0369-45b7-9450-6db4048c207a,17,Single,With Parent,Etobicoke,43.67012119,-79.52289142,unemployed,0
+41e6d36b-1d4c-43d9-bf7b-78291f515acc,62,Married,With Spouse,York,43.67070395,-79.50231873,fulltime,35207
+5588fc33-1169-441b-a247-b37a92721ab9,50,Married,With Spouse,North York,43.7875668,-79.34660692,fulltime,50404.2
+8fbff666-7ab5-4684-8373-75f4fb5202c9,45,Married,With Spouse,Scarborough,43.70735348,-79.29344016,fulltime,45580.7
+cba45501-4bd2-42f5-bd1f-b7cf98fdb6db,55,Married,With Spouse,York,43.70104283,-79.51734033,unemployed,0
+4411c059-ac27-42b2-acc9-a712c2a909a2,46,Married,With Spouse,Toronto,43.68190055,-79.35665268,fulltime,64479.8
+6c9dd2e3-feb7-4c04-9918-a949a82a906b,57,Married,With Spouse,Toronto,43.66670385,-79.40933471,fulltime,52212.3
+1eebcbc7-2e83-45c3-a272-3385a1332f52,24,Single,With Parent,Toronto,43.67750603,-79.33890389,parttime,8561.19
+42e30adf-6161-4fcb-83b7-601445ebd42c,26,Single,With Parent,North York,43.80873507,-79.36135533,parttime,9726.42
+78ee4c7f-c592-4592-96c0-eea8e77b9a83,52,Married,With Spouse,Toronto,43.66397688,-79.41231344,parttime,25121.75
+c0b31072-686c-4826-8a02-1e7d665aa822,53,Married,With Spouse,Toronto,43.64989308,-79.39643131,parttime,30087.45
+425aa30f-5e65-41c6-ba4b-09dabcf67652,56,Married,With Spouse,Toronto,43.70794269,-79.39786072,unemployed,0
+7d13675a-6322-49bf-aede-00370f7d3cb2,38,Married,With Spouse,Etobicoke,43.66099619,-79.58318016,fulltime,28910
+357ed419-8ad3-463f-bb10-1a8564efafff,18,Single,With Parent,Etobicoke,43.66099619,-79.58318016,unemployed,0
+5406901a-b576-4cbe-98e6-094428ab0116,55,Married,With Spouse,Scarborough,43.73216966,-79.29903538,parttime,34181.45
+a8d6f49f-ad39-4742-bbe8-9a6aca54a537,54,Married,With Spouse,Toronto,43.70992738,-79.39390214,fulltime,47236.25
+9b8e1ed0-9697-434a-8520-b71cc0bc9214,18,Single,With Parent,North York,43.75993581,-79.42331518,unemployed,0
+0bfe141c-4290-40ee-a047-aed1425c92c5,28,Single,With Parent,York,43.69009404,-79.47220995,parttime,5591.85
+208f1d5f-b213-4e4a-8183-9a6958b97aaf,36,Married,With Spouse,Toronto,43.65952634,-79.45677465,fulltime,31181
+00eeba9d-0293-4242-88cc-2a3f1d19a023,28,Single,With Parent,Toronto,43.66743469,-79.31731829,parttime,9810.9
+45999121-bdc1-4d6b-8101-1290f8672ba5,51,Married,With Spouse,East York,43.69371645,-79.30728651,fulltime,37721.15
+f6cac893-d361-4ce2-97ac-0928d0c2e223,34,Married,With Spouse,Scarborough,43.81040723,-79.25698143,fulltime,31131
+f4b94017-fd56-4828-8b5d-cb040b2200fa,40,Married,With Spouse,York,43.68180199,-79.4666407,unemployed,0
+9163128b-f57c-4b12-bf7f-4f5f5f1461c0,26,Single,With Parent,Scarborough,43.840321,-79.23354111,parttime,8930.46
+38450bc0-2bab-4e05-8dfd-d676ae66840c,23,Single,With Parent,Scarborough,43.81530263,-79.26478461,unemployed,0
+2d1c8ca5-a7a8-426a-b10f-8c4a93e86d42,39,Married,With Spouse,North York,43.74319333,-79.40615058,unemployed,0
+e533ba0d-5366-4104-89e1-b5a8c0a2dd5e,34,Married,With Spouse,Etobicoke,43.61055878,-79.49681326,fulltime,27981
+23dbf411-1e6f-4e67-b82d-e0bebcebf404,51,Married,With Spouse,North York,43.77015379,-79.41264819,parttime,14502.4
+d240e30a-b63d-4327-bc39-9ec00691a3d2,50,Married,With Spouse,North York,43.7777644,-79.42338066,parttime,30345.7
+3f9e586d-e778-42e6-9adb-82eda12a3fab,43,Married,With Spouse,Etobicoke,43.62122924,-79.48332016,fulltime,55195.8
+a00c6ff7-71e2-432c-b8aa-9f3ea8adce98,58,Married,With Spouse,North York,43.71834487,-79.37520916,unemployed,0
+44ddc37f-cb0f-4afa-991b-18742eb4be99,56,Married,With Spouse,North York,43.73628856,-79.41495106,fulltime,63636.4
+02c415f8-9620-49d2-8d21-76e1864f0c37,50,Married,With Spouse,Etobicoke,43.69578505,-79.55315475,parttime,22767.8
+9287d8df-6e15-4b19-a108-36f38ff2b0aa,15,Single,With Parent,Scarborough,43.69359458,-79.26284992,unemployed,0
+7f8c1546-102f-4e18-a216-872593bb9200,29,Single,With Parent,North York,43.73628856,-79.41495106,parttime,16385.16
+ba009c05-58b0-4f90-b6a6-108d376fdd33,52,Married,With Spouse,Scarborough,43.79016007,-79.18518845,fulltime,66387.2
+78008c47-56dd-4ce0-ad2f-c2297df8e035,65,Married,With Spouse,Toronto,43.70794269,-79.39786072,parttime,32439.65
+38c22052-34bb-4411-9a34-c54b28304e52,20,Single,With Parent,Toronto,43.70518661,-79.42511153,parttime,6030.09
+a6ec6b26-c452-44a4-9b68-9c1d10042273,34,Married,With Spouse,Toronto,43.66670385,-79.40933471,fulltime,49252
+a2332349-c4b5-4b1e-9f35-95c48d36df20,53,Married,With Spouse,Scarborough,43.77287169,-79.14542244,unemployed,0
+6b6b442e-661a-4f74-8f35-12e0ecf71067,38,Married,With Spouse,North York,43.80218119,-79.37417184,fulltime,37299
+7a10b0da-9c6b-4b8a-93fe-26b11db80d0f,31,Single,With Parent,North York,43.7558382,-79.41161107,parttime,9207.33
+1004e2ae-955a-4230-99f8-99605697f59b,38,Married,With Spouse,Toronto,43.64548252,-79.480877,unemployed,0
+ccc62c91-57ac-4985-9529-399274b3fc89,54,Married,With Spouse,Etobicoke,43.68314321,-79.56347693,fulltime,39756.65
+2065511d-ad4a-4159-a4b5-11a224ad5f29,28,Married,With Spouse,Etobicoke,43.65586511,-79.54533021,parttime,12356.19
+e157a60f-b0c9-40a9-b226-fa3edd9c7ec2,38,Married,With Spouse,Etobicoke,43.61007221,-79.48729834,parttime,16021
+450e8f62-ebd4-4a44-8ef4-924f706468a1,34,Married,With Spouse,Toronto,43.68185366,-79.29112857,fulltime,58559
+70377fed-fdea-4b27-92b4-9e8f34cc817e,48,Married,With Spouse,Etobicoke,43.62563109,-79.49164806,fulltime,63737.3
+e1098670-2ca7-4bf9-9b77-598f68902464,34,Married,With Spouse,Toronto,43.65577749,-79.37250629,unemployed,0
+1dae1710-2ab4-483c-b4f4-294fbc83e5e3,39,Married,With Spouse,Toronto,43.68397072,-79.32996028,fulltime,45684
+216f639e-9b8b-45fc-ba5e-fdd7726779ff,64,Married,With Spouse,North York,43.77015379,-79.41264819,unemployed,0
+a7c75a7c-7851-46b1-ba5c-faab834feae2,44,Married,With Spouse,North York,43.74767197,-79.4436308,fulltime,49173.3
+77f908b9-9923-42f0-a15c-bf79ed2c8028,16,Single,With Parent,North York,43.7424518,-79.48740604,unemployed,0
+2e4d52f9-000b-438d-bdf5-5c5edea359a9,19,Single,With Parent,York,43.69037596,-79.44901625,unemployed,0
+d1a9e389-0b28-4c7e-b23e-3bd15dfae3c6,18,Single,With Parent,North York,43.70944389,-79.49073608,unemployed,0
+64aef42e-bb2f-4cd1-8c82-ffd28ecd6240,19,Single,With Parent,East York,43.70575935,-79.37086346,unemployed,0
+eb7261bf-0709-4dec-8306-589017b8b033,53,Married,With Spouse,Etobicoke,43.72222015,-79.54551003,fulltime,38710.15
+ebba3908-26e2-4c08-bf71-4812023254d5,47,Married,With Spouse,Etobicoke,43.67012119,-79.52289142,unemployed,0
+6715bbae-dbc8-4a94-9628-20efbf99dd44,45,Married,With Spouse,Scarborough,43.80877418,-79.20683237,fulltime,35499.2
+bd777bc6-e686-477d-9f5d-0beb9159570d,40,Married,With Spouse,Toronto,43.70045978,-79.38219847,unemployed,0
+60280ac4-c095-4825-9788-0b61fbb62218,18,Single,With Parent,Etobicoke,43.72222015,-79.54551003,unemployed,0
+bd425e13-fae9-489e-b88c-168010d27c2f,51,Married,With Spouse,York,43.67976751,-79.50269779,fulltime,40686.8
+acdef64f-f546-430c-bc2d-56cbf062ff8c,40,Married,With Spouse,Scarborough,43.80764017,-79.2120181,fulltime,28564
+1b3238d9-68a3-44c6-9843-dd731373efa5,46,Married,With Spouse,North York,43.72190452,-79.44888923,unemployed,0
+b765a817-ae05-4e65-b0aa-340cd5439b5f,39,Married,With Spouse,Toronto,43.64295721,-79.42761162,fulltime,32122
+12b89dc6-a1ec-4666-97b5-0cd9dfbfe798,52,Married,With Spouse,Toronto,43.68351926,-79.31306029,parttime,31723.9
+36f0c964-e324-43f1-84e3-e3e6eb042ebc,53,Married,With Spouse,Toronto,43.65040499,-79.39216843,fulltime,46342.7
+baebc005-46af-472b-8df7-6c912aa8bc8d,31,Single,With Parent,Toronto,43.68159968,-79.30146143,parttime,7509.15
+e8215af0-382c-4be5-9227-f5197ca6d725,14,Single,With Parent,Scarborough,43.79231349,-79.14885797,unemployed,0
+ff207a85-0355-429d-a2ca-9dd5d4f86827,62,Married,With Spouse,Scarborough,43.71342694,-79.26286736,parttime,26034.75
+bc832002-354f-4c91-9d05-537397018a23,63,Married,With Spouse,East York,43.69217956,-79.36806164,fulltime,92032.2
+f9e6cb00-b63c-4fd6-ad42-6d2ae439d316,58,Married,With Spouse,Etobicoke,43.59627412,-79.52467941,parttime,22695.25
+dab0e1c6-8329-4b12-a6d6-cd6f30823299,23,Single,With Parent,Etobicoke,43.72108354,-79.54973231,parttime,3975.84
+744d66b9-06bd-49ff-8d65-8d42916057f0,71,Married,With Spouse,North York,43.71954081,-79.32497547,fulltime,53403.3
+6bb614b1-a54e-428c-a2a7-e01ff9922746,38,Married,With Spouse,Scarborough,43.77076815,-79.18339757,fulltime,21451
+61beda9f-1745-44ff-ba80-7ba0f7a10694,67,Married,With Spouse,Scarborough,43.79353698,-79.18238471,parttime,31593.2
+96065517-551b-4258-99d5-0f207218eaf3,54,Married,With Spouse,York,43.70383385,-79.52767706,parttime,14716.55
+31ce51c2-2d62-4652-87f4-11487cd12267,17,Single,With Parent,Scarborough,43.71290861,-79.24748117,unemployed,0
+ceb4b4a1-91d8-4d92-afef-e2903de6a32e,29,Single,With Parent,East York,43.70641945,-79.31935715,unemployed,0
+dcaa4ba7-79b8-45ce-803d-7aef7b99fc4d,64,Married,With Spouse,Scarborough,43.80182296,-79.31325308,parttime,28047.8
+8050fdd5-4a82-48c7-affa-f1452810df81,40,Married,With Spouse,Toronto,43.66604125,-79.36389944,fulltime,132290
+91eed939-7511-49e4-887f-d7a4bb643585,40,Divorced,With Parent,Toronto,43.68251151,-79.29620591,fulltime,48247
+0510de5b-dbd5-4e28-b593-44498648a5e3,58,Married,With Spouse,Toronto,43.65664509,-79.40080852,parttime,20687.35
+221fcf44-29b8-4b0d-ace9-7d31737bf393,32,Married,With Spouse,Toronto,43.64525133,-79.41678274,parttime,18073.77
+df184703-f965-4ff0-b798-176e8d4b080d,53,Married,With Spouse,Toronto,43.67642857,-79.39761019,fulltime,40928.5
+14bb4141-4495-43e3-97b8-d37a77501fd5,44,Married,With Spouse,Toronto,43.66063689,-79.36460865,parttime,25498
+ace56bf5-d8d3-4505-aa11-14f8a9c94d9a,53,Married,With Spouse,York,43.6885204,-79.42398664,fulltime,46097.75
+571ff9a8-2533-4985-b015-f1164f83cfa1,15,Single,With Parent,North York,43.71981753,-79.43307156,unemployed,0
+bd4f7f4b-8a41-4016-ad06-6d680ad24acd,34,Married,With Spouse,Toronto,43.68494705,-79.39678125,fulltime,92495
+5a4635a8-6bbb-43d6-ab2f-dd62d84eb563,27,Single,With Parent,Etobicoke,43.72108354,-79.54973231,parttime,4368.21
+79beeff2-80c7-4962-ab78-284428e77669,29,Single,With Parent,Toronto,43.67526816,-79.4345088,parttime,9882.84
+f382d0d1-af95-4949-9418-7dc6e6f6e972,17,Single,With Parent,Toronto,43.67363326,-79.43395453,unemployed,0
+38ae674f-3540-4db0-a063-104edbdd39a0,27,Married,With Spouse,Toronto,43.71129881,-79.41209806,unemployed,0
+00f27ed1-53b8-4f9c-86af-0da0def1b5c1,61,Married,With Spouse,Scarborough,43.78206811,-79.14620486,fulltime,69286.35
+236d07a2-b59e-4124-af1c-1ddeffa3f457,44,Married,With Spouse,Toronto,43.66063689,-79.36460865,parttime,30530.5
+77edd5e8-bf4a-42b5-a6d1-c054b42c4ff0,38,Married,With Spouse,Etobicoke,43.65569251,-79.57109214,fulltime,38185
+8821312f-cae5-4a69-a23e-97eaa0c310a9,53,Married,With Spouse,Scarborough,43.73000714,-79.23955276,fulltime,40851.45
+02244de7-9f1d-49c7-804d-5d5f5ee2faea,53,Married,With Spouse,Toronto,43.65344175,-79.37551814,fulltime,47811.25
+a3d7bbfc-01a3-4b63-810a-2143ae18975a,56,Married,With Spouse,Toronto,43.66364455,-79.4646679,fulltime,49892.75
+add6566c-d770-46f2-8812-65e4a62f8d68,61,Married,With Spouse,East York,43.69094253,-79.34019826,parttime,22967.2
+fdcebf9b-5734-4d09-a7fb-0f0f56cd52b9,45,Married,With Spouse,Etobicoke,43.67920879,-79.54831981,fulltime,79618
+2477352a-eb00-4f95-b26c-ac4fcdc3cc53,61,Married,With Spouse,Toronto,43.70418724,-79.40175156,fulltime,67350.9
+74a3c87d-352a-4ff2-8f11-e9d325c194d4,45,Married,With Spouse,Toronto,43.63619005,-79.40337067,parttime,14819.2
+3b71bd3f-9730-4484-9c3f-55c8969c34b5,33,Married,With Spouse,Toronto,43.68494705,-79.39678125,fulltime,76952
+fd8fddd5-c8af-4b0f-b0d1-466767bb6223,49,Married,With Spouse,Etobicoke,43.63706453,-79.545516,parttime,27920.2
+3c4d6d36-2f44-40aa-bb06-f9e194b8f914,62,Married,With Spouse,Toronto,43.7268809,-79.41513271,fulltime,109293.7
+ba641908-7cb1-480d-b776-d1c15d8a54ff,59,Married,With Spouse,North York,43.79606026,-79.41773772,parttime,26187.8
+b30c8faa-c37b-4b5a-ba4a-ebe28158a114,49,Married,With Spouse,Toronto,43.67297511,-79.34963314,fulltime,59361.5
+00cfbdaa-2747-41f5-9754-364ea70889d1,34,Married,With Spouse,North York,43.77122101,-79.41690637,fulltime,42121
+8d67e9b5-fe13-4eec-99fb-40bc34631e8e,48,Married,With Spouse,Scarborough,43.74733103,-79.25129647,fulltime,43699.7
+b13dada9-69fe-4cf6-acb2-3f3f541f1e2d,63,Married,With Spouse,Toronto,43.68251151,-79.29620591,fulltime,40347.45
+494c7d0a-0525-4c6d-b7d4-7d6077b2084f,55,Married,With Spouse,Etobicoke,43.65227925,-79.51506796,fulltime,89578.1
+79f3c272-641d-4ab6-a56a-27111c736fb0,39,Married,With Spouse,Scarborough,43.79653908,-79.17584718,fulltime,36063
+fc656bcb-fbd5-4173-b75d-d8cce81d9454,54,Married,With Spouse,York,43.68473242,-79.44309049,fulltime,50123.9
+2ba55346-2d7f-4398-8749-38d023b628fa,26,Single,With Parent,North York,43.78203576,-79.45465721,parttime,8445.69
+eef481ca-0349-4917-872d-788ad9969ae2,52,Married,With Spouse,Scarborough,43.8269913,-79.27806318,fulltime,50053.75
+63eeb126-dbc4-40b7-ab42-049c7bae4433,33,Married,With Spouse,East York,43.69100352,-79.29232197,fulltime,31383
+c90c6453-656d-4475-8c50-65fe0698b0ec,22,Single,With Parent,North York,43.71925129,-79.45050971,parttime,8387.94
+a531bfae-150c-4537-a5cc-7919e4290fc6,60,Married,With Spouse,North York,43.73092985,-79.43658512,parttime,16890.05
+5e59c0ae-7d22-4dcf-aed2-a1039c4aa8f1,51,Married,With Spouse,Etobicoke,43.69668352,-79.53938113,fulltime,37979.9
+e3e0314b-0f34-4e68-b7d1-804105b93d10,17,Single,With Parent,York,43.70058274,-79.44378488,unemployed,0
+cb31763a-2808-4005-b4bf-e83fce85fff0,17,Single,With Parent,North York,43.76615172,-79.32508566,unemployed,0
+c5eaced1-8410-441b-8a64-d28b8893ab38,36,Married,With Spouse,Toronto,43.70097774,-79.41192107,fulltime,142450
+450b0035-50b1-4d3d-b9f5-4db86e1f7487,45,Married,With Spouse,Etobicoke,43.69292605,-79.54681042,parttime,29304
+d3289e84-e90e-41be-ac85-417a3725eade,32,Married,With Spouse,Toronto,43.65696462,-79.44652243,fulltime,47054
+e2cecd02-606e-4cb7-ac69-222eeff5940a,50,Married,With Spouse,North York,43.71925129,-79.45050971,parttime,27269
+3ddf85c2-9e5c-4c7c-851a-8520773f4546,47,Single,With Parent,North York,43.7831299,-79.34765513,parttime,20566.7
+9a5e0745-389b-405f-a4ec-d91b50bd5f28,41,Married,With Spouse,York,43.70058274,-79.44378488,fulltime,36454
+4238baf3-9013-4734-ae14-7f55578183f5,65,Married,With Spouse,North York,43.79589115,-79.42716151,fulltime,35129.1
+96c51dd1-5165-41bf-b10b-4f29b8899bd2,63,Married,With Spouse,Etobicoke,43.61010843,-79.49079809,parttime,25679.45
+34396837-b7cf-4988-a773-d1a3db07559d,54,Married,With Spouse,North York,43.74555986,-79.39936031,fulltime,60024.25
+c95ff653-c21d-4f09-b227-06047bb4e3eb,40,Married,With Spouse,North York,43.77345328,-79.40802593,fulltime,38748
+e40e3622-7986-4dbe-a056-645df0026579,35,Single,With Parent,Toronto,43.67488125,-79.36930794,fulltime,57167
+32ceceb5-14f7-4568-9cee-204a5ca52bea,66,Married,With Spouse,Scarborough,43.80292348,-79.31639075,parttime,23674.95
+e90c2bc2-798d-41e6-93fb-6e1060b09a56,42,Married,With Spouse,Etobicoke,43.6096968,-79.48808184,parttime,18800.1
+1c67b598-ff56-4090-a214-9a9535584f98,40,Single,With Parent,North York,43.78599012,-79.42006058,fulltime,27517
+212277ad-687a-4d83-9d87-31c68f86e16b,20,Single,With Parent,Scarborough,43.79653908,-79.17584718,parttime,9485.85
+79135f30-215c-4e98-a833-ed4ef4d7d156,20,Single,With Parent,North York,43.71311145,-79.4796418,unemployed,0
+2db612d7-ff3b-41be-a118-ccf489bc6f85,55,Married,With Spouse,North York,43.76761279,-79.51221358,parttime,26559.25
+f738d850-09e0-418e-ba83-da94ec7a574c,21,Single,With Parent,Toronto,43.64699032,-79.37347776,parttime,8275.74
+0f6d398d-d5de-475a-9551-f96e8acf2fc6,22,Single,With Parent,Etobicoke,43.60623741,-79.55471276,parttime,13493.37
+4845509f-d050-4998-aa8c-61e4432ed3c4,30,Married,With Spouse,North York,43.77122101,-79.41690637,parttime,10002.96
+cafbbc63-f185-4c67-9f13-6e330a4948e8,40,Married,With Spouse,North York,43.76123036,-79.33526279,fulltime,31147
+53c59200-bb84-42f8-b649-5a989e42e0b6,45,Married,With Spouse,York,43.69304022,-79.47772518,parttime,30302.8
+1009f0de-4cef-4586-9d6a-c1c69531c904,34,Married,With Spouse,Toronto,43.67418882,-79.42070063,fulltime,65057
+eaac0b69-089f-407b-96fb-2adad0c44916,31,Single,With Parent,Scarborough,43.79857406,-79.30512678,parttime,3799.62
+57bd4931-7f70-410d-9be9-15115809b3aa,22,Single,With Parent,North York,43.74953786,-79.36206272,parttime,16394.73
+e7bd1024-37c3-4b05-8890-84180fd8a658,61,Married,With Spouse,Etobicoke,43.60774664,-79.540651,fulltime,42885.85
+e731062d-4837-4806-a039-9c52c9bab10d,55,Married,With Spouse,Toronto,43.64669352,-79.45382635,parttime,32010.25
+3394314a-b6f6-4e68-8c32-40b6fe9c630c,66,Married,With Spouse,York,43.69919429,-79.44095595,parttime,23779.45
+fc185ca4-6b64-4d67-a237-93c0be78a29a,55,Married,With Spouse,North York,43.72432356,-79.51474864,parttime,22107.6
+aec411f0-f390-452c-8739-f48dabdbb63a,27,Single,With Parent,North York,43.75769434,-79.50981397,unemployed,0
+6761c30f-0573-47cb-a329-292cb3e85204,38,Married,With Spouse,Toronto,43.64790581,-79.43728546,fulltime,37349
+42608c38-7faf-43ee-9fee-e65ed360e6e7,15,Single,With Parent,Toronto,43.65081837,-79.40781481,unemployed,0
+0940cb42-1882-466a-b4a6-03509635284c,43,Married,With Spouse,Etobicoke,43.60467937,-79.49476669,parttime,24773.1
+0eb3b13a-44a2-45cc-9d88-8c6be72a478d,56,Married,With Spouse,North York,43.72419686,-79.41689057,fulltime,40807.75
+c67d4fd6-dc54-4d47-9ba2-f17099b168ad,37,Married,With Spouse,Etobicoke,43.75606339,-79.5872449,parttime,18105
+b435cc0f-f24c-4d73-bdb9-047e69a51aa3,30,Single,With Parent,Scarborough,43.80998698,-79.26505899,parttime,5089.59
+c81a7504-0098-4b0c-a433-c680363598a6,59,Married,With Spouse,Toronto,43.66177204,-79.35321516,parttime,29193.9
+9f86144a-1ae3-42fd-b358-6ebafcae79aa,41,Married,With Spouse,York,43.69814541,-79.46295836,fulltime,45593.9
+9a6de328-4a13-40ce-ac51-04c31da62ced,35,Married,With Spouse,Toronto,43.65696462,-79.44652243,fulltime,44614
+fdb3b920-0ec9-4eaa-8517-c228bb0094b8,36,Married,With Spouse,Toronto,43.65340849,-79.47003948,fulltime,91632
+b0eac077-f758-41d9-8993-5e491d6fcda8,51,Married,With Spouse,Toronto,43.70340891,-79.40838781,fulltime,153055.8
+5a515336-bdd3-4d9b-9b86-2b86eebe651f,66,Married,With Spouse,Toronto,43.69434425,-79.39756352,fulltime,65902.45
+3ed8aa8c-8294-44f2-8b62-9121bdbbedf6,59,Married,With Spouse,North York,43.72075989,-79.41951607,fulltime,84695.2
+252f8f81-b36e-4639-8724-35307c90746f,63,Married,With Spouse,North York,43.79589115,-79.42716151,fulltime,37637.1
+ac76666b-4441-44a6-9627-d1421e3ec193,37,Single,With Parent,East York,43.69094253,-79.34019826,fulltime,21448
+8b5254c1-64c3-42dc-b410-9a62e81f94d6,48,Married,With Spouse,Toronto,43.64502163,-79.42065871,fulltime,36792.8
+03e6bcd4-81a8-477d-b244-6e81b2855b56,21,Single,With Parent,Etobicoke,43.72553713,-79.5817464,parttime,8959.5
+3a205977-9107-4594-9d78-43e7f570895b,55,Married,With Spouse,Toronto,43.67642857,-79.39761019,fulltime,47906.7
+81be2aa3-788f-49b3-abd3-be2c116cb768,34,Married,With Spouse,East York,43.68625332,-79.34738284,unemployed,0
+f6ea4ac9-c332-4baf-9c32-adf63b800caf,47,Married,With Spouse,North York,43.71450191,-79.45350442,unemployed,0
+9065b69e-ec56-4da2-a460-9ac9020241dd,30,Married,With Spouse,Toronto,43.66445216,-79.3881835,parttime,14378.43
+f4830124-2f98-4225-a974-2b1162ff5dcb,41,Married,With Spouse,Toronto,43.67466488,-79.32309474,fulltime,43389.5
+51a1428e-8752-4a0e-88da-06e040746bee,33,Married,With Spouse,North York,43.72045321,-79.44680663,fulltime,34763
+8ffd66e4-bd24-4919-9b8d-1ef0e98332cc,55,Married,With Spouse,Toronto,43.68817766,-79.40151852,fulltime,73878.3
+85ea5985-72df-4f8d-a8dc-aa8945c8ed85,59,Married,With Spouse,Toronto,43.69701387,-79.40327702,fulltime,40933.1
+c4be9199-3e0b-4bea-941a-069fac80c0ec,28,Single,With Parent,Toronto,43.67191084,-79.38519572,parttime,13460.37
+d2550e70-bcd6-42e7-9e8c-111e336d9a3a,53,Married,With Spouse,York,43.66544634,-79.48875216,fulltime,62773.9
+3a76f34b-3ce1-4baa-8b97-d7d616487a98,51,Married,With Spouse,York,43.68473242,-79.44309049,fulltime,41061.9
+852f49fe-1df7-4803-95ff-33084d1004f6,45,Married,With Spouse,North York,43.73131319,-79.46111888,fulltime,72454.8
+02d126b3-e9c2-47b3-9b72-303abde2f389,56,Married,With Spouse,Scarborough,43.75190685,-79.20030225,fulltime,65080.8
+eb094428-12b6-4caf-a0c0-2e5e143620bb,61,Married,With Spouse,Etobicoke,43.68128737,-79.52373826,fulltime,35087.3
+0a463447-7bc7-4dc8-aed5-a81661b517df,33,Married,With Spouse,East York,43.69100352,-79.29232197,fulltime,29746
+f06a0be3-2cd7-4c6a-800d-4d485f32b484,47,Married,With Spouse,North York,43.78203576,-79.45465721,parttime,23851.3
+af2056e7-e45b-41eb-abe4-cd3e8d3eb3ec,63,Married,With Spouse,Scarborough,43.76445814,-79.17651967,parttime,27511.05
+81c146e7-6ce7-42f1-ac3a-6128d98a6829,52,Married,With Spouse,East York,43.68916935,-79.33240295,fulltime,68643.5
+a066cd0d-7376-4054-afb3-bb98dc0e4a07,63,Married,With Spouse,North York,43.71116097,-79.50195769,parttime,25600.6
+0c558651-db0b-45be-8fe4-9d31b9867924,24,Single,With Parent,Scarborough,43.67826422,-79.27598675,unemployed,0
+0266376b-a342-4ced-8f9e-e26c14b1dda4,55,Married,With Spouse,Toronto,43.69312979,-79.39633421,fulltime,50506.85
+a565d4d2-ab66-456c-b598-1e660934ec96,73,Divorced,Group,North York,43.77746134,-79.41799709,unemployed,19957.7
+d5cc572d-ea63-410a-a7e6-105c825edf5b,47,Married,With Spouse,Scarborough,43.70434275,-79.2875797,parttime,28782.6
+dc91177e-e15f-4045-9bfa-1984e18b9951,28,Single,With Parent,North York,43.77970787,-79.41459908,parttime,5741.01
+87e07525-6e1b-4ab0-acc6-b3178ce727d0,54,Married,With Spouse,Scarborough,43.72940801,-79.24793773,unemployed,0
+08e24a97-33d4-44af-b9d5-c9b67fe23537,53,Married,With Spouse,East York,43.70641945,-79.31935715,fulltime,37697
+0aec2e16-05a3-443e-9c8d-7f51d7ff9ffc,28,Single,With Parent,Etobicoke,43.59608794,-79.50969645,parttime,10862.94
+19f8103e-cf99-4b0b-b99d-abcf1e84c102,23,Single,With Parent,Scarborough,43.71695169,-79.27978426,parttime,8652.27
+df00fa6e-6c8c-4027-b02a-c7fa279fb391,62,Married,With Spouse,Scarborough,43.78186991,-79.29665586,parttime,27179.5
+4336b197-85eb-4681-808b-6b73d91e674a,44,Married,With Spouse,Toronto,43.64496022,-79.44083682,parttime,26568.3
+2c8b9124-058e-4cfd-b354-984e78b456b8,58,Married,With Spouse,Etobicoke,43.692329,-79.51997265,fulltime,65997.35
+3fec5404-6fc2-442a-abde-8b6244af9942,49,Married,With Spouse,Scarborough,43.777855,-79.23003318,unemployed,0
+bc4de5fe-9ffe-41c3-b3de-44597f369bd3,46,Married,With Spouse,Toronto,43.68190055,-79.35665268,fulltime,50138
+a003c2ec-8ebe-4378-af94-cc336cf03dc2,60,Married,With Spouse,North York,43.74328133,-79.5407589,parttime,29302
+43b615c6-c5da-43d6-8221-639c57979478,58,Married,With Spouse,North York,43.75291957,-79.33826569,fulltime,84234.05
+d58c5807-c564-499e-be94-c48d5d3d8c3d,48,Married,With Spouse,East York,43.68661363,-79.33360344,parttime,27627.6
+6f2fe966-cc77-480e-af3c-a77645d5e520,60,Married,With Spouse,Scarborough,43.74255099,-79.228396,parttime,33322.4
+29178bce-84dc-453a-9348-2bca7f70030e,54,Married,With Spouse,Etobicoke,43.59608794,-79.50969645,parttime,34801.3
+f5864ef0-c5f5-42d6-a6c1-70712b6d0a32,60,Married,With Spouse,North York,43.79606026,-79.41773772,parttime,21689
+bd658436-a869-4e2f-8df8-8b8ba6a5002e,49,Married,With Spouse,North York,43.76615172,-79.32508566,parttime,24118.6
+1fdac412-47a3-4ec6-95d7-6f748b6e4113,64,Married,With Spouse,Scarborough,43.82320376,-79.22304088,parttime,24860.55
+ca24ce9d-bd4f-42a0-aafe-cab184d1aa1d,22,Single,With Parent,North York,43.74328133,-79.5407589,unemployed,0
+6197ae9c-ed8a-437c-8560-92e897978412,56,Married,With Spouse,York,43.68324513,-79.43853967,unemployed,0
+ceea8b08-a81c-4ee4-9ea3-8499cd004923,47,Married,With Spouse,North York,43.73251346,-79.48404672,parttime,26858.7
+3c805a98-7e63-483e-88fe-a6cb1141b70f,17,Single,With Parent,Toronto,43.6570981,-79.42399345,unemployed,0
+c29781ae-5045-4d9f-9456-c9838a835825,50,Married,With Spouse,Toronto,43.68039474,-79.2976243,fulltime,60970.8
+790b3307-168a-4633-b42f-801f764d058f,45,Married,With Spouse,Toronto,43.66873383,-79.38134881,fulltime,48217.4
+1a26ccf3-0190-4109-83d7-6c11c2d51d19,14,Single,With Parent,York,43.69304022,-79.47772518,unemployed,0
+30d5ab26-1366-4674-b416-40c2d085a47a,25,Single,With Parent,Toronto,43.66177204,-79.35321516,parttime,7980.72
+b3ef1296-f1d3-497a-af0a-f9f79678367e,46,Married,With Spouse,York,43.68114996,-79.46672926,fulltime,42006.8
+60236c16-4a34-48c4-ab37-b7be0962426b,17,Single,With Parent,Etobicoke,43.68845729,-79.51569258,unemployed,0
+0dbbd7f1-8d17-407d-8bff-10d9ec960b41,27,Married,With Spouse,Etobicoke,43.7145084,-79.54941012,parttime,12552.54
+accce5e0-f1f5-44c2-b15d-ed1445b09f35,38,Married,With Spouse,North York,43.760906,-79.40900277,fulltime,33669
+375a1f99-4810-4020-8847-9d63dfa1fe18,36,Married,With Spouse,Etobicoke,43.71762958,-79.55580805,fulltime,39711
+e34a6b85-7310-40f5-977d-e1055490f4f8,33,Married,With Spouse,Scarborough,43.81252945,-79.2685455,fulltime,79419
+28b2abe9-19b1-4233-a8c0-61541960d4ba,15,Single,With Parent,Etobicoke,43.59608794,-79.50969645,unemployed,0
+6ac997ef-3028-4ac3-88ee-f112a888c6b1,35,Married,With Spouse,York,43.66973096,-79.49602188,fulltime,33330
+9e5c6658-1891-4bdc-a0c1-601217fbdb53,63,Married,With Spouse,Scarborough,43.80182296,-79.31325308,parttime,29098.5
+9c9a3eb1-698e-4c9b-b76d-6eef4a636742,21,Single,With Parent,Toronto,43.65038162,-79.37735238,parttime,10698.6
+e68b9b75-362f-47cc-8aa8-9ea9bb4e7936,51,Married,With Spouse,Scarborough,43.777855,-79.23003318,fulltime,61656.1
+5d0760d1-c2cc-4f2b-b7fb-bce26317f455,48,Married,With Spouse,Toronto,43.68627265,-79.41016261,fulltime,89442.1
+99297cec-7750-4898-b144-4e85eea918b1,47,Married,With Spouse,Scarborough,43.78076207,-79.3053531,parttime,33570.9
+b43037a4-2be5-4835-af5d-82ccfa395850,56,Married,With Spouse,North York,43.74961148,-79.54723458,parttime,27848.4
+bbe40e90-b896-45f4-8c0a-d2b34d12e35a,33,Married,With Spouse,North York,43.73830271,-79.40509365,fulltime,110026
+c2b35028-b024-40da-b3fe-20db13b0a3d6,50,Married,With Spouse,Toronto,43.67196476,-79.37457912,parttime,16344.9
+f03a8e9b-051f-4a4d-a641-289366ea1405,38,Married,With Spouse,Etobicoke,43.69668352,-79.53938113,fulltime,28552
+46361653-00dd-490f-86b7-341165a4043c,58,Married,With Spouse,Scarborough,43.76531209,-79.27808683,parttime,23738.3
+8142e54d-cdaf-4f37-a233-da09b813b7b2,46,Married,With Spouse,Toronto,43.6986773,-79.40662268,fulltime,35543.2
+bc5bffbd-7d33-46a0-a8e8-99547df975a1,35,Married,With Spouse,North York,43.71251575,-79.44770631,unemployed,0
+dd333f20-972b-46f4-9aaa-9c363d15ea9c,43,Married,With Spouse,York,43.67913002,-79.47836439,parttime,26697
+c51def51-2612-430f-a2af-7ba93dc94d0b,56,Married,With Spouse,Toronto,43.66944914,-79.48258174,fulltime,52212.3
+db5663d9-47ba-4a12-b439-c7f318f37d76,70,Married,With Spouse,Etobicoke,43.66086514,-79.50656581,fulltime,82529.35
+eba9b606-c853-487c-bfc4-5f01691dfe2d,19,Single,With Parent,Scarborough,43.72940801,-79.24793773,unemployed,0
+24d2520f-828b-4a26-82c4-7753de605480,55,Married,With Spouse,Etobicoke,43.65227925,-79.51506796,fulltime,98925.3
+fc85bcbb-be39-4e21-98e2-5e72246181f6,26,Single,With Parent,Scarborough,43.81071007,-79.21182278,parttime,5070.12
+c391a604-bf08-4a19-94d1-f3685ea1e20b,31,Single,With Parent,York,43.70383385,-79.52767706,parttime,4380.09
+00aed42b-89c6-47f5-b5e2-be4f970f0dff,54,Married,With Spouse,Toronto,43.6812342,-79.29196138,fulltime,67020.85
+cd1e0317-0b7b-4cd5-87fd-1de8237cf4d6,43,Married,With Spouse,Etobicoke,43.60667371,-79.52082232,parttime,32954.9
+251c0dc6-f7a1-4e17-aae5-1dada6b1f581,51,Married,With Spouse,North York,43.76615172,-79.32508566,parttime,25800.25
+4ce2ae48-d203-4368-bdfb-a721043468d5,50,Married,With Spouse,Scarborough,43.7801851,-79.23018669,parttime,17506.5
+36afbf6f-87b4-4cb0-974d-36c5c879aa57,40,Married,With Spouse,Etobicoke,43.67920879,-79.54831981,fulltime,66703
+d15ee68d-1f1e-43de-90ee-ec0ad4fab15b,36,Married,With Spouse,Toronto,43.69913706,-79.39941614,fulltime,70803
+6ea89984-40f4-44c0-a280-047ed966624f,50,Married,With Spouse,North York,43.77810578,-79.33506681,unemployed,0
+542ce3e9-8d85-47f8-bc76-a473e9fc7450,46,Married,With Spouse,Toronto,43.67191084,-79.38519572,fulltime,51817.7
+7bfd73ca-05e4-4afd-bb39-c2c93a770c52,26,Single,With Parent,Toronto,43.6986773,-79.40662268,parttime,11048.73
+9fb5cbea-c16b-4880-a06d-d201efc483ad,36,Married,With Spouse,Toronto,43.66163242,-79.42253837,fulltime,44715
+4525dbb7-0b4e-4965-b68d-5648a134e7d9,37,Married,With Spouse,Etobicoke,43.71762958,-79.55580805,fulltime,36213
+733bddd6-79be-483b-998d-1235541587c0,41,Married,With Spouse,Etobicoke,43.63007141,-79.50012936,fulltime,73503
+8d088dcf-6219-48ae-b044-b2672079621b,48,Married,With Spouse,Etobicoke,43.60623741,-79.55471276,fulltime,41837.4
+accebebb-f1bf-4814-9ffd-701e5b829a31,66,Married,With Spouse,Toronto,43.68309776,-79.40295549,fulltime,58530.45
+4faf236e-7b9f-4052-8be1-4f8f3efb62d7,44,Married,With Spouse,North York,43.7675654,-79.40863528,fulltime,35610.3
+414d2d39-421d-4037-ae3c-3fe566a5f0ec,34,Single,With Parent,Toronto,43.64669352,-79.45382635,fulltime,25266
+82e6d7ba-d19f-49ba-9531-02f29958b151,64,Married,With Spouse,North York,43.7609806,-79.36598643,fulltime,37929.7
+41c701a8-91dc-4d2d-9a63-646448722624,65,Married,With Spouse,Toronto,43.68251151,-79.29620591,parttime,34844.1
+51cd1ec7-d4a9-49f6-a0fe-1324df3474b3,15,Single,With Parent,Etobicoke,43.75606339,-79.5872449,unemployed,0
+1a8f3813-8852-4242-bdbf-3f29b26e42d0,52,Married,With Spouse,York,43.6885204,-79.42398664,fulltime,39768.15
+2f0c01b3-12f7-43b6-8bc8-79c560d510b9,42,Married,With Spouse,Scarborough,43.82065194,-79.28290561,fulltime,42560.1
+0b0e4e8d-ca19-4c81-8ebe-13b2c22b3b95,44,Married,With Spouse,North York,43.80456527,-79.35678748,fulltime,43601.8
+f7028106-6e82-412e-b77b-36017dcc7809,42,Married,With Spouse,Scarborough,43.70628676,-79.24334598,fulltime,52267.6
+6a155608-0786-4db6-b21c-9731e35a970a,29,Single,With Parent,East York,43.7023173,-79.34983662,parttime,8029.56
+e1425be6-a6e9-4af4-be12-d5e8935ba8c9,52,Married,With Spouse,Toronto,43.64669352,-79.45382635,parttime,31156.95
+5d61b959-8566-4c8c-bbbb-99796570789e,15,Single,With Parent,Etobicoke,43.59627412,-79.52467941,unemployed,0
+cf710f63-750f-44a4-8bd8-5b1e8a708760,31,Married,With Spouse,Toronto,43.64525133,-79.41678274,parttime,16169.01
+ada90e3a-a76b-498c-b192-2488e3ba9b7c,15,Single,With Parent,Toronto,43.65664509,-79.40080852,unemployed,0
+344abba3-dac4-4f63-a7f7-d0fab698dfd2,52,Married,With Spouse,Scarborough,43.75980368,-79.21205015,parttime,31260.45
+3d26ca68-66b0-4f23-a161-a0c768b101ff,50,Married,With Spouse,Scarborough,43.72940801,-79.24793773,parttime,24302.3
+06337b61-0090-44cc-9675-b1f088ff2397,27,Single,With Parent,York,43.69817016,-79.43204157,parttime,17143.5
+2dd3b3a9-00f6-4585-85c8-186de5629c99,27,Single,With Parent,York,43.69919429,-79.44095595,parttime,9459.78
+3a527f25-7967-47aa-b040-c2e5852a10c0,59,Married,With Spouse,North York,43.76799542,-79.40032187,fulltime,52304.3
+3c2c7351-92ff-4fe8-bf07-8f61f28e8519,36,Married,With Spouse,North York,43.76123036,-79.33526279,fulltime,31830
+3ccd0e3a-5669-46a3-a50f-98f6c8097547,45,Married,With Spouse,Toronto,43.6471627,-79.4893685,fulltime,65238.8
+f0f1caec-8634-436a-8903-049a74678615,52,Married,With Spouse,Toronto,43.69701387,-79.40327702,fulltime,54467.45
+246d2dcf-1511-4656-81cf-95ba1a79016d,27,Single,With Parent,Scarborough,43.76776403,-79.28445343,parttime,5873.67
+454b0091-ce4c-4915-8126-331d6bd0c4b6,52,Married,With Spouse,Toronto,43.70340891,-79.40838781,unemployed,0
+1ff43b8a-f5d6-4344-b053-ff1d7ebc1474,56,Married,With Spouse,Scarborough,43.76037209,-79.21126125,unemployed,0
+f175ead1-5cae-4f0f-a5f2-50bda72503dc,58,Married,With Spouse,Scarborough,43.79353698,-79.18238471,fulltime,41738.1
+5710ee39-a7cc-4a4e-89ce-707d2bef7002,60,Married,With Spouse,North York,43.79784851,-79.35750239,fulltime,46884.35
+64370017-1081-4f3c-b8a4-4aab6e2f0dc0,45,Married,With Spouse,Toronto,43.63619005,-79.40337067,parttime,13460.7
+024ddc63-2471-4a24-91db-e343c1fd80d2,53,Married,With Spouse,Etobicoke,43.69292605,-79.54681042,parttime,25449.5
+7fa31b80-a917-4268-aec4-4cbd6ae10e16,49,Married,With Spouse,Etobicoke,43.60272081,-79.5110398,parttime,26337.3
+41874b7f-374b-4258-9e7e-9a688ef8a9af,26,Single,With Parent,North York,43.79822712,-79.41821067,parttime,5638.71
+05206769-d070-4689-900e-2dd962e703ce,14,Single,With Parent,Toronto,43.6471627,-79.4893685,unemployed,0
+bca5dd07-71e8-4293-aff6-e8d470a405c3,58,Married,With Spouse,North York,43.73833201,-79.41628904,fulltime,82170.95
+72da75b7-371d-48fc-956a-77ae5fa50c42,26,Single,With Parent,Etobicoke,43.61010843,-79.49079809,parttime,7298.94
+e06bd159-364e-43f8-9215-f6acc77f8c77,65,Married,With Spouse,Toronto,43.67488125,-79.36930794,fulltime,64288.4
+d21789c8-52de-40c5-ba11-5dd5abb4275e,57,Married,With Spouse,Scarborough,43.76958504,-79.1588119,fulltime,48182.7
+6209ac89-dbb2-4d7f-9c06-a3269d716e5b,55,Married,With Spouse,North York,43.75335063,-79.39016354,fulltime,60634.9
+f83e6f39-7f1e-4dd6-a72b-7f80e23c12f2,28,Single,With Parent,Toronto,43.6986773,-79.40662268,parttime,10542.84
+1d479758-1c82-438f-8737-0d5dd76fe603,70,Married,With Spouse,Scarborough,43.75524866,-79.24396397,fulltime,38526.3
+7f502db3-7c17-4c9b-aaa9-c046c479ddfd,32,Married,With Spouse,North York,43.70577802,-79.46536952,parttime,8834.43
+35ca09eb-6e9e-4931-aacd-e7594494b246,33,Married,With Spouse,Toronto,43.71129881,-79.41209806,fulltime,301257
+dae4d81b-d1e9-4d02-a2d5-b56e005466e6,24,Single,With Parent,Toronto,43.67363326,-79.43395453,parttime,9907.59
+a6f66d96-7c2f-4c28-89a5-af9bf0ab84e5,47,Married,With Spouse,Toronto,43.64136658,-79.39976534,fulltime,59244.9
+93e154a2-0e72-4487-8e2e-881e8d70881c,54,Married,With Spouse,North York,43.71954081,-79.32497547,fulltime,47979.15
+8113b265-a11e-4133-9c6f-5078a5cd322c,42,Married,With Spouse,Scarborough,43.81457414,-79.23069704,parttime,22440
+ec8e09be-69a5-48f7-9f56-0bfae84374d3,56,Married,With Spouse,North York,43.77420652,-79.45127466,fulltime,49153.3
+dfb41af9-3955-4338-8931-f5449d21d36c,48,Married,With Spouse,Etobicoke,43.72108354,-79.54973231,parttime,13109.8
+2c7ce79e-47f4-4584-bb77-8edf3095f95d,54,Married,With Spouse,Toronto,43.67069797,-79.32995091,fulltime,53991.35
+07e62c23-1eee-45e6-9497-2b596eb54bb1,34,Married,With Spouse,Toronto,43.65038162,-79.37735238,fulltime,41134
+37827449-da1d-45fc-94c1-11837cdc652c,15,Single,With Parent,Toronto,43.66159954,-79.41663679,unemployed,0
+1aefb327-74ce-4cd3-9a2f-5ac3c831eb8c,68,Married,With Spouse,Etobicoke,43.60774664,-79.540651,fulltime,49508.3
+62c975ad-bf91-4f79-aa60-74b0e1bf129e,16,Single,With Parent,Scarborough,43.75195527,-79.18464426,unemployed,0
+8551ba0b-5bcc-4600-a2e0-44e930474bd7,31,Married,With Spouse,North York,43.760906,-79.40900277,parttime,9834.33
+f728709c-b342-4141-abf9-4b7cbc29aea6,47,Married,With Spouse,Scarborough,43.78558997,-79.29210064,fulltime,58975.4
+998e0532-2c30-4d82-b6ff-a22f8f8b2ce5,30,Single,With Parent,North York,43.76615172,-79.32508566,parttime,7474.5
+7b18aeb1-22ab-429f-b784-b4371f29de7b,63,Married,With Spouse,Scarborough,43.76776403,-79.28445343,parttime,18714.05
+e985bdb5-e296-4a88-ab1f-f2a8191f0a7d,36,Married,With Spouse,Scarborough,43.74255099,-79.228396,fulltime,26795
+3e182f4a-bfec-4ce3-8588-3c899c7f891f,56,Married,With Spouse,North York,43.7593443,-79.3167146,parttime,20764.4
+6f892ee7-4dc7-4c9d-9e1f-72f58614a53e,56,Married,With Spouse,Etobicoke,43.66086514,-79.50656581,fulltime,81777.65
+bc94ee9d-17cb-461a-bf17-5eceb09ef661,38,Married,With Spouse,Scarborough,43.70628676,-79.24334598,fulltime,50113
+d085c2b7-0729-417f-aaf1-f0408de5a5d6,49,Married,With Spouse,Toronto,43.64699032,-79.37347776,parttime,25993
+b5dc7d3b-8567-4817-bd42-f03dcf1acb2c,50,Married,With Spouse,Scarborough,43.7800963,-79.29012181,fulltime,39777.1
+e471c659-0f4d-4f8c-a29c-3c9fc600cc4d,33,Married,With Spouse,Toronto,43.65340849,-79.47003948,fulltime,76373
+11649373-6020-4899-be0b-35f23fc3a6a9,57,Married,With Spouse,North York,43.76638885,-79.40379369,parttime,29935.65
+794ac1d5-1cd8-4756-b1d7-ccb495337ff7,38,Married,With Spouse,Toronto,43.68189391,-79.30816132,fulltime,56980
+1f8b5f52-97c1-493e-8d9c-dc4632e0baae,48,Married,With Spouse,Scarborough,43.7801851,-79.23018669,parttime,16506.6
+4b131e1b-78d9-41ed-8332-e7823435d512,47,Married,With Spouse,East York,43.68661363,-79.33360344,fulltime,35521.2
+2dc69616-e1c6-4471-adf7-fc9bc8b05926,21,Single,With Parent,Scarborough,43.74255099,-79.228396,parttime,8117.01
+c2f0fd8f-e97c-4f4f-af8e-2f9e78732a4a,54,Married,With Spouse,Scarborough,43.81953812,-79.29175503,parttime,29568.8
+0b075f8d-dd73-4a85-9392-ccfb5f42f0fc,56,Married,With Spouse,Scarborough,43.8160304,-79.21605998,fulltime,43628.7
+d09f42a6-f71f-473f-b03f-b7abc304fdf1,56,Married,With Spouse,North York,43.70978983,-79.33271126,unemployed,0
+01c92913-839c-4481-a091-f9e3617b14ef,58,Married,With Spouse,Etobicoke,43.6488281,-79.49235628,fulltime,85351.85
+a56d9462-eb09-41b6-96f8-a17551abb5ef,61,Married,With Spouse,North York,43.72075989,-79.41951607,fulltime,73417.15
+048f97ba-d1eb-4951-8ac5-1edac07dac1b,47,Married,With Spouse,North York,43.76142075,-79.31855772,parttime,29966.2
+20083ed2-3086-42b3-833b-8937d5d63cfe,64,Married,With Spouse,Toronto,43.67654198,-79.33664054,parttime,26210.5
+f73080e2-6ae2-4dce-8845-4f7dc4b6f108,78,Married,With Spouse,Toronto,43.72235343,-79.40257175,unemployed,16993.9
+51b3eaad-ba17-488a-9ad7-5b7457b25a77,41,Married,With Spouse,Scarborough,43.70434275,-79.2875797,fulltime,24421.1
+c306b46d-be59-4bd3-a236-7b82206dac3f,59,Married,With Spouse,North York,43.71854311,-79.41496512,unemployed,0
+402a38ff-3e48-46d5-ab3f-4f01789e8fca,43,Married,With Spouse,Toronto,43.66159954,-79.41663679,fulltime,50767.2
+3d9f6c79-d0ed-4cb8-9bf6-705490d676c4,53,Married,With Spouse,East York,43.70641945,-79.31935715,fulltime,38330.65
+f6927704-7685-4bb0-bd25-7a708f146be7,15,Single,With Parent,York,43.69817016,-79.43204157,unemployed,0
+316a25b8-d135-4f7a-9ad2-1fc204afe5b4,34,Married,With Spouse,Scarborough,43.81506109,-79.32184566,fulltime,35638
+ebb8ad62-8ca8-4452-8b36-104c4c172547,60,Married,With Spouse,Toronto,43.67784786,-79.45015487,fulltime,52653.9
+1a4d4e0c-9783-486a-b4d3-555cde4f246e,39,Married,With Spouse,Toronto,43.67418882,-79.42070063,fulltime,65467
