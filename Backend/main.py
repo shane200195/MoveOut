@@ -16,7 +16,10 @@ def test():
 
 @app.route("/response", methods = ['POST'])
 def response():
+    origin = request.get_json(force=True)
+    print(origin)
     return "hello world"
 
+#10.32.110.93
 if __name__ == "__main__":
     app.run(host = '0.0.0.0')
