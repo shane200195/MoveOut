@@ -21,6 +21,9 @@
     color: #fec503;
   }
   
+  html {
+    scroll-behavior: smooth;
+  }
   .text-primary {
     color: #fed136 !important;
   }
@@ -92,6 +95,11 @@
     padding: 20px 40px;
   }
   
+  .btn-m {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
   .btn-primary {
     background-color: #fed136;
     border-color: #fed136;

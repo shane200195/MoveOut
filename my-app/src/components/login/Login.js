@@ -34,17 +34,10 @@ class Dashboard extends Component {
     };
     this.handleChange = this.handleChange.bind(this);
     this.handleClickShowPassword = this.handleClickShowPassword.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
   }
 
-  componentDidMount() {
-    var url = "http://10.34.35.227:5000/response";
-    fetch(url, {
-      method: "POST",
-      body: JSON.stringify({
-        hello: "test"
-      })
-    }).then(response => response.json());
-  }
+  componentDidMount() {}
 
   handleChange = variable => event => {
     this.state.setValues({ [variable]: event.target.value });
@@ -54,34 +47,67 @@ class Dashboard extends Component {
     this.state.setValues({ showPassword: !this.state.showPassword });
   };
 
+  handleSubmit() {
+    console.log("submitting something");
+    var url = "http://10.34.35.227:5000/response";
+    fetch(url, {
+      method: "POST",
+      body: JSON.stringify({
+        hello: "test"
+      })
+    }).then(response => response.json());
+  }
+
   render() {
     return (
       <div className="Login">
-        <TextField
-          id="outlined-adornment-password"
-          className={clsx(
-            this.state.classes.margin,
-            this.state.classes.textField
-          )}
-          variant="outlined"
-          type={this.state.showPassword ? "text" : "password"}
-          label="Password"
-          value={this.state.password}
-          onChange={this.handleChange("password")}
-          InputProps={{
-            endAdornment: (
-              <InputAdornment position="end">
-                <IconButton
-                  edge="end"
-                  aria-label="toggle password visibility"
-                  onClick={this.handleClickShowPassword}
-                >
-                  {this.state.showPassword ? <VisibilityOff /> : <Visibility />}
-                </IconButton>
-              </InputAdornment>
-            )
-          }}
-        />
+        <div>
+          <header class="masthead">
+            <div class="container">
+              <div class="intro-text">
+                <div className="Password_Field" class="row ">
+                  <TextField
+                    id="password"
+                    className={clsx(
+                      this.state.classes.margin,
+                      this.state.classes.textField
+                    )}
+                    variant="filled"
+                    type={this.state.showPassword ? "text" : "password"}
+                    label="Password"
+                    value={this.state.password}
+                    onChange={this.handleChange("password")}
+                    InputProps={{
+                      endAdornment: (
+                        <InputAdornment position="end">
+                          <IconButton
+                            edge="end"
+                            aria-label="toggle password visibility"
+                            onClick={this.handleClickShowPassword}
+                          >
+                            {this.state.showPassword ? (
+                              <VisibilityOff />
+                            ) : (
+                              <Visibility />
+                            )}
+                          </IconButton>
+                        </InputAdornment>
+                      )
+                    }}
+                  />
+                </div>
+                <div className="Submit_Button" class="row">
+                  <a
+                    class="btn btn-primary btn-m text-uppercase js-scroll-trigger"
+                    onClick={this.handleSubmit}
+                  >
+                    Tell Me More
+                  </a>
+                </div>
+              </div>
+            </div>
+          </header>
+        </div>
       </div>
     );
   }
