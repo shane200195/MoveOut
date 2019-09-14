@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import axios from "axios";
 import "../../css/Agency.css";
 import { makeStyles } from "@material-ui/core/styles";
 
@@ -28,11 +29,21 @@ class Dashboard extends Component {
     super(props);
     this.state = {
       password: "",
-      showPassword: false
+      showPassword: false,
+      classes: makeStyles()
     };
-    this.handleChange = this.handleMouseDownPassword.bind(this);
+    this.handleChange = this.handleChange.bind(this);
     this.handleClickShowPassword = this.handleClickShowPassword.bind(this);
-    this.handleMouseDownPassword = this.handleMouseDownPassword.bind(this);
+  }
+
+  componentDidMount() {
+    var url = "http://10.34.35.227:5000/response";
+    fetch(url, {
+      method: "POST",
+      body: JSON.stringify({
+        hello: "test"
+      })
+    }).then(response => response.json());
   }
 
   handleChange = variable => event => {
@@ -40,34 +51,32 @@ class Dashboard extends Component {
   };
 
   handleClickShowPassword = () => {
-    this.state.setValues({ ...values, showPassword: !this.state.showPassword });
-  };
-
-  handleMouseDownPassword = event => {
-    event.preventDefault();
+    this.state.setValues({ showPassword: !this.state.showPassword });
   };
 
   render() {
     return (
-      <div className="Dashboard">
+      <div className="Login">
         <TextField
           id="outlined-adornment-password"
-          className={clsx(classes.margin, classes.textField)}
+          className={clsx(
+            this.state.classes.margin,
+            this.state.classes.textField
+          )}
           variant="outlined"
-          type={values.showPassword ? "text" : "password"}
+          type={this.state.showPassword ? "text" : "password"}
           label="Password"
-          value={values.password}
-          onChange={handleChange("password")}
+          value={this.state.password}
+          onChange={this.handleChange("password")}
           InputProps={{
             endAdornment: (
               <InputAdornment position="end">
                 <IconButton
                   edge="end"
                   aria-label="toggle password visibility"
-                  onClick={handleClickShowPassword}
-                  onMouseDown={handleMouseDownPassword}
+                  onClick={this.handleClickShowPassword}
                 >
-                  {values.showPassword ? <VisibilityOff /> : <Visibility />}
+                  {this.state.showPassword ? <VisibilityOff /> : <Visibility />}
                 </IconButton>
               </InputAdornment>
             )
