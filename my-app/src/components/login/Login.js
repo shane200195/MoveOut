@@ -89,56 +89,6 @@ class Login extends Component {
             </div>
           </div>
         </div>
-        {/* <div class="col">
-          <div
-            className="Name"
-            class="intro-heading text-uppercase row justify-content-center"
-          >
-            Move Out
-          </div>
-          <div className="User_Field" class="row justify-content-center">
-            <div class="col-12">
-              <TextField
-                id=""
-                label="User"
-                variant="filled"
-                style={{ width: 350 }}
-                className={clsx(
-                  this.state.classes.margin,
-                  this.state.classes.textField
-                )}
-                value={this.state.userName}
-                onChange={this.handleChange("username")}
-              />
-              <br />
-            </div>
-          </div>
-          <div className="Password_Field" class="row justify-content-center">
-            <div class="col-12">
-              <TextField
-                id=""
-                label="Password"
-                variant="filled"
-                style={{ width: 350 }}
-                className={clsx(
-                  this.state.classes.margin,
-                  this.state.classes.textField
-                )}
-                value={this.state.password}
-                onChange={this.handleChange("password")}
-              />
-              <br /> <br />
-            </div>
-          </div>
-          <div className="Submit_Button" class="row justify-content-center">
-            <a
-              class="btn btn-primary btn-m text-uppercase js-scroll-trigger"
-              onClick={this.handleSubmit}
-            >
-              Login
-            </a>
-          </div>
-        </div> */}
       </div>
     );
   }
