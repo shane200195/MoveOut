@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "../../css/Agency.css";
 import { lighten, makeStyles, withStyles } from "@material-ui/core/styles";
+import { spacing } from "@material-ui/system";
 import { Progress } from "antd";
 
 import LinearProgress from "@material-ui/core/LinearProgress";
@@ -46,6 +47,7 @@ class Dashboard extends Component {
       name: "",
       firstname: "",
       age: "",
+      livingin: "",
       location: "Toronto",
       classes: makeStyles()
     };
@@ -73,6 +75,7 @@ class Dashboard extends Component {
       .then(data => {
         this.setState({
           name: data.name,
+          livingin: data.livingin,
           firstname: data.firstname,
           age: data.age
         });
@@ -93,6 +96,7 @@ class Dashboard extends Component {
       .then(data => {
         this.setState({
           name: data.name,
+          livingin: data.livingin,
           firstname: data.firstname,
           age: data.age
         });
@@ -105,10 +109,7 @@ class Dashboard extends Component {
     return (
       <div>
         <div className="Dashboard_Head" id="page-top">
-          <nav
-            class="navbar navbar-expand-lg navbar-dark fixed-top"
-            id="mainNav"
-          >
+          <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
             <div className="container">
               <a class="navbar-brand js-scroll-trigger" href="#page-top">
                 Move Out
@@ -161,7 +162,7 @@ class Dashboard extends Component {
             <div class="container">
               <div class="intro-text">
                 <div class="user-text row">
-                  <div class="col-3 offset-2">
+                  <div class="progress-circle col-3 offset-2">
                     <Progress
                       type="circle"
                       percent={75}
@@ -173,11 +174,25 @@ class Dashboard extends Component {
                       }}
                     />
                   </div>
-                  <div class="hi-name col-6 offset-1">
-                    <div class="intro-heading">Hi {this.state.firstname}!</div>
-                    <div class="user-details">
-                      Age: {this.state.age} / Move to:
+                  <div class="hi-name col-5 offset-1">
+                    <div class="intro-heading">
+                      Hi George {this.state.firstname}!
+                    </div>
+                    <span class="service-heading-user h2 text-uppercase">
+                      Age: {this.state.age} <br />
+                    </span>
+                    <span class="service-heading-user h2 text-uppercase">
+                      Living in: {this.state.livingin} <br />
+                    </span>
+                    <span class="service-heading-user h2 text-uppercase">
+                      Moving to:
+                    </span>
+                    <span> &nbsp; &nbsp;</span>
+
+                    <span>
                       <Select
+                        pl={500}
+                        autowidth
                         native
                         value={this.state.location}
                         onChange={this.handleSelect("location")}
@@ -188,7 +203,6 @@ class Dashboard extends Component {
                             icon: this.state.classes.icon
                           }
                         }}
-                        style={{}}
                       >
                         <option value="" />
                         <option value={"East York"}>East York</option>
@@ -198,13 +212,13 @@ class Dashboard extends Component {
                         <option value={"Toronto"}>Toronto</option>
                         <option value={"York"}>York</option>
                       </Select>
+                    </span>
+                    <div class="we-analyze text-muted">
+                      We've analyzed your data by comparing it to the spending
+                      habits of individuals living in {this.state.location} and
+                      have determined that you are...
                     </div>
-                    <div class="text-muted-explanation">
-                      We've analyzed your data and have determined that you
-                      are...
-                    </div>
-
-                    <div class="text-muted">Ready To Move Out!</div>
+                    <div class="move-out-status">Ready To Move Out!</div>
                   </div>
                 </div>
                 {/* <div className="User_Details" class="row">
@@ -231,53 +245,54 @@ class Dashboard extends Component {
             </div>
           </header>
         </div>
-
-        <div class="page-section" id="about">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-12 text-center">
-                <h2 class="section-heading text-uppercase">About</h2>
-                <h3 class="section-subheading text-muted">
-                  Lorem ipsum dolor sit amet consectetur.
-                </h3>
+        <div class="about-section">
+          <div class="page-section" id="about">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12 text-center">
+                  <h2 class="section-heading text-uppercase">About</h2>
+                  <h3 class="section-subheading text-muted">
+                    Lorem ipsum dolor sit amet consectetur.
+                  </h3>
+                </div>
               </div>
-            </div>
-            <div class="row text-center">
-              <div class="col-md-4">
-                <span class="fa-stack fa-4x">
-                  <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                  <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-                </span>
-                <h4 class="service-heading">E-Commerce</h4>
-                <p class="text-muted">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Minima maxime quam architecto quo inventore harum ex magni,
-                  dicta impedit.
-                </p>
-              </div>
-              <div class="col-md-4">
-                <span class="fa-stack fa-4x">
-                  <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                  <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-                </span>
-                <h4 class="service-heading">Responsive Design</h4>
-                <p class="text-muted">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Minima maxime quam architecto quo inventore harum ex magni,
-                  dicta impedit.
-                </p>
-              </div>
-              <div class="col-md-4">
-                <span class="fa-stack fa-4x">
-                  <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                  <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
-                </span>
-                <h4 class="service-heading">Web Security</h4>
-                <p class="text-muted">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Minima maxime quam architecto quo inventore harum ex magni,
-                  dicta impedit.
-                </p>
+              <div class="row text-center">
+                <div class="col-md-4">
+                  <span class="fa-stack fa-4x">
+                    <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                    <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                  </span>
+                  <h4 class="service-heading">E-Commerce</h4>
+                  <p class="text-muted">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Minima maxime quam architecto quo inventore harum ex magni,
+                    dicta impedit.
+                  </p>
+                </div>
+                <div class="col-md-4">
+                  <span class="fa-stack fa-4x">
+                    <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                    <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+                  </span>
+                  <h4 class="service-heading">Responsive Design</h4>
+                  <p class="text-muted">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Minima maxime quam architecto quo inventore harum ex magni,
+                    dicta impedit.
+                  </p>
+                </div>
+                <div class="col-md-4">
+                  <span class="fa-stack fa-4x">
+                    <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                    <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+                  </span>
+                  <h4 class="service-heading">Web Security</h4>
+                  <p class="text-muted">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Minima maxime quam architecto quo inventore harum ex magni,
+                    dicta impedit.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
