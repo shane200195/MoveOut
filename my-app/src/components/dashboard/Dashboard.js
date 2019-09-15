@@ -50,6 +50,7 @@ class Dashboard extends Component {
       age: "",
       livingin: "",
       location: "Toronto",
+      percentage: 0,
       classes: makeStyles()
     };
     this.handleChange = this.handleChange.bind(this);
@@ -69,7 +70,8 @@ class Dashboard extends Component {
     fetch(url, {
       method: "POST",
       body: JSON.stringify({
-        ID: this.props.customerID
+        ID: this.props.customerID,
+        location: event.target.value
       })
     })
       .then(response => response.json())
@@ -78,7 +80,8 @@ class Dashboard extends Component {
           name: data.name,
           livingin: data.livingin,
           firstname: data.firstname,
-          age: data.age
+          age: data.age,
+          percentage: data.percentage
         });
       });
 
@@ -90,7 +93,8 @@ class Dashboard extends Component {
     fetch(url, {
       method: "POST",
       body: JSON.stringify({
-        ID: this.props.customerID
+        ID: this.props.customerID,
+        location: "Toronto"
       })
     })
       .then(response => response.json())
@@ -99,7 +103,8 @@ class Dashboard extends Component {
           name: data.name,
           livingin: data.livingin,
           firstname: data.firstname,
-          age: data.age
+          age: data.age,
+          percentage: data.percentage
         });
       });
 
@@ -130,28 +135,13 @@ class Dashboard extends Component {
               <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ml-auto">
                   <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#services">
-                      Services
+                    <a class="nav-link js-scroll-trigger" href="#graphs">
+                      Graphs
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#portfolio">
-                      Portfolio
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#about">
-                      About
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#team">
-                      Team
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#contact">
-                      Contact
+                    <a class="nav-link js-scroll-trigger" href="#charts">
+                      Charts
                     </a>
                   </li>
                 </ul>
@@ -166,7 +156,7 @@ class Dashboard extends Component {
                   <div class="progress-circle col-3 offset-2">
                     <Progress
                       type="circle"
-                      percent={75}
+                      percent={this.state.percentage}
                       width={240}
                       strokeWidth={10}
                       strokeColor={{
@@ -176,9 +166,7 @@ class Dashboard extends Component {
                     />
                   </div>
                   <div class="hi-name col-5 offset-1">
-                    <div class="intro-heading">
-                      Hi George {this.state.firstname}!
-                    </div>
+                    <div class="intro-heading">Hi {this.state.firstname}!</div>
                     <span class="service-heading-user h2 text-uppercase">
                       Age: {this.state.age} <br />
                     </span>
@@ -219,7 +207,11 @@ class Dashboard extends Component {
                       habits of individuals living in {this.state.location} and
                       have determined that you are...
                     </div>
-                    <div class="move-out-status">Ready To Move Out!</div>
+                    {this.state.percentage === 100 ? (
+                      <div class="move-out-status">Ready To Move Out!</div>
+                    ) : (
+                      <div class="move-out-status">Not Quite There</div>
+                    )}
                   </div>
                 </div>
                 {/* <div className="User_Details" class="row">
@@ -237,7 +229,7 @@ class Dashboard extends Component {
                 <div class="row justify-content-center">
                   <a
                     class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
-                    href="#about"
+                    href="#graphs"
                   >
                     Tell Me More
                   </a>
@@ -247,11 +239,55 @@ class Dashboard extends Component {
           </header>
         </div>
 
-        <div class="page-section" id="about">
+        <div class="page-section" id="graphs">
           <div class="container">
-            <Visuals> </Visuals>
+            <div class="row">
+              <div class="col-lg-12 text-center">
+                <h2 class="section-heading text-uppercase">Graph Analysis</h2>
+                <h3 class="section-subheading text-muted">
+                  Lorem ipsum dolor sit amet consectetur.
+                </h3>
+              </div>
+            </div>
+
+            <Visuals />
           </div>
         </div>
+
+        <div class="page-charts" id="charts">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 text-center">
+                <h2 class="section-heading text-uppercase">Chart Comparison</h2>
+                <h3 class="section-subheading text-muted">
+                  Lorem ipsum dolor sit amet consectetur.
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <footer class="footer">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-md-4">
+                <span class="copyright">
+                  Copyright &copy; Your Website 2019
+                </span>
+              </div>
+              <div class="col-md-4">
+                <ul class="list-inline quicklinks">
+                  <li class="list-inline-item">
+                    <a href="#">Privacy Policy</a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#">Terms of Use</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
       </div>
     );
   }
