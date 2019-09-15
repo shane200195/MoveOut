@@ -32,7 +32,7 @@ def response():
     #setting the properties
     name = response_data['givenName'] + " " + response_data['surname']
     age = response_data['age']
-    return jsonify({'name': name, 'age': age, 'firstname': response_data['givenName'])
+    return jsonify({'name': name, 'age': age, 'firstname': response_data['givenName']})
 
 #10.32.110.93
 if __name__ == "__main__":
