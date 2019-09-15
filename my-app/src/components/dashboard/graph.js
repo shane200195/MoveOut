@@ -30,7 +30,7 @@ export default class Visuals extends Component {
             { x: 50, y: 71 },
             { x: 60, y: 68 },
             { x: 70, y: 38 },
-            { x: 80, y: 92, indexLabel: "Highest" },
+            { x: 80, y: 92 },
             { x: 90, y: 54 },
             { x: 100, y: 60 },
             { x: 110, y: 21 },

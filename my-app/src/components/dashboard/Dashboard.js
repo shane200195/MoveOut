@@ -150,8 +150,16 @@ class Dashboard extends Component {
         ),
         createData(
           "Total Spending",
-          this.state.spending,
-          this.state.idealSpending
+          this.state.foodAndDining +
+            this.state.entertainment +
+            this.state.shopping +
+            this.state.billAndUtilities +
+            this.state.autoAndTransport,
+          this.state.idealFoodAndDining +
+            this.state.idealEntertainment +
+            this.state.idealShopping +
+            this.state.idealBillAndUtilities +
+            this.state.idealAutoAndTransport
         ),
         createData(
           "Total Income",
@@ -223,8 +231,16 @@ class Dashboard extends Component {
         ),
         createData(
           "Total Spending",
-          this.state.spending,
-          this.state.idealSpending
+          this.state.foodAndDining +
+            this.state.entertainment +
+            this.state.shopping +
+            this.state.billAndUtilities +
+            this.state.autoAndTransport,
+          this.state.idealFoodAndDining +
+            this.state.idealEntertainment +
+            this.state.idealShopping +
+            this.state.idealBillAndUtilities +
+            this.state.idealAutoAndTransport
         ),
         createData(
           "Total Income",
