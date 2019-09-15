@@ -6,6 +6,22 @@ import requests
 from moveout import CategoryModel
 from KNN import KNN_off_clustering
 import numpy as np
+import math
+from Income_KNN import Income_KNN
+
+def getting_transaction(id):
+    categories = {"Food and Dining": 0, "Income": 0, "Entertainment": 0,"Transfer": 0, "Shopping": 0, "Bills and Utilities": 0, "Auto and Transport": 0, "Home": 0, "Taxes": 0, "Health and Fitness": 0, 'Fees and Charges':0, 'Mortgage and Rent': 0, "Travel": 0}
+    transactions = requests.get('https://api.td-davinci.com/api/customers/' + id + '/transactions',
+    headers = {
+        "authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJDQlAiLCJ0ZWFtX2lkIjoiYWJiZWM0MzAtMzUyMy0zZmY2LTljNWEtN2UwN2FlZmMzNzU4IiwiZXhwIjo5MjIzMzcyMDM2ODU0Nzc1LCJhcHBfaWQiOiIzYmVhMmZiZC0xNGQ2LTQ2YWUtYmVlNS03ODNjMTQ1ZGQ5ODkifQ.BOuUoNO6CTE2gFGeV_RymfrVPo9_PI8BsrPCrgKRWmc"
+    }).json()
+
+    for i in transactions['result']:
+        tag = i['categoryTags'][0]
+        categories[tag] += abs(i['currencyAmount'])/6
+    
+    return categories
+
 
 
 app = Flask(__name__)
@@ -28,7 +44,9 @@ def response():
     origin = request.get_json(force=True)
 
     #the location to feed into the ML model
-    location = "Etobicoke"
+    location = origin['location']
+    #location = "Toronto"
+    print(location)
 
     #handling which user it is currently logged in.
     user = origin['ID']
@@ -72,26 +90,54 @@ def response():
         {
         "customer-id": ID,
         "customer-data": ["With Parent", old_location] + names_val[user]["Categories"],
-        "municipalities": [location], # so in general you will want all municipalities
+        "municipalities": ["East York", "Etobicoke",  "North York", "Scarborough", "Toronto", "York"], # so in general you will want all municipalities
         }
     )
+
     for k in response["municipalities"].keys():
         v = response["municipalities"][k]
         response["municipalities"][k] = [max(0, int(vi)) for vi in list(np.nan_to_num(v))]
 
     #print(response['municipalities'][location])
-    print(["With Parent", old_location] + names_val[user]["Categories"])
-    income_difference = KNN_off_clustering(response['municipalities'][location], location)
-    income = response_data['totalIncome']
+    #print(["With Parent", old_location] + names_val[user]["Categories"])
+    
+    response_list = response['municipalities'][location]
 
-    print(income_difference, income)
+    income_difference = KNN_off_clustering(response_list, location)
+    try:
+        income = response_data['totalIncome']
+    except Exception:
+        income = 20000
 
+    try:
+        percentage = 100*income/income_difference + 50
+    except:
+        import random
+        percentage = random.randrange(40,50) + 30
+    
+    #getting the type of purchases of individual
+    transactions = getting_transaction(ID)
 
+    #getting the type of purchases by individuals living independently in city nearby
+    id_of_similar = Income_KNN(income, response_data['age']*1000, location)
+    print(income, response_data['age'])
+    ideal_independent = []
+
+    for i in id_of_similar:
+        ideal_independent.append(getting_transaction(i))
+    
+    culmination_idea = {}
+    for x in ideal_independent[0].keys():
+        culmination_idea[x] = sum([abs(ideal_independent[i][x]) for i in range(len(ideal_independent))])/20
+    
+    print(culmination_idea)
+    print(transactions)
 
     #setting the properties
     name = response_data['givenName'] + " " + response_data['surname']
     age = response_data['age']
-    return jsonify({'name': name, 'age': age, 'firstname': response_data['givenName'], 'livingin': "Toronto"})
+    print(transactions['Food and Dining'], transactions['Entertainment'])
+    return jsonify({'name': name, 'age': age, 'firstname': response_data['givenName'], 'livingin': old_location, 'percentage': round(percentage), 'FoodAndDining': round(transactions['Food and Dining']), 'Entertainment': round(transactions['Entertainment']), 'TotalIncome': round(income), 'idealFoodAndDining': round(culmination_idea['Food and Dining']), 'idealEntertainment': round(culmination_idea['Entertainment']), 'Shopping': round(transactions['Shopping']), 'BillAndUtilities': round(transactions['Bills and Utilities']), 'AutoAndTransport': round(transactions['Auto and Transport']), 'idealAutoAndTransport': round(culmination_idea['Auto and Transport']), 'idealShopping': round(culmination_idea['Shopping']), 'idealBillAndUtilities': round(culmination_idea['Bills and Utilities']), 'loading': 0})
 
 #10.32.110.93
 if __name__ == "__main__":

@@ -11,8 +11,6 @@ def KNN_off_clustering(spending_categories, new_region):
     distance = nearest[0][0][0]
     index = nearest[1][0][0]
     income = df.iloc[index, 10]
-
-    print(distance, index, income)
     return income
 
 #print(df.iloc[500, 10:-1])
