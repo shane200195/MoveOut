@@ -1,20 +1,25 @@
 import React, { Component } from "react";
 import "../../css/Agency.css";
-import { lighten, makeStyles, withStyles } from "@material-ui/core/styles";
-import { spacing } from "@material-ui/system";
+import { makeStyles } from "@material-ui/core/styles";
 import { Progress } from "antd";
 
-import LinearProgress from "@material-ui/core/LinearProgress";
-import InputLabel from "@material-ui/core/InputLabel";
-import FormHelperText from "@material-ui/core/FormHelperText";
-import FormControl from "@material-ui/core/FormControl";
 import Select from "@material-ui/core/Select";
-import NativeSelect from "@material-ui/core/NativeSelect";
 import Visuals from "./graph";
+import Table from "@material-ui/core/Table";
+import TableBody from "@material-ui/core/TableBody";
+import TableCell from "@material-ui/core/TableCell";
+import TableHead from "@material-ui/core/TableHead";
+import TableRow from "@material-ui/core/TableRow";
+import Paper from "@material-ui/core/Paper";
 
 const useStyles = makeStyles(theme => ({
   root: {
-    flexGrow: 1
+    width: "100%",
+    marginTop: theme.spacing(3),
+    overflowX: "auto"
+  },
+  table: {
+    minWidth: 650
   },
   margin: {
     margin: theme.spacing(1)
@@ -41,6 +46,12 @@ const suggestions = [
   { label: "York" }
 ];
 
+function createData(category, now, future) {
+  return { category, now, future };
+}
+
+const ipAddress = "10.34.35.227";
+
 class Dashboard extends Component {
   constructor(props) {
     super(props);
@@ -51,7 +62,22 @@ class Dashboard extends Component {
       livingin: "",
       location: "Toronto",
       percentage: 0,
-      classes: makeStyles()
+      totalIncome: 0,
+      idealTotalIncome: 0,
+      foodAndDining: 0,
+      idealFoodAndDining: 0,
+      entertainment: 0,
+      idealEntertainment: 0,
+      shopping: 0,
+      idealShopping: 0,
+      billAndUtilities: 0,
+      idealBillAndUtilities: 0,
+      autoAndTransport: 0,
+      idealAutoAndTransport: 0,
+      spending: 0,
+      idealSpending: 0,
+      classes: makeStyles(),
+      rows: []
     };
     this.handleChange = this.handleChange.bind(this);
     this.handleSelect = this.handleSelect.bind(this);
@@ -66,7 +92,7 @@ class Dashboard extends Component {
     this.setState({ [variable]: event.target.value });
     console.log(this.state[variable]);
 
-    var url = "http://10.34.35.227:5000/response";
+    var url = "http://" + ipAddress + ":5000/response";
     fetch(url, {
       method: "POST",
       body: JSON.stringify({
@@ -81,15 +107,64 @@ class Dashboard extends Component {
           livingin: data.livingin,
           firstname: data.firstname,
           age: data.age,
-          percentage: data.percentage
+          percentage: data.percentage,
+          totalIncome: data.TotalIncome,
+          idealTotalIncome: data.idealTotalIncome,
+          foodAndDining: data.FoodAndDining,
+          idealFoodAndDining: data.idealFoodAndDining,
+          entertainment: data.Entertainment,
+          idealEntertainment: data.idealEntertainment,
+          shopping: data.Shopping,
+          idealShopping: data.idealShopping,
+          billAndUtilities: data.BillAndUtilities,
+          idealBillAndUtilities: data.idealBillAndUtilities,
+          autoAndTransport: data.AutoAndTransport,
+          idealAutoAndTransport: data.idealAutoAndTransport,
+          spending: data.Spending,
+          idealSpending: data.idealSpending
         });
       });
-
+    // alert(this.state.foodAndDining);
+    this.setState({
+      rows: [
+        createData(
+          "Food And Dining",
+          this.state.foodAndDining,
+          this.state.idealFoodAndDining
+        ),
+        createData(
+          "Entertainment",
+          this.state.entertainment,
+          this.state.idealEntertainment
+        ),
+        createData("Shopping", this.state.shopping, this.state.idealShopping),
+        createData(
+          "Bills and Utilities",
+          this.state.billAndUtilities,
+          this.state.idealBillAndUtilities
+        ),
+        createData(
+          "Auto And Transport",
+          this.state.autoAndTransport,
+          this.state.idealAutoAndTransport
+        ),
+        createData(
+          "Total Spending",
+          this.state.spending,
+          this.state.idealSpending
+        ),
+        createData(
+          "Total Income",
+          this.state.totalIncome,
+          this.state.totalIncome
+        )
+      ]
+    });
     console.log(this.state.User);
   };
 
   componentDidMount() {
-    var url = "http://10.34.35.227:5000/response";
+    var url = "http://" + ipAddress + ":5000/response";
     fetch(url, {
       method: "POST",
       body: JSON.stringify({
@@ -99,15 +174,65 @@ class Dashboard extends Component {
     })
       .then(response => response.json())
       .then(data => {
+        // alert(data.name + " " + data.FoodAndDining);
         this.setState({
           name: data.name,
           livingin: data.livingin,
           firstname: data.firstname,
           age: data.age,
-          percentage: data.percentage
+          percentage: data.percentage,
+          totalIncome: data.TotalIncome,
+          idealTotalIncome: data.idealTotalIncome,
+          foodAndDining: data.FoodAndDining,
+          idealFoodAndDining: data.idealFoodAndDining,
+          entertainment: data.Entertainment,
+          idealEntertainment: data.idealEntertainment,
+          shopping: data.Shopping,
+          idealShopping: data.idealShopping,
+          billAndUtilities: data.BillAndUtilities,
+          idealBillAndUtilities: data.idealBillAndUtilities,
+          autoAndTransport: data.AutoAndTransport,
+          idealAutoAndTransport: data.idealAutoAndTransport,
+          spending: data.Spending,
+          idealSpending: data.idealSpending
         });
       });
-
+    // alert(this.state.foodAndDining);
+    this.setState({
+      rows: [
+        createData(
+          "Food And Dining",
+          this.state.foodAndDining,
+          this.state.idealFoodAndDining
+        ),
+        createData(
+          "Entertainment",
+          this.state.entertainment,
+          this.state.idealEntertainment
+        ),
+        createData("Shopping", this.state.shopping, this.state.idealShopping),
+        createData(
+          "Bills and Utilities",
+          this.state.billAndUtilities,
+          this.state.idealBillAndUtilities
+        ),
+        createData(
+          "Auto And Transport",
+          this.state.autoAndTransport,
+          this.state.idealAutoAndTransport
+        ),
+        createData(
+          "Total Spending",
+          this.state.spending,
+          this.state.idealSpending
+        ),
+        createData(
+          "Total Income",
+          this.state.totalIncome,
+          this.state.totalIncome
+        )
+      ]
+    });
     console.log(this.state.User);
   }
 
@@ -136,12 +261,12 @@ class Dashboard extends Component {
                 <ul class="navbar-nav text-uppercase ml-auto">
                   <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#graphs">
-                      Graphs
+                      Price By Location
                     </a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#charts">
-                      Charts
+                      My Spending
                     </a>
                   </li>
                 </ul>
@@ -207,25 +332,13 @@ class Dashboard extends Component {
                       habits of individuals living in {this.state.location} and
                       have determined that you are...
                     </div>
-                    {this.state.percentage === 100 ? (
+                    {this.state.percentage >= 100 ? (
                       <div class="move-out-status">Ready To Move Out!</div>
                     ) : (
                       <div class="move-out-status">Not Quite There</div>
                     )}
                   </div>
                 </div>
-                {/* <div className="User_Details" class="row">
-                  <div class="col-12">
-                    <BorderLinearProgress
-                      className={this.state.classes.margin}
-                      variant="determinate"
-                      color="secondary"
-                      value={50}
-                    />
-                  </div>
-                  <br />
-                  <br />
-                </div> */}
                 <div class="row justify-content-center">
                   <a
                     class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
@@ -243,9 +356,11 @@ class Dashboard extends Component {
           <div class="container">
             <div class="row">
               <div class="col-lg-12 text-center">
-                <h2 class="section-heading text-uppercase">Graph Analysis</h2>
+                <h2 class="section-heading text-uppercase">
+                  Price By Location
+                </h2>
                 <h3 class="section-subheading text-muted">
-                  Lorem ipsum dolor sit amet consectetur.
+                  Spending comparison between all potential cities
                 </h3>
               </div>
             </div>
@@ -258,12 +373,39 @@ class Dashboard extends Component {
           <div class="container">
             <div class="row">
               <div class="col-lg-12 text-center">
-                <h2 class="section-heading text-uppercase">Chart Comparison</h2>
+                <h2 class="section-heading text-uppercase">My Spending</h2>
                 <h3 class="section-subheading text-muted">
-                  Lorem ipsum dolor sit amet consectetur.
+                  Compares spending in {this.state.livingin} (your home) and{" "}
+                  {this.state.location} (where you would like to live)
                 </h3>
               </div>
             </div>
+            <Paper className={this.state.classes.root}>
+              <Table className={this.state.classes.table}>
+                <TableHead>
+                  <TableRow>
+                    <TableCell>Category</TableCell>
+                    <TableCell align="right">
+                      Current Spending ({this.state.livingin})
+                    </TableCell>
+                    <TableCell align="right">
+                      Predicted Spending ({this.state.location})&nbsp;
+                    </TableCell>
+                  </TableRow>
+                </TableHead>
+                <TableBody>
+                  {this.state.rows.map(row => (
+                    <TableRow key={row.category}>
+                      <TableCell component="th" scope="row">
+                        {row.category}
+                      </TableCell>
+                      <TableCell align="right">{row.now}</TableCell>
+                      <TableCell align="right">{row.future}</TableCell>
+                    </TableRow>
+                  ))}
+                </TableBody>
+              </Table>
+            </Paper>
           </div>
         </div>
 
