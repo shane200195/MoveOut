@@ -29,7 +29,7 @@ d = d1.append(d2)
 # Mapping of column -> unique values of column (mainly for use in categorical data)
 domains = dict([(di, d[di].unique()) for di in list(d)])
 
-print(f"{100*len(d[d['habitationStatus'] == 'With Parent'])/len(d)}% of customers live with their parents.")
+#print(f"{100*len(d[d['habitationStatus'] == 'With Parent'])/len(d)}% of customers live with their parents.")
 
 
 # In[15]:

@@ -28,6 +28,7 @@ class Dashboard extends Component {
     super(props);
     this.state = {
       name: '',
+      age: '',
       classes: makeStyles()
     };
   }
@@ -42,6 +43,7 @@ class Dashboard extends Component {
     }).then(response => response.json()).then(data => {
       this.setState({
         name: data.name,
+        age: data.age
       })
     })
 
@@ -85,7 +87,7 @@ class Dashboard extends Component {
         <header class="masthead">
           <div class="container">
             <div class="intro-text">
-              <div class="intro-lead-in">WELCOME {this.state.name}</div>
+              <div class="intro-lead-in">WELCOME {this.state.name} {this.state.age}</div>
               <div class="intro-heading text-uppercase">
                 It's Nice To Meet You
               </div>
