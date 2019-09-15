@@ -3,6 +3,8 @@ from flask import render_template, Flask, request, jsonify
 from flask_cors import CORS
 from flask import Flask
 import requests
+from moveout import CategoryModel
+
 
 app = Flask(__name__)
 CORS(app)
@@ -10,6 +12,10 @@ app.config['ENV'] = 'development'
 app.config['DEBUG'] = True
 app.config['TESTING'] = True
 app.config['SECRET_KEY'] = 's200195'
+
+cm = CategoryModel("../final.csv", "../final2.csv")
+## To Call: 
+## results = cm.process_customer({...})
 
 @app.route("/")
 def test():
@@ -29,10 +35,12 @@ def response():
     headers = { 'Authorization': key })
     response_data = response.json()['result']
 
+
+
     #setting the properties
     name = response_data['givenName'] + " " + response_data['surname']
     age = response_data['age']
-    return jsonify({'name': name, 'age': age, 'firstname': response_data['givenName'])
+    return jsonify({'name': name, 'age': age, 'firstname': response_data['givenName']})
 
 #10.32.110.93
 if __name__ == "__main__":
