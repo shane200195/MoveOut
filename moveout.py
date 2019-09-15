@@ -129,7 +129,7 @@ def process_customer(customer_request: Dict) -> Dict:
         customer_request: The request message from the customer (Note: not as a JSON, rather decoded). Format ->
             {
                 "customer-id": "",
-                "customer-data": "",
+                "customer-data": ["", ""] (categories),
                 "municipalities": ["", ""],
             }
             where: 
