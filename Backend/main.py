@@ -19,8 +19,10 @@ def test():
 def response():
     origin = request.get_json(force=True)
 
+    #the location to feed into the ML model
+    location = "Toronto"
+
     #handling which user it is currently logged in.
-    #list_users = {"IzzieCheam": "a7bf9cee-9d2e-432c-af55-08edaec729f1", ""}
     user = origin['ID']
     key = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJDQlAiLCJ0ZWFtX2lkIjoiYWJiZWM0MzAtMzUyMy0zZmY2LTljNWEtN2UwN2FlZmMzNzU4IiwiZXhwIjo5MjIzMzcyMDM2ODU0Nzc1LCJhcHBfaWQiOiIzYmVhMmZiZC0xNGQ2LTQ2YWUtYmVlNS03ODNjMTQ1ZGQ5ODkifQ.BOuUoNO6CTE2gFGeV_RymfrVPo9_PI8BsrPCrgKRWmc"
     response = requests.get('https://api.td-davinci.com/api/customers/' + user,
@@ -30,7 +32,7 @@ def response():
     #setting the properties
     name = response_data['givenName'] + " " + response_data['surname']
     age = response_data['age']
-    return jsonify({'name': name, 'age': age})
+    return jsonify({'name': name, 'age': age, 'firstname': response_data['givenName'])
 
 #10.32.110.93
 if __name__ == "__main__":
