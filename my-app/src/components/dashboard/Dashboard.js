@@ -380,8 +380,22 @@ class Dashboard extends Component {
                 </h3>
               </div>
             </div>
-
-            <Visuals />
+            <div class="row justify-content-center">
+              <Visuals
+                livingin={this.state.livingin}
+                location={this.state.location}
+                foodAndDining={this.state.foodAndDining}
+                idealFoodAndDining={this.state.idealFoodAndDining}
+                entertainment={this.state.entertainment}
+                idealEntertainment={this.state.idealEntertainment}
+                shopping={this.state.shopping}
+                idealShopping={this.state.idealShopping}
+                billAndUtilities={this.state.billAndUtilities}
+                idealBillAndUtilities={this.state.idealBillAndUtilities}
+                autoAndTransport={this.state.autoAndTransport}
+                idealAutoAndTransport={this.state.idealAutoAndTransport}
+              />
+            </div>
           </div>
         </div>
 

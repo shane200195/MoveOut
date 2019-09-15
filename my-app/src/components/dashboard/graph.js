@@ -1,8 +1,13 @@
 import React, { Component } from "react";
-import CanvasJSReact from "./canvasjs.react";
-
-var CanvasJS = CanvasJSReact.CanvasJS;
-var CanvasJSChart = CanvasJSReact.CanvasJSChart;
+import {
+  BarChart,
+  CartesianGrid,
+  XAxis,
+  YAxis,
+  Legend,
+  Bar,
+  Tooltip
+} from "recharts";
 
 export default class Visuals extends Component {
   constructor(props) {
@@ -11,42 +16,50 @@ export default class Visuals extends Component {
   }
 
   render() {
-    const options = {
-      animationEnabled: true,
-      exportEnabled: true,
-      theme: "light2", //"light1", "dark1", "dark2"
-      title: {},
-      data: [
-        {
-          type: "column", //change type to bar, line, area, pie, etc
-          //indexLabel: "{y}", //Shows y value on all Data Points
-          indexLabelFontColor: "#5A5757",
-          indexLabelPlacement: "outside",
-          dataPoints: [
-            { x: 10, y: 71 },
-            { x: 20, y: 55 },
-            { x: 30, y: 50 },
-            { x: 40, y: 65 },
-            { x: 50, y: 71 },
-            { x: 60, y: 68 },
-            { x: 70, y: 38 },
-            { x: 80, y: 92 },
-            { x: 90, y: 54 },
-            { x: 100, y: 60 },
-            { x: 110, y: 21 },
-            { x: 120, y: 49 },
-            { x: 130, y: 36 }
-          ]
-        }
-      ]
-    };
+    const data = [
+      {
+        name: "Food & Dining",
+        [this.props.livingin]: this.props.foodAndDining,
+        [this.props.location]: this.props.idealFoodAndDining,
+        amt: 2400
+      },
+      {
+        name: "Entertainment",
+        [this.props.livingin]: this.props.entertainment,
+        [this.props.location]: this.props.idealEntertainment,
+        amt: 2210
+      },
+      {
+        name: "Shopping",
+        [this.props.livingin]: this.props.shopping,
+        [this.props.location]: this.props.idealShopping,
+        amt: 2290
+      },
+      {
+        name: "Bill & Utilities",
+        [this.props.livingin]: this.props.billAndUtilities,
+        [this.props.location]: this.props.idealBillAndUtilities,
+        amt: 2000
+      },
+      {
+        name: "Auto & Transport",
+        [this.props.livingin]: this.props.autoAndTransport,
+        [this.props.location]: this.props.idealAutoAndTransport,
+        amt: 2181
+      }
+    ];
 
     return (
       <div>
-        <CanvasJSChart
-          options={options}
-          /* onRef={ref => this.chart = ref} */
-        />
+        <BarChart width={800} height={500} data={data}>
+          <CartesianGrid strokeDasharray="3 3" />
+          <XAxis dataKey="name" />
+          <YAxis />
+          <Tooltip />
+          <Legend verticalAlign="top" height={36} />
+          <Bar dataKey={this.props.livingin} fill="#8884d8" />
+          <Bar dataKey={this.props.location} fill="#82ca9d" />
+        </BarChart>
         {/*You can get reference to the chart instance as shown above using onRef. This allows you to access all chart properties and methods*/}
       </div>
     );
