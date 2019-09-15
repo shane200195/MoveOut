@@ -1,6 +1,8 @@
 # MoveOut
 MoveOut aims to assist students looking to move out from home by providing lifestyle estimates using advanced machine learning algorithms, trained on over 10,000 customers and millions of transactions
 
+Developed in collaboration with Hanz Aora, Elisa Luan, and Jack Eadie
+
 ## Usage
 
 ### Frontend
