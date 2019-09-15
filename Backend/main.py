@@ -86,6 +86,8 @@ def response():
 
     print(income_difference, income)
 
+
+
     #setting the properties
     name = response_data['givenName'] + " " + response_data['surname']
     age = response_data['age']

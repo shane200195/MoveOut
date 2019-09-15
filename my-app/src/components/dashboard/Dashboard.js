@@ -1,7 +1,17 @@
 import React, { Component } from "react";
 import "../../css/Agency.css";
 import { lighten, makeStyles, withStyles } from "@material-ui/core/styles";
+import { Progress } from "antd";
+
+
 import LinearProgress from "@material-ui/core/LinearProgress";
+import InputLabel from "@material-ui/core/InputLabel";
+import FormHelperText from "@material-ui/core/FormHelperText";
+import FormControl from "@material-ui/core/FormControl";
+import Select from "@material-ui/core/Select";
+import NativeSelect from "@material-ui/core/NativeSelect";
+import Visuals from "./graph";
+
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -9,29 +19,70 @@ const useStyles = makeStyles(theme => ({
   },
   margin: {
     margin: theme.spacing(1)
+  },
+  select: {
+    "&:before": {
+      borderColor: "white"
+    },
+    "&:after": {
+      borderColor: "white"
+    }
+  },
+  icon: {
+    fill: "white"
   }
 }));
 
-const BorderLinearProgress = withStyles({
-  root: {
-    height: 10,
-    backgroundColor: lighten("#ff6c5c", 0.5)
-  },
-  bar: {
-    borderRadius: 20,
-    backgroundColor: "#ff6c5c"
-  }
-})(LinearProgress);
+const suggestions = [
+  { label: "East York" },
+  { label: "Etobicoke" },
+  { label: "North York" },
+  { label: "Scarborough" },
+  { label: "Toronto" },
+  { label: "York" }
+];
 
 class Dashboard extends Component {
   constructor(props) {
     super(props);
     this.state = {
       name: "",
+      firstname: "",
       age: "",
+      location: "Toronto",
       classes: makeStyles()
     };
+    this.handleChange = this.handleChange.bind(this);
+    this.handleSelect = this.handleSelect.bind(this);
   }
+
+  handleChange = variable => event => {
+    this.setState({ [variable]: event.target.value });
+    console.log(this.state[variable]);
+  };
+
+  handleSelect = variable => event => {
+    this.setState({ [variable]: event.target.value });
+    console.log(this.state[variable]);
+
+    var url = "http://10.34.35.227:5000/response";
+    fetch(url, {
+      method: "POST",
+      body: JSON.stringify({
+        ID: this.props.customerID
+      })
+    })
+      .then(response => response.json())
+      .then(data => {
+        this.setState({
+          name: data.name,
+          firstname: data.firstname,
+          age: data.age
+        });
+      });
+
+    console.log(this.state.User);
+  };
 
   componentDidMount() {
     var url = "http://10.34.35.227:5000/response";
@@ -45,6 +96,7 @@ class Dashboard extends Component {
       .then(data => {
         this.setState({
           name: data.name,
+          firstname: data.firstname,
           age: data.age
         });
       });
@@ -60,7 +112,7 @@ class Dashboard extends Component {
             class="navbar navbar-expand-lg navbar-dark fixed-top"
             id="mainNav"
           >
-            <div class="container">
+            <div className="container">
               <a class="navbar-brand js-scroll-trigger" href="#page-top">
                 Move Out
               </a>
@@ -79,8 +131,28 @@ class Dashboard extends Component {
               <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ml-auto">
                   <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#services">
+                      Services
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#portfolio">
+                      Portfolio
+                    </a>
+                  </li>
+                  <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#about">
                       About
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#team">
+                      Team
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#contact">
+                      Contact
                     </a>
                   </li>
                 </ul>
@@ -91,13 +163,54 @@ class Dashboard extends Component {
           <header class="masthead">
             <div class="container">
               <div class="intro-text">
-                <div class="intro-lead-in">
-                  WELCOME {this.state.name} {this.state.age}
+                <div class="user-text row">
+                  <div class="col-3 offset-2">
+                    <Progress
+                      type="circle"
+                      percent={75}
+                      width={240}
+                      strokeWidth={10}
+                      strokeColor={{
+                        "50%": "#cbffad",
+                        "50%": "#008A00"
+                      }}
+                    />
+                  </div>
+                  <div class="hi-name col-6 offset-1">
+                    <div class="intro-heading">Hi {this.state.firstname}!</div>
+                    <div class="user-details">
+                      Age: {this.state.age} / Move to:
+                      <Select
+                        native
+                        value={this.state.location}
+                        onChange={this.handleSelect("location")}
+                        inputProps={{
+                          name: "location",
+                          classes: {
+                            root: this.state.classes.border,
+                            icon: this.state.classes.icon
+                          }
+                        }}
+                        style={{}}
+                      >
+                        <option value="" />
+                        <option value={"East York"}>East York</option>
+                        <option value={"Etobicoke"}>Etobicoke</option>
+                        <option value={"North York"}>North York</option>
+                        <option value={"Scarborough"}>Scarborough</option>
+                        <option value={"Toronto"}>Toronto</option>
+                        <option value={"York"}>York</option>
+                      </Select>
+                    </div>
+                    <div class="text-muted-explanation">
+                      We've analyzed your data and have determined that you
+                      are...
+                    </div>
+
+                    <div class="text-muted">Ready To Move Out!</div>
+                  </div>
                 </div>
-                <div class="intro-heading text-uppercase">
-                  It's Nice To Meet You
-                </div>
-                <div className="User_Details" class="row">
+                {/* <div className="User_Details" class="row">
                   <div class="col-12">
                     <BorderLinearProgress
                       className={this.state.classes.margin}
@@ -108,7 +221,7 @@ class Dashboard extends Component {
                   </div>
                   <br />
                   <br />
-                </div>
+                </div> */}
                 <div class="row justify-content-center">
                   <a
                     class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
@@ -124,95 +237,9 @@ class Dashboard extends Component {
 
         <div class="page-section" id="about">
           <div class="container">
-            <div class="row">
-              <div class="col-lg-12 text-center">
-                <h2 class="section-heading text-uppercase">About</h2>
-                <h3 class="section-subheading text-muted">
-                  Lorem ipsum dolor sit amet consectetur.
-                </h3>
-              </div>
-            </div>
-            <div class="row text-center">
-              <div class="col-md-4">
-                <span class="fa-stack fa-4x">
-                  <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                  <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-                </span>
-                <h4 class="service-heading">E-Commerce</h4>
-                <p class="text-muted">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Minima maxime quam architecto quo inventore harum ex magni,
-                  dicta impedit.
-                </p>
-              </div>
-              <div class="col-md-4">
-                <span class="fa-stack fa-4x">
-                  <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                  <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-                </span>
-                <h4 class="service-heading">Responsive Design</h4>
-                <p class="text-muted">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Minima maxime quam architecto quo inventore harum ex magni,
-                  dicta impedit.
-                </p>
-              </div>
-              <div class="col-md-4">
-                <span class="fa-stack fa-4x">
-                  <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                  <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
-                </span>
-                <h4 class="service-heading">Web Security</h4>
-                <p class="text-muted">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Minima maxime quam architecto quo inventore harum ex magni,
-                  dicta impedit.
-                </p>
-              </div>
-            </div>
+            <Visuals> </Visuals>
           </div>
         </div>
-
-        <footer class="footer">
-          <div class="container">
-            <div class="row align-items-center">
-              <div class="col-md-4">
-                <span class="copyright">
-                  Copyright &copy; Your Website 2019
-                </span>
-              </div>
-              <div class="col-md-4">
-                <ul class="list-inline social-buttons">
-                  <li class="list-inline-item">
-                    <a href="#">
-                      <i class="fab fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a href="#">
-                      <i class="fab fa-facebook-f"></i>
-                    </a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a href="#">
-                      <i class="fab fa-linkedin-in"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div class="col-md-4">
-                <ul class="list-inline quicklinks">
-                  <li class="list-inline-item">
-                    <a href="#">Privacy Policy</a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a href="#">Terms of Use</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </footer>
       </div>
     );
   }

@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 import "./App.css";
 import { BrowserRouter, Route } from "react-router-dom";
-import Login from "./components/login/Login";
-import Dashboard from "./components/dashboard/Dashboard";
 import Redirect from "./components/redirect/Redirect";
+import "antd/dist/antd.css"; // or 'antd/dist/antd.less'
 
 class App extends Component {
   render() {
