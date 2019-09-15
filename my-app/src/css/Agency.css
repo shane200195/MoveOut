@@ -130,7 +130,7 @@ img::-moz-selection {
 
 #mainNav .navbar-brand {
   color: white;
-  font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -152,8 +152,8 @@ img::-moz-selection {
 
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
@@ -192,15 +192,15 @@ header.masthead {
 .user-text {
   background-color: #e9ecef;
   border-radius: 25px;
-  padding-top: 80px;
+  padding-top: 50px;
   padding-bottom: 90px;
   margin-top: 10px;
   margin-bottom: 40px;
 }
 
 header.masthead .intro-text {
-  padding-top: 80px;
-  padding-bottom: 80;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 header.masthead .intro-text .intro-lead-in {
@@ -216,7 +216,7 @@ header.masthead .intro-text .intro-heading {
   font-weight: 700;
   line-height: 50px;
   margin-bottom: 25px;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 .explanation-text {
@@ -228,9 +228,13 @@ header.masthead .intro-text .intro-heading {
   font-size: 18px;
 }
 
-@media (min-width: 768px) {
+.progress-circle {
+  padding-bottom: 35px;
+  padding-top: 35px;
+}
+ @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 185px;
+    padding-top: 140px;
     padding-bottom: 180px;
   }
   header.masthead .intro-text .intro-lead-in {
@@ -245,12 +249,35 @@ header.masthead .intro-text .intro-heading {
     font-weight: 700;
     line-height: 75px;
     margin-bottom: 8px;
-    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   }
 }
 
-.service-heading {
+.move-to {
+  padding-left: 3px;
+}
+
+.move-out-status {
+  font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-size: 40px;
+}
+
+.we-analyze {
   margin: 15px 0;
+  font-size: 18px;
+  text-transform: none;
+  padding-bottom: 5px;
+}
+
+.service-heading {
+  margin: 2px 0;
+  font-size: 18px;
+  text-transform: none;
+}
+
+.service-heading-user {
+  margin: 2px 0;
+  font-size: 15px;
   text-transform: none;
 }
 
