@@ -27,7 +27,7 @@ class Dashboard extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      User: {},
+      name: "",
       classes: makeStyles()
     };
   }
@@ -37,7 +37,7 @@ class Dashboard extends Component {
     fetch(url, {
       method: "POST",
       body: JSON.stringify({
-        hello: "ahnznznzn"
+        ID: this.props.customerID
       })
     })
       .then(response => response.json())
