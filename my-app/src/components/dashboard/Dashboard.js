@@ -27,8 +27,8 @@ class Dashboard extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      name: '',
-      age: '',
+      name: "",
+      age: "",
       classes: makeStyles()
     };
   }
@@ -40,82 +40,89 @@ class Dashboard extends Component {
       body: JSON.stringify({
         ID: this.props.customerID
       })
-    }).then(response => response.json()).then(data => {
-      this.setState({
-        name: data.name,
-        age: data.age
-      })
     })
+      .then(response => response.json())
+      .then(data => {
+        this.setState({
+          name: data.name,
+          age: data.age
+        });
+      });
 
-    console.log(this.state.User)
+    console.log(this.state.User);
   }
-
-
 
   render() {
     return (
-      <div className="Dashboard" id="page-top">
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-          <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-              Move Out
-            </a>
-            <button
-              class="navbar-toggler navbar-toggler-right"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarResponsive"
-              aria-controls="navbarResponsive"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              Menu
-              <i class="fas fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-              <ul class="navbar-nav text-uppercase ml-auto">
-                <li class="nav-item">
-                  <a class="nav-link js-scroll-trigger" href="#about" id="about">
-                    About
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-
-        <header class="masthead">
-          <div class="container">
-            <div class="intro-text">
-              <div class="intro-lead-in">WELCOME {this.state.name} {this.state.age}</div>
-              <div class="intro-heading text-uppercase">
-                It's Nice To Meet You
+      <div>
+        <div className="Dashboard_Head" id="page-top">
+          <nav
+            class="navbar navbar-expand-lg navbar-dark fixed-top"
+            id="mainNav"
+          >
+            <div class="container">
+              <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                Move Out
+              </a>
+              <button
+                class="navbar-toggler navbar-toggler-right"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarResponsive"
+                aria-controls="navbarResponsive"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                Menu
+                <i class="fas fa-bars"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#about">
+                      About
+                    </a>
+                  </li>
+                </ul>
               </div>
-              <div className="User_Details" class="row">
-                <div class="col-12">
-                  <BorderLinearProgress
-                    className={this.state.classes.margin}
-                    variant="determinate"
-                    color="secondary"
-                    value={50}
-                  />
+            </div>
+          </nav>
+
+          <header class="masthead">
+            <div class="container">
+              <div class="intro-text">
+                <div class="intro-lead-in">
+                  WELCOME {this.state.name} {this.state.age}
                 </div>
-                <br />
-                <br />
-              </div>
-              <div class="row justify-content-center">
-                <a
-                  class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
-                  href="#about"
-                >
-                  Tell Me More
-                </a>
+                <div class="intro-heading text-uppercase">
+                  It's Nice To Meet You
+                </div>
+                <div className="User_Details" class="row">
+                  <div class="col-12">
+                    <BorderLinearProgress
+                      className={this.state.classes.margin}
+                      variant="determinate"
+                      color="secondary"
+                      value={50}
+                    />
+                  </div>
+                  <br />
+                  <br />
+                </div>
+                <div class="row justify-content-center">
+                  <a
+                    class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
+                    href="#about"
+                  >
+                    Tell Me More
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
-        </header>
+          </header>
+        </div>
 
-        <section class="page-section" id="about">
+        <div class="page-section" id="about">
           <div class="container">
             <div class="row">
               <div class="col-lg-12 text-center">
@@ -164,7 +171,7 @@ class Dashboard extends Component {
               </div>
             </div>
           </div>
-        </section>
+        </div>
 
         <footer class="footer">
           <div class="container">
